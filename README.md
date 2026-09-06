@@ -20,20 +20,56 @@ feasibility study and a navigable pilot corpus. The project name is provisional.
   objections, and the closest competing interpretation.
 - Track revisions in Git.
 
-## Working scope
+## Start here
 
-A first editorial pass will examine 30 passages across several forms of
-philosophical writing. Independent reader evaluation will be documented
-separately; editorial judgments are not experimental results.
+- [Preliminary findings](study/FINDINGS.md): evidence and remaining questions.
+- [Network index](INDEX.md): browse concepts, contributors, and proposals.
+- [Corpus](study/CORPUS.md): 30 passages and their proposed reduction tests.
+- [Study protocol](study/PROTOCOL.md): evaluate fidelity and usefulness.
+- [Next work](study/NEXT.md): independent review and reader testing.
 
-The study will record what can be shortened, what needs a qualification or
-linked context, and where a proposition alone loses a philosophical method or
-experience.
+## Three useful entry points
+
+- [Virtue](concepts/virtue.md): three related senses and their proposals.
+- [Self](concepts/self.md): four senses with distinct commitments and contexts.
+- [Freedom](concepts/freedom.md): noninterference and Stoic agency.
+
+Each sense links to proposals that articulate or use it. Each proposal links
+back to its senses, contributor, source edition, and study case. Grouping
+senses is a proposal for comparison, not a declaration of equivalence.
 
 ## Project status
 
-Initialized 2026-09-06. Local Git repository; no remote configured.
+The first editorial pass contains 30 cases, 30 candidate proposals, 25 concept
+pages with 49 senses, 13 contributor pages, and 19 source records. All proposals
+remain drafts. No reader study has been conducted.
 
-The next commit will add the corpus, editorial conventions, study protocol,
-and preliminary findings. Git history records changes to the interpretation
-as well as changes to the file format.
+[Decision record](DECISIONS.md) · [Record conventions](SCHEMA.md)
+
+## Working locally
+
+Read the files directly in a Markdown editor or on GitHub. No server or package
+installation is required. Python 3 is used only for the structural checker:
+
+```bash
+python3 tools/check_network.py
+```
+
+To update the report of links, metadata, and counts:
+
+```bash
+python3 tools/check_network.py --report
+```
+
+The checker establishes structural consistency. It does not validate the
+philosophy. See [its report](study/STRUCTURAL-CHECK.md).
+
+## Version control
+
+Initialized 2026-09-06, on branch main. No remote is configured. Existing history
+can be pushed to a GitHub repository when the user connects an account and
+chooses or authorizes that destination.
+
+The downloadable project snapshot includes the working tree and local Git
+history. After extracting it, enter the philosophy-network directory and use
+Git normally. Git tracks conceptual revisions as well as file changes.

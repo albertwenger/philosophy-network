@@ -16,3 +16,19 @@ sample of world philosophy.
 Human reader testing is part of the study design. It has not been conducted.
 Any analysis produced by the authoring assistant must be labeled editorial
 and provisional, even if internal structural checks pass.
+
+## 2026-09-06: initial editorial implementation
+
+The initial sample contains 30 cases. The record convention uses stable IDs,
+relative Markdown links, and concept-sense anchors. It currently distinguishes
+49 senses on 25 concept pages. These boundaries are editorial choices awaiting
+review, not additional user-approved philosophical commitments.
+
+All source interpretations and reviewer keys were prepared by the same
+assistant. No external reviewers were contacted. Package classifications are
+hypotheses for the reader study. The record format, link integrity, and authored
+word counts can be checked independently of their philosophical quality.
+
+The repository contains no renderer. The pilot provides complete links to
+sources and senses, with one grouped argument as a structural example. Fuller
+argument, form, and historical packages remain work for the next study phase.
