@@ -3,40 +3,38 @@ id: "case.hume-is-ought"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.hume-is-ought"
-hypothesized_package: "core"
+expected_context: "none"
 human_responses: 0
 ---
 
-# Case 09: Making a normative transition explicit
+# Case 09: From descriptions to what ought to be done
 
-[Read the core, qualification, and source locator](../../proposals/p009-hume-is-ought.md)
+[Read the proposal](../../proposals/p009-hume-is-ought.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **core**. The narrow methodological instruction survives more readily than a sweeping slogan.
+Expected context: **None for this question**. The short version asks for an explanation of the step from descriptions to what ought to be done and may be enough to identify that step here.
 
-## Constructed rival
+## Possible misreading
 
-A change from descriptive to normative language needs no explanation.
+An argument can move from a description to what ought to be done without explaining the step.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+“This institution has existed for a long time, so we should keep it.” What step needs explanation?
 
-An institution is longstanding; therefore we should retain it. What bridge needs inspection?
+## Draft answer guide
 
-## Provisional reviewer key
+Why having existed for a long time is a reason to keep the institution.
 
-The evaluative warrant for retaining what is longstanding.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

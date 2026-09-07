@@ -2,31 +2,27 @@
 id: "concept.inference"
 type: "concept"
 status: "provisional"
-senses: ["inductive", "normative"]
+senses: {"inductive": "reasoning-beyond-observed-cases-hume", "normative": "reasoning-about-what-ought-to-be-done-hume"}
 ---
 
 # Inference
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how inference is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-inductive
+## Reasoning beyond observed cases ([Hume](../people/hume.md))
 
-Projection from observed to unobserved cases.
+Reasoning from observed cases to unobserved cases, including expectations about the future.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [The circular defense of induction](../proposals/p007-hume-induction.md)
 
-## sense-normative
+## Reasoning about what ought to be done ([Hume](../people/hume.md))
 
-A transition to a conclusion about what ought to be.
+A step in an argument from descriptions to a conclusion about what ought to be done.
 
-Proposals articulating or using this sense:
+Related proposals:
 
-- [Making a normative transition explicit](../proposals/p009-hume-is-ought.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
+- [From descriptions to what ought to be done](../proposals/p009-hume-is-ought.md)
 
 [Network index](../INDEX.md)

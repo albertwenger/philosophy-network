@@ -2,31 +2,27 @@
 id: "concept.authority"
 type: "concept"
 status: "provisional"
-senses: ["divine", "testimony"]
+senses: {"divine": "divine-approval-plato", "testimony": "the-standing-of-a-teacher-or-tradition-buddha"}
 ---
 
 # Authority
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how authority is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-divine
+## Divine approval ([Plato](../people/plato.md))
 
-Divine approval as a proposed explanatory basis.
+The gods’ approval, considered as a possible reason why something is pious. The dialogue asks whether approval makes it pious or responds to its piety.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Approval and what makes something pious](../proposals/p004-plato-euthyphro.md)
 
-## sense-testimony
+## The standing of a teacher or tradition ([Buddha](../people/buddha.md))
 
-A teacher or tradition offered as grounds for acceptance.
+A teacher’s standing or an established tradition, offered as a reason to accept a teaching.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Assessing a teaching](../proposals/p022-buddhist-kalama.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

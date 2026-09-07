@@ -10,28 +10,29 @@ joint_support: true
 
 # The defense by past success
 
-## premise-1
+## Premise 1
 
-Inductive justification projects observed patterns into unobserved cases.
+Inductive reasoning extends patterns in observed cases to unobserved cases.
 
-## premise-2
+## Premise 2
 
-A defense citing induction’s past success also makes that projection.
+Defending induction by its past success also extends an observed pattern to unobserved cases.
 
 ## Inference
 
-Together these premises challenge the independence of that defense from the
-expectation it is meant to justify.
+Together these premises suggest that this defense assumes the expectation
+it is meant to justify.
 
-Conclusion target: [The circular defense of induction](../proposals/p007-hume-induction.md).
+Conclusion: [The circular defense of induction](../proposals/p007-hume-induction.md).
 
 Source: [Hume’s Enquiry](../sources/hume-enquiry.md), IV, part II.
 
-## Status and objection
+## Context and limits
 
-This is an editorial reconstruction of the selected challenge. It is not a
-formal proof or a claim that every possible justification has been refuted.
+Draft interpretation of the cited passage; not a quotation. This argument
+challenges a particular defense of induction. It does not establish that
+every possible justification fails.
 
-[Question: what follows from the circularity?](../questions/q002-circularity.md)
+[What does circularity establish?](../questions/q002-circularity.md)
 
 [Network index](../INDEX.md)

@@ -15,18 +15,14 @@ Edition: John Veitch translation, Project Gutenberg 59.
 
 Contributor: [René Descartes](../people/descartes.md).
 
-## Verification note
+## Passages consulted
 
 Part IV inspected.
 
-Only the cited passages and necessary surrounding context were checked for this pass. This is not a claim of a critical edition or a full-work review.
+The check covered these passages and their immediate context. Independent source review is still needed.
 
 ## Selected passages
 
-- [Existence in the act of doubting](../proposals/p006-descartes-cogito.md): Part IV, opening doubt experiment through the first principle; distinguish subsequent soul argument.
-
-## Source handling
-
-Full source text is linked rather than copied. Freeze exact source extracts and record edition-specific word counts before the reader study; this pilot makes no source-to-summary compression-ratio claim.
+- [Existence in the act of doubting](../proposals/p006-descartes-cogito.md): Part IV, opening doubt experiment through the first principle, before the subsequent argument about the soul.
 
 [Network index](../INDEX.md)

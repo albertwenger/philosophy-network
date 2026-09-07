@@ -2,31 +2,27 @@
 id: "concept.usefulness"
 type: "concept"
 status: "provisional"
-senses: ["instrumental", "alternative"]
+senses: {"instrumental": "usefulness-for-an-assumed-purpose-zhuangzi", "alternative": "value-beyond-the-assumed-purpose-zhuangzi"}
 ---
 
 # Usefulness
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how usefulness is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-instrumental
+## Usefulness for an assumed purpose ([Zhuangzi](../people/zhuangzi.md))
 
-Fitness for an assumed practical purpose.
+Fitness for a particular practical purpose, such as a tree’s suitability for timber.
 
-Proposals articulating or using this sense:
-
-- [The usefulness of an unusable tree](../proposals/p025-zhuangzi-usefulness.md)
-
-## sense-alternative
-
-Value made visible through changing the purpose or perspective.
-
-Proposals articulating or using this sense:
+Related proposals:
 
 - [The usefulness of an unusable tree](../proposals/p025-zhuangzi-usefulness.md)
 
-## Comparison status
+## Value beyond the assumed purpose ([Zhuangzi](../people/zhuangzi.md))
 
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
+The value of a tree’s survival and the ease it offers when it is no longer judged as timber.
+
+Related proposals:
+
+- [The usefulness of an unusable tree](../proposals/p025-zhuangzi-usefulness.md)
 
 [Network index](../INDEX.md)

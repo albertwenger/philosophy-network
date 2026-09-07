@@ -2,47 +2,43 @@
 id: "concept.education"
 type: "concept"
 status: "provisional"
-senses: ["habituation", "ritual", "rational", "human-development"]
+senses: {"habituation": "character-shaped-through-practice-aristotle", "ritual": "character-shaped-through-example-and-ritual-confucius", "rational": "the-development-of-understanding-wollstonecraft", "human-development": "the-development-of-people-and-communities-du-bois"}
 ---
 
-# Education / formation
+# Education and formation
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how education and formation are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-habituation
+## Character shaped through practice ([Aristotle](../people/aristotle.md))
 
-Character formed through repeated action.
+The shaping of character through repeated actions. This process can develop good or bad character.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Character through practice](../proposals/p002-aristotle-habituation.md)
 
-## sense-ritual
+## Character shaped through example and ritual ([Confucius](../people/confucius.md))
 
-Moral formation through exemplary rule and ritual.
+The shaping of moral character through a ruler’s example and ritual practice.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Cultivating character through government](../proposals/p024-confucius-governance.md)
 
-## sense-rational
+## The development of understanding ([Wollstonecraft](../people/wollstonecraft.md))
 
-Development of understanding against imposed dependence.
+The development of understanding, contrasted with training women to be attractive and dependent.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Education and apparent nature](../proposals/p028-wollstonecraft-education.md)
 
-## sense-human-development
+## The development of people and communities ([Du Bois](../people/du-bois.md))
 
-Formation toward wider personal and collective ends.
+Education directed toward the development of whole people and Black communities, including intellectual and vocational training.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Education beyond earning a living](../proposals/p030-du-bois-education.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

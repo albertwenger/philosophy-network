@@ -3,40 +3,38 @@ id: "case.mill-happiness"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.mill-happiness"
-hypothesized_package: "qualification"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 12: The moral criterion of happiness
 
-[Read the core, qualification, and source locator](../../proposals/p012-mill-happiness.md)
+[Read the proposal](../../proposals/p012-mill-happiness.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. The ordinary word happiness requires its local philosophical sense.
+Expected context: **None for this question**. The words “everyone affected” may be enough to distinguish the standard from a benefit only to the person acting.
 
-## Constructed rival
+## Possible misreading
 
-An action is right whenever it benefits its agent.
+An action is right whenever it benefits the person acting.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Would the benefit to the person acting, by itself, establish that an action is right?
 
-Would an agent’s gain alone establish the action’s moral quality?
+## Draft answer guide
 
-## Provisional reviewer key
+No. The assessment concerns the happiness of everyone affected.
 
-No; everyone affected enters the criterion.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

@@ -6,31 +6,31 @@ attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.wittgenstein"
 source: "source.wittgenstein-investigations"
-relations: [{"type": "uses-sense", "target": "../concepts/philosophy.md#sense-clarification", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/philosophy.md#clarification-through-different-methods-wittgenstein", "status": "editorial-mapping"}]
 ---
 
 # Philosophy as several methods
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Philosophical clarification can require different methods for different confusions.
 
-## Qualification
+## Context and limits
 
-The remark presents a plurality of therapeutic procedures. A proposition naming that approach does not transmit the ability to carry it out.
+[Wittgenstein](../people/wittgenstein.md) compares different methods of clarification to different therapies. Describing the approach does not teach someone how to use the methods.
 
 ## Source and attribution
 
 [Ludwig Wittgenstein](../people/wittgenstein.md); [Philosophische Untersuchungen](../sources/wittgenstein-investigations.md).
 
-Passage: Section 133, including the plurality of methods and examples.
-
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
+Passage: Section 133, including the different methods and examples.
 
 ## Concept senses
 
-- [Philosophy: clarification](../concepts/philosophy.md#sense-clarification)
+- [Philosophy: Clarification through different methods](../concepts/philosophy.md#clarification-through-different-methods-wittgenstein) ([Wittgenstein](../people/wittgenstein.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c017-wittgenstein-methods.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c017-wittgenstein-methods.md) · [Network index](../INDEX.md)

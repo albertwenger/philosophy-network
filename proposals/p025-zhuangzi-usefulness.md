@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "narrative"
 contributor: "person.zhuangzi"
 source: "source.zhuangzi-inner"
-relations: [{"type": "uses-sense", "target": "../concepts/usefulness.md#sense-instrumental", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/usefulness.md#sense-alternative", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/usefulness.md#usefulness-for-an-assumed-purpose-zhuangzi", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/usefulness.md#value-beyond-the-assumed-purpose-zhuangzi", "status": "editorial-mapping"}]
 ---
 
 # The usefulness of an unusable tree
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Failure to serve one purpose can leave room for another value.
 
-## Qualification
+## Context and limits
 
-The tree dialogue shifts the perspective from timber to survival and ease. This is an interpretive reconstruction; the exchange supplies the change in viewpoint.
+The dialogue shifts attention from the tree’s value as timber to its survival and the ease it affords. The change in viewpoint develops through the exchange between speakers.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The tree dialogue shifts the perspective from timber to survival and ease. This 
 
 Passage: Book I, final dialogue on the large tree; PDF page 118 (one-based).
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Usefulness: instrumental](../concepts/usefulness.md#sense-instrumental)
-- [Usefulness: alternative](../concepts/usefulness.md#sense-alternative)
+- [Usefulness: Usefulness for an assumed purpose](../concepts/usefulness.md#usefulness-for-an-assumed-purpose-zhuangzi) ([Zhuangzi](../people/zhuangzi.md))
+- [Usefulness: Value beyond the assumed purpose](../concepts/usefulness.md#value-beyond-the-assumed-purpose-zhuangzi) ([Zhuangzi](../people/zhuangzi.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c025-zhuangzi-usefulness.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c025-zhuangzi-usefulness.md) · [Network index](../INDEX.md)

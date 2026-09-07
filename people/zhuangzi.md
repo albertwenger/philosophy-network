@@ -6,7 +6,7 @@ status: "navigation-entry"
 
 # Zhuangzi
 
-A navigation entry for the named text and its literary speakers; individual passage authorship is not settled here.
+The name associated with the cited text and its literary speakers. Authorship of the individual passages is not settled here.
 
 ## Proposals
 

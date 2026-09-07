@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "analysis"
 contributor: "person.hume"
 source: "source.hume-enquiry"
-relations: [{"type": "uses-sense", "target": "../concepts/causation.md#sense-necessity", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/causation.md#sense-regularity", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/causation.md#felt-necessity-hume", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/causation.md#repeated-sequences-of-events-hume", "status": "editorial-mapping"}]
 ---
 
 # Experienced regularity and felt necessity
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
 
-The idea of causal necessity arises from habitual expectation after repeated conjunction.
+## Short version
 
-## Qualification
+The idea of causal necessity arises from habitual expectation after repeatedly observing one kind of event follow another.
 
-The account explains the origin of an idea; reducing it to a denial of every real causal power would settle an additional interpretive dispute.
+## Context and limits
+
+The account explains the origin of the idea of causal necessity. Whether it also denies every real causal power is a further interpretive question.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The account explains the origin of an idea; reducing it to a denial of every rea
 
 Passage: Section VII, part II, especially paragraphs 58–60.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Causation: necessity](../concepts/causation.md#sense-necessity)
-- [Causation: regularity](../concepts/causation.md#sense-regularity)
+- [Causation: Felt necessity](../concepts/causation.md#felt-necessity-hume) ([Hume](../people/hume.md))
+- [Causation: Repeated sequences of events](../concepts/causation.md#repeated-sequences-of-events-hume) ([Hume](../people/hume.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c008-hume-necessary-connection.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c008-hume-necessary-connection.md) · [Network index](../INDEX.md)

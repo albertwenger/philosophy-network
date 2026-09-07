@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "definition"
 contributor: "person.mill"
 source: "source.mill-utilitarianism"
-relations: [{"type": "uses-sense", "target": "../concepts/goodness.md#sense-utility", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/pleasure.md#sense-mill", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/goodness.md#rightness-judged-by-happiness-mill", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/pleasure.md#pleasure-as-part-of-happiness-mill", "status": "editorial-mapping"}]
 ---
 
 # The moral criterion of happiness
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Assess conduct by its tendency to promote the happiness of everyone affected.
 
-## Qualification
+## Context and limits
 
-Happiness is specified through pleasure and absence of pain. The standard is impartial rather than limited to the agent’s benefit.
+Happiness means pleasure and the absence of pain. The standard is impartial: it includes everyone affected, not only the person acting.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ Happiness is specified through pleasure and absence of pain. The standard is imp
 
 Passage: Chapter II, opening definition and later impartiality paragraph.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Goodness / rightness: utility](../concepts/goodness.md#sense-utility)
-- [Pleasure: mill](../concepts/pleasure.md#sense-mill)
+- [Piety and moral rightness: Rightness judged by happiness](../concepts/goodness.md#rightness-judged-by-happiness-mill) ([Mill](../people/mill.md))
+- [Pleasure: Pleasure as part of happiness](../concepts/pleasure.md#pleasure-as-part-of-happiness-mill) ([Mill](../people/mill.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c012-mill-happiness.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c012-mill-happiness.md) · [Network index](../INDEX.md)

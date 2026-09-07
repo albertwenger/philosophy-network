@@ -3,40 +3,38 @@ id: "case.aristotle-habituation"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.aristotle-habituation"
-hypothesized_package: "core"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 02: Character through practice
 
-[Read the core, qualification, and source locator](../../proposals/p002-aristotle-habituation.md)
+[Read the proposal](../../proposals/p002-aristotle-habituation.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **core**. Core is a candidate for identifying the developmental pattern; it does not establish how to train well.
+Expected context: **None for this question**. The short version states that repeated actions shape later character and may be enough to answer this question.
 
-## Constructed rival
+## Possible misreading
 
 Character is fixed before practice.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Could repeatedly avoiding a responsibility matter beyond each individual act?
 
-Could repeated evasions of a responsibility matter beyond each isolated evasion?
+## Draft answer guide
 
-## Provisional reviewer key
+Yes. Repeated actions can shape the character from which later actions arise.
 
-Yes; the claim concerns acquired dispositions.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

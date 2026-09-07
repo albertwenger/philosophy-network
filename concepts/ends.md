@@ -2,31 +2,27 @@
 id: "concept.ends"
 type: "concept"
 status: "provisional"
-senses: ["kant", "development"]
+senses: {"kant": "an-end-in-itself-kant", "development": "the-purpose-of-education-du-bois"}
 ---
 
-# Ends / purposes
+# Ends and purposes
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how ends and purposes are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-kant
+## An end in itself ([Kant](../people/kant.md))
 
-Persons as ends in themselves.
+A rational being whose value does not depend on serving someone’s purposes, and who must never be treated merely as an instrument.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Humanity as an end](../proposals/p011-kant-humanity.md)
 
-## sense-development
+## The purpose of education ([Du Bois](../people/du-bois.md))
 
-Human and collective development as an educational purpose.
+The development of whole people and Black communities beyond their earning capacity.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Education beyond earning a living](../proposals/p030-du-bois-education.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

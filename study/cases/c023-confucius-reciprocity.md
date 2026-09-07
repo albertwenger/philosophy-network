@@ -3,40 +3,38 @@ id: "case.confucius-reciprocity"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.confucius-reciprocity"
-hypothesized_package: "core"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 23: Reciprocal restraint
 
-[Read the core, qualification, and source locator](../../proposals/p023-confucius-reciprocity.md)
+[Read the proposal](../../proposals/p023-confucius-reciprocity.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **core**. The central instruction is compact, though broader ethical applications remain open.
+Expected context: **None for this question**. The short version sets no condition of prior help and may be enough to answer this question about who the instruction applies to.
 
-## Constructed rival
+## Possible misreading
 
-Help only those who have already helped you.
+The instruction applies only to people who have already helped you.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+May you impose treatment you would reject for yourself on someone who has not helped you?
 
-Would withholding mistreatment until someone earns kindness follow this instruction?
+## Draft answer guide
 
-## Provisional reviewer key
+No. The instruction to avoid imposing such treatment does not depend on whether the other person has helped you.
 
-No; the rule is not conditional repayment.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

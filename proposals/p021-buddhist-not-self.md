@@ -6,31 +6,31 @@ attribution: "editorial-reconstruction"
 form: "argument"
 contributor: "person.buddha"
 source: "source.buddhist-not-self"
-relations: [{"type": "uses-sense", "target": "../concepts/self.md#sense-aggregates", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/self.md#what-one-takes-oneself-to-be-buddha", "status": "editorial-mapping"}]
 ---
 
 # Questioning identification with the aggregates
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Do not identify changing, uncontrollable aggregates as self.
 
-## Qualification
+## Context and limits
 
-The discourse examines form, feeling, perception, formations, and consciousness. Its argument and liberating purpose must survive; a blanket claim that nobody exists adds a disputed interpretation.
+The discourse examines five categories, called aggregates: form, feeling, perception, fabrications, and consciousness. The argument connects their change, and our inability to make them as we wish, to letting go of identification with them. The claim that nobody exists is a further, disputed interpretation.
 
 ## Source and attribution
 
 [Discourses attributed to the Buddha](../people/buddha.md); [The Five Brethren / Not-self Characteristic](../sources/buddhist-not-self.md).
 
-Passage: SN 22.59, aggregate/control argument through impermanence and disidentification.
-
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
+Passage: SN 22.59, argument about the aggregates and control through impermanence and letting go of identification.
 
 ## Concept senses
 
-- [Self: aggregates](../concepts/self.md#sense-aggregates)
+- [Self: What one takes oneself to be](../concepts/self.md#what-one-takes-oneself-to-be-buddha) ([Buddha](../people/buddha.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c021-buddhist-not-self.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c021-buddhist-not-self.md) · [Network index](../INDEX.md)

@@ -3,40 +3,38 @@ id: "case.mill-pleasure-quality"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.mill-pleasure-quality"
-hypothesized_package: "qualification"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 13: Differences in the quality of pleasure
 
-[Read the core, qualification, and source locator](../../proposals/p013-mill-pleasure-quality.md)
+[Read the proposal](../../proposals/p013-mill-pleasure-quality.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. The label is short; the proposed standard and objections are indispensable to analysis.
+Expected context: **None for this question**. The short version distinguishes quality from quantity and may be enough for this question. It does not explain how to judge differences in quality.
 
-## Constructed rival
+## Possible misreading
 
-Duration and intensity exhaust every comparison of pleasure.
+Duration and intensity settle every comparison of pleasure.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+If two pleasures have the same duration and intensity, has their relative value been settled?
 
-If two enjoyments last equally long, has their relative value thereby been settled?
+## Draft answer guide
 
-## Provisional reviewer key
+No. On this account, pleasures can still differ in quality.
 
-No; the proposed quality distinction remains.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

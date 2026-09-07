@@ -3,40 +3,38 @@ id: "case.hume-induction"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.hume-induction"
-hypothesized_package: "argument"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 07: The circular defense of induction
 
-[Read the core, qualification, and source locator](../../proposals/p007-hume-induction.md)
+[Read the proposal](../../proposals/p007-hume-induction.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **argument**. Premises and the target of the objection must remain available.
+Expected context: **None for this question**. The short version denies that past success independently justifies expectations about the future and may be enough for this forecasting example. The question does not ask readers to reconstruct the argument.
 
-## Constructed rival
+## Possible misreading
 
-An unproved expectation is a prediction of failure.
+Questioning an expectation’s justification predicts that it will fail.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Does a forecasting rule’s past success, by itself, justify expecting it to succeed in the future?
 
-Does pointing to a forecasting rule’s past success settle the justification challenged here?
+## Draft answer guide
 
-## Provisional reviewer key
+No. That defense already assumes that past success is a guide to future success—the expectation being questioned.
 
-No; that defense uses the disputed transition.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

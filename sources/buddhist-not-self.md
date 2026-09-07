@@ -15,18 +15,14 @@ Edition: Ṭhānissaro Bhikkhu translation, SN 22.59.
 
 Contributor: [Discourses attributed to the Buddha](../people/buddha.md).
 
-## Verification note
+## Passages consulted
 
-Aggregate, control, impermanence, and identification sequence inspected.
+The sequence concerning the five aggregates, control, change, and identification was consulted. This edition names the fourth aggregate fabrications.
 
-Only the cited passages and necessary surrounding context were checked for this pass. This is not a claim of a critical edition or a full-work review.
+The check covered these passages and their immediate context. Independent source review is still needed.
 
 ## Selected passages
 
-- [Questioning identification with the aggregates](../proposals/p021-buddhist-not-self.md): SN 22.59, aggregate/control argument through impermanence and disidentification.
-
-## Source handling
-
-Full source text is linked rather than copied. Freeze exact source extracts and record edition-specific word counts before the reader study; this pilot makes no source-to-summary compression-ratio claim.
+- [Questioning identification with the aggregates](../proposals/p021-buddhist-not-self.md): SN 22.59, argument about the aggregates and control through impermanence and letting go of identification.
 
 [Network index](../INDEX.md)

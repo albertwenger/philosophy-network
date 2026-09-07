@@ -6,31 +6,31 @@ attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.wittgenstein"
 source: "source.wittgenstein-investigations"
-relations: [{"type": "uses-sense", "target": "../concepts/concept.md#sense-family", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/concept.md#a-category-held-together-by-similarities-wittgenstein", "status": "editorial-mapping"}]
 ---
 
 # Overlapping resemblance
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 A category can be held together by overlapping similarities.
 
-## Qualification
+## Context and limits
 
-The examples challenge a presupposed common essence. Understanding the move requires comparing cases, not merely replacing one universal definition with another.
+The examples challenge the assumption that everything in a category must share one defining feature. Comparing the cases matters to the argument; overlapping similarities are not offered as a universal definition of every category.
 
 ## Source and attribution
 
 [Ludwig Wittgenstein](../people/wittgenstein.md); [Philosophische Untersuchungen](../sources/wittgenstein-investigations.md).
 
-Passage: Sections 65–71; use the sequence of game examples.
-
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
+Passage: Sections 65–71, sequence of game examples.
 
 ## Concept senses
 
-- [Concept: family](../concepts/concept.md#sense-family)
+- [Concept: A category held together by similarities](../concepts/concept.md#a-category-held-together-by-similarities-wittgenstein) ([Wittgenstein](../people/wittgenstein.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c015-wittgenstein-family.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c015-wittgenstein-family.md) · [Network index](../INDEX.md)

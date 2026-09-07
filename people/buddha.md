@@ -6,7 +6,7 @@ status: "navigation-entry"
 
 # Discourses attributed to the Buddha
 
-A navigation entry for the speaker in the cited transmitted discourses. It does not establish authorship, dating, or exact historical speech.
+The speaker to whom the cited discourses are attributed. This attribution does not establish their date, authorship, or exact historical wording.
 
 ## Proposals
 

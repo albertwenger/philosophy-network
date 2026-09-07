@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "narrative"
 contributor: "person.zhuangzi"
 source: "source.zhuangzi-inner"
-relations: [{"type": "uses-sense", "target": "../concepts/self.md#sense-transformation", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/certainty.md#sense-perspective", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/self.md#ones-identity-across-dream-and-waking-zhuangzi", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/certainty.md#certainty-within-a-perspective-zhuangzi", "status": "editorial-mapping"}]
 ---
 
 # The butterfly dream
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 How secure is an identity that feels unquestionable from within a dream?
 
-## Qualification
+## Context and limits
 
-The narrative links uncertainty, difference, and transformation. A universal thesis that reality is illusory is only one possible interpretation, not a settled replacement for the story.
+The story links uncertainty about identity with difference and transformation. It does not settle whether all reality is an illusion.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The narrative links uncertainty, difference, and transformation. A universal the
 
 Passage: Book II, final butterfly narrative; PDF page 127 (one-based).
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Self: transformation](../concepts/self.md#sense-transformation)
-- [Certainty: perspective](../concepts/certainty.md#sense-perspective)
+- [Self: One’s identity across dream and waking](../concepts/self.md#ones-identity-across-dream-and-waking-zhuangzi) ([Zhuangzi](../people/zhuangzi.md))
+- [Certainty: Certainty within a perspective](../concepts/certainty.md#certainty-within-a-perspective-zhuangzi) ([Zhuangzi](../people/zhuangzi.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c026-zhuangzi-butterfly.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c026-zhuangzi-butterfly.md) · [Network index](../INDEX.md)

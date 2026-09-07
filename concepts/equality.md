@@ -2,18 +2,18 @@
 id: "concept.equality"
 type: "concept"
 status: "provisional"
-senses: ["moral"]
+senses: {"moral": "a-shared-moral-standard-wollstonecraft"}
 ---
 
 # Equality
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how equality is used in the linked passages.
 
-## sense-moral
+## A shared moral standard ([Wollstonecraft](../people/wollstonecraft.md))
 
-Sharing the nature or standard of moral virtue.
+The same standard of moral virtue for women and men. The selected passage on virtue still allows differences in degree between the sexes.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [One moral standard across sexes](../proposals/p027-wollstonecraft-virtue.md)
 - [Education and apparent nature](../proposals/p028-wollstonecraft-education.md)

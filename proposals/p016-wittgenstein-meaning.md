@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "analysis"
 contributor: "person.wittgenstein"
 source: "source.wittgenstein-investigations"
-relations: [{"type": "uses-sense", "target": "../concepts/meaning.md#sense-use", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/meaning.md#a-words-use-wittgenstein", "status": "editorial-mapping"}]
 ---
 
 # Meaning through use
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 For many cases, a word’s meaning can be explained by its use.
 
-## Qualification
+## Context and limits
 
-The passage explicitly limits its scope; it does not state an exceptionless theory of all meaning.
+The passage explicitly limits its scope; it does not claim that use explains all meaning.
 
 ## Source and attribution
 
@@ -25,12 +27,10 @@ The passage explicitly limits its scope; it does not state an exceptionless theo
 
 Passage: Section 43, including its opening restriction and final sentence.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Meaning: use](../concepts/meaning.md#sense-use)
+- [Meaning: A word’s use](../concepts/meaning.md#a-words-use-wittgenstein) ([Wittgenstein](../people/wittgenstein.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c016-wittgenstein-meaning.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c016-wittgenstein-meaning.md) · [Network index](../INDEX.md)

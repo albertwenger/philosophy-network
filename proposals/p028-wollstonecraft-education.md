@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "social-critique"
 contributor: "person.wollstonecraft"
 source: "source.wollstonecraft-vindication"
-relations: [{"type": "uses-sense", "target": "../concepts/education.md#sense-rational", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/equality.md#sense-moral", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/education.md#the-development-of-understanding-wollstonecraft", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/equality.md#a-shared-moral-standard-wollstonecraft", "status": "editorial-mapping"}]
 ---
 
 # Education and apparent nature
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Education can produce weaknesses later treated as women’s nature.
 
-## Qualification
+## Context and limits
 
-The diagnosis concerns social training toward attraction and dependence instead of developed understanding. It is an argumentative diagnosis, not experimental proof of every causal claim.
+The argument concerns education that trains women to attract others and remain dependent, instead of developing their understanding. The passage argues for this explanation; it does not provide experimental proof of every causal claim.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The diagnosis concerns social training toward attraction and dependence instead 
 
 Passage: Introduction, opening diagnosis of neglected education and the false system of female education.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Education / formation: rational](../concepts/education.md#sense-rational)
-- [Equality: moral](../concepts/equality.md#sense-moral)
+- [Education and formation: The development of understanding](../concepts/education.md#the-development-of-understanding-wollstonecraft) ([Wollstonecraft](../people/wollstonecraft.md))
+- [Equality: A shared moral standard](../concepts/equality.md#a-shared-moral-standard-wollstonecraft) ([Wollstonecraft](../people/wollstonecraft.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c028-wollstonecraft-education.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c028-wollstonecraft-education.md) · [Network index](../INDEX.md)

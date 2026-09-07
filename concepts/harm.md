@@ -2,18 +2,18 @@
 id: "concept.harm"
 type: "concept"
 status: "provisional"
-senses: ["mill"]
+senses: {"mill": "injury-to-others-mill"}
 ---
 
 # Harm
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how harm is used in the linked passage.
 
-## sense-mill
+## Injury to others ([Mill](../people/mill.md))
 
-Injury to others relevant to limits on coercion.
+Injury to other people. Within the principle’s restricted historical scope, [Mill](../people/mill.md) allows coercion only to prevent such harm; it does not justify every coercive response.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [The harm principle and its historical scope](../proposals/p014-mill-harm.md)
 

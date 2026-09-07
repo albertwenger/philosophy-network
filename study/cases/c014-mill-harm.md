@@ -3,40 +3,38 @@ id: "case.mill-harm"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.mill-harm"
-hypothesized_package: "historical"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 14: The harm principle and its historical scope
 
-[Read the core, qualification, and source locator](../../proposals/p014-mill-harm.md)
+[Read the proposal](../../proposals/p014-mill-harm.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **historical**. A contemporary improvement must be a separate proposal, visibly broader than the source.
+Expected context: **None for this question**. The short version states the restrictions and may answer this scope question. Interpreting or assessing the restrictions still needs historical context.
 
-## Constructed rival
+## Possible misreading
 
-Any risk of harm automatically justifies any restriction.
+The passage applies its principle to everyone without exception.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Would applying this principle to everyone preserve the historical scope of the passage?
 
-Would universalizing this principle to everyone reproduce the exact historical scope of the passage?
+## Draft answer guide
 
-## Provisional reviewer key
+No. [Mill](../../people/mill.md) restricts the principle to mature people and excludes peoples he treats as uncivilized. Applying it to everyone would be a generalization.
 
-No; the passage contains explicit exclusions.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

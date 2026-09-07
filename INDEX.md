@@ -1,25 +1,25 @@
 # Network index
 
-[Project overview](README.md) · [Preliminary findings](study/FINDINGS.md) · [Study cases](study/CORPUS.md)
+[Project overview](README.md) · [Construction findings](study/FINDINGS.md) · [Study passages](study/CORPUS.md)
 
 ## Concepts
 
 - [Virtue](concepts/virtue.md) (3 senses)
-- [Middle / mean](concepts/middle.md) (2 senses)
-- [Education / formation](concepts/education.md) (4 senses)
+- [Middle and mean](concepts/middle.md) (2 senses)
+- [Education and formation](concepts/education.md) (4 senses)
 - [Judgment](concepts/judgment.md) (4 senses)
 - [Knowledge](concepts/knowledge.md) (3 senses)
-- [Belief / opinion](concepts/belief.md) (1 sense)
+- [Belief and opinion](concepts/belief.md) (1 sense)
 - [Authority](concepts/authority.md) (2 senses)
-- [Goodness / rightness](concepts/goodness.md) (2 senses)
+- [Piety and moral rightness](concepts/goodness.md) (2 senses)
 - [Self](concepts/self.md) (4 senses)
 - [Certainty](concepts/certainty.md) (2 senses)
 - [Inference](concepts/inference.md) (2 senses)
 - [Causation](concepts/causation.md) (2 senses)
 - [Obligation](concepts/obligation.md) (2 senses)
-- [Reciprocity / universal consideration](concepts/reciprocity.md) (2 senses)
-- [Person / humanity](concepts/person.md) (1 sense)
-- [Ends / purposes](concepts/ends.md) (2 senses)
+- [Reciprocity and universal consideration](concepts/reciprocity.md) (2 senses)
+- [Persons and humanity](concepts/person.md) (1 sense)
+- [Ends and purposes](concepts/ends.md) (2 senses)
 - [Pleasure](concepts/pleasure.md) (1 sense)
 - [Freedom](concepts/freedom.md) (2 senses)
 - [Harm](concepts/harm.md) (1 sense)
@@ -56,7 +56,7 @@
 - [06. Existence in the act of doubting](proposals/p006-descartes-cogito.md)
 - [07. The circular defense of induction](proposals/p007-hume-induction.md)
 - [08. Experienced regularity and felt necessity](proposals/p008-hume-necessary-connection.md)
-- [09. Making a normative transition explicit](proposals/p009-hume-is-ought.md)
+- [09. From descriptions to what ought to be done](proposals/p009-hume-is-ought.md)
 - [10. Universalizing a principle of action](proposals/p010-kant-universal-law.md)
 - [11. Humanity as an end](proposals/p011-kant-humanity.md)
 - [12. The moral criterion of happiness](proposals/p012-mill-happiness.md)
@@ -79,8 +79,8 @@
 - [29. Double-consciousness](proposals/p029-du-bois-double-consciousness.md)
 - [30. Education beyond earning a living](proposals/p030-du-bois-education.md)
 
-## Argument and question
+## Arguments and open questions
 
-- [Grouped induction argument](arguments/a001-induction.md)
-- [What fixes appropriateness?](questions/q001-appropriateness.md)
+- [The defense by past success](arguments/a001-induction.md)
+- [What guides appropriate choice?](questions/q001-appropriateness.md)
 - [What does circularity establish?](questions/q002-circularity.md)

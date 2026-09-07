@@ -16,11 +16,11 @@ Checks cover metadata, IDs, local links and anchors, senses and proposal backlin
 
 Declared senses: 49.
 
-| Text package | Minimum words | Median words | Maximum words |
+| Text counted | Minimum words | Median words | Maximum words |
 | --- | ---: | ---: | ---: |
-| Core | 8 | 10 | 15 |
-| Core plus qualification | 26 | 33.5 | 38 |
+| Short version | 8 | 10.5 | 20 |
+| Short version with context and limits | 27 | 38 | 52 |
 
-Counts cover only the named sections, excluding metadata, sources, concepts, and argument context. They do not measure semantic compression or reader performance.
+Counts cover only the named sections, excluding metadata, source passages, concept pages, and other linked context. They do not measure reader effort or show that meaning has been preserved.
 
-Structural success is not philosophical validation. No human observations are asserted by the pilot case records.
+Structural checks do not assess philosophical accuracy. No reader responses have been collected.

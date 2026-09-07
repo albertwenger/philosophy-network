@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.hume"
 source: "source.hume-treatise"
-relations: [{"type": "uses-sense", "target": "../concepts/obligation.md#sense-normative", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/inference.md#sense-normative", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/obligation.md#what-ought-to-be-done-hume", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/inference.md#reasoning-about-what-ought-to-be-done-hume", "status": "editorial-mapping"}]
 ---
 
-# Making a normative transition explicit
+# From descriptions to what ought to be done
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Explain the step when an argument moves from descriptions to what ought to be done.
 
-## Qualification
+## Context and limits
 
-Hume challenges an unnoticed transition. This formulation preserves that demand without claiming his paragraph proves every modern version of an is–ought theorem.
+The passage challenges an unexplained step in moral arguments. Whether it establishes a general rule about what can be inferred from descriptions is a further interpretive question.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ Hume challenges an unnoticed transition. This formulation preserves that demand 
 
 Passage: III.I.I, final paragraph, conventionally T 3.1.1.27.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Obligation: normative](../concepts/obligation.md#sense-normative)
-- [Inference: normative](../concepts/inference.md#sense-normative)
+- [Obligation: What ought to be done](../concepts/obligation.md#what-ought-to-be-done-hume) ([Hume](../people/hume.md))
+- [Inference: Reasoning about what ought to be done](../concepts/inference.md#reasoning-about-what-ought-to-be-done-hume) ([Hume](../people/hume.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c009-hume-is-ought.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c009-hume-is-ought.md) · [Network index](../INDEX.md)

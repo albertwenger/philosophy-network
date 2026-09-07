@@ -3,40 +3,38 @@ id: "case.wittgenstein-methods"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.wittgenstein-methods"
-hypothesized_package: "form"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 17: Philosophy as several methods
 
-[Read the core, qualification, and source locator](../../proposals/p017-wittgenstein-methods.md)
+[Read the proposal](../../proposals/p017-wittgenstein-methods.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **form**. A summary of a practice and instruction in that practice are different deliverables.
+Expected context: **None for this question**. The short version names an approach without showing a method in use. It may be enough for readers to identify examples or practice as missing; the question does not ask them to carry out a clarification.
 
-## Constructed rival
+## Possible misreading
 
-One fixed philosophical procedure resolves every confusion.
+One fixed philosophical method resolves every confusion.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+What would a reader need beyond a description of the approach to learn how to clarify a philosophical confusion?
 
-What would a reader need beyond this sentence to carry out a clarification?
+## Draft answer guide
 
-## Provisional reviewer key
+For example, worked examples showing how a method responds to a particular confusion.
 
-A worked procedure with cases and responses.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

@@ -2,18 +2,18 @@
 id: "concept.belief"
 type: "concept"
 status: "provisional"
-senses: ["true-opinion"]
+senses: {"true-opinion": "true-opinion-that-guides-action-plato"}
 ---
 
-# Belief / opinion
+# Belief and opinion
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how belief and opinion are used in the linked passage.
 
-## sense-true-opinion
+## True opinion that guides action ([Plato](../people/plato.md))
 
-A correct judgment without the further status of knowledge.
+A true opinion that can guide action successfully without being knowledge.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [True opinion and knowledge](../proposals/p005-plato-meno.md)
 

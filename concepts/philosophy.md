@@ -2,18 +2,18 @@
 id: "concept.philosophy"
 type: "concept"
 status: "provisional"
-senses: ["clarification"]
+senses: {"clarification": "clarification-through-different-methods-wittgenstein"}
 ---
 
 # Philosophy
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how philosophy is used in the linked passage.
 
-## sense-clarification
+## Clarification through different methods ([Wittgenstein](../people/wittgenstein.md))
 
-A plurality of procedures addressing conceptual confusions.
+Clarifying philosophical confusions through different methods suited to different problems.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Philosophy as several methods](../proposals/p017-wittgenstein-methods.md)
 

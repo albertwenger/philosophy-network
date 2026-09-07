@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "practice"
 contributor: "person.epictetus"
 source: "source.epictetus-enchiridion"
-relations: [{"type": "uses-sense", "target": "../concepts/freedom.md#sense-stoic", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/judgment.md#sense-stoic", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/freedom.md#freedom-in-what-is-up-to-us-epictetus", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/judgment.md#judgments-about-events-epictetus", "status": "editorial-mapping"}]
 ---
 
 # What is up to us
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
 
-Direct your concern toward what depends on your own agency.
+## Short version
 
-## Qualification
+Direct your concern toward what is up to you.
 
-The passage locates freedom in judgments and choices, excluding external possessions and outcomes. This is a demanding Stoic position, not a scale of partial influence.
+## Context and limits
+
+The passage locates freedom in judgments and choices, which it treats as up to us. It excludes external possessions and outcomes; the distinction concerns what is up to us, rather than how much influence we have.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The passage locates freedom in judgments and choices, excluding external possess
 
 Passage: Section 1 in full.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Freedom: stoic](../concepts/freedom.md#sense-stoic)
-- [Judgment: stoic](../concepts/judgment.md#sense-stoic)
+- [Freedom: Freedom in what is up to us](../concepts/freedom.md#freedom-in-what-is-up-to-us-epictetus) ([Epictetus](../people/epictetus.md))
+- [Judgment: Judgments about events](../concepts/judgment.md#judgments-about-events-epictetus) ([Epictetus](../people/epictetus.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c018-epictetus-control.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c018-epictetus-control.md) · [Network index](../INDEX.md)

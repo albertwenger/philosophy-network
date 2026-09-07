@@ -3,40 +3,38 @@ id: "case.zhuangzi-usefulness"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.zhuangzi-usefulness"
-hypothesized_package: "form"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 25: The usefulness of an unusable tree
 
-[Read the core, qualification, and source locator](../../proposals/p025-zhuangzi-usefulness.md)
+[Read the proposal](../../proposals/p025-zhuangzi-usefulness.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **form**. A one-line lesson loses the dialogue’s movement unless the narrative remains available.
+Expected context: **None for this question**. The short version says that failure to serve one purpose can leave room for another value. It may be enough for this example; the question does not ask readers to interpret the tree dialogue.
 
-## Constructed rival
+## Possible misreading
 
 Anything unsuitable for a familiar use is worthless.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Describe something unsuited to one familiar use. How might it still have value?
 
-Describe an object that defeats one use but invites a different relationship to it.
+## Draft answer guide
 
-## Provisional reviewer key
+The example should explain how changing the purpose or viewpoint changes the judgment of usefulness.
 
-The comparison should change the criterion of usefulness.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

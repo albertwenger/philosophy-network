@@ -1,90 +1,141 @@
-# Markdown conventions, version 0.1
+# Record conventions, version 0.3
 
-The Markdown files are canonical. This is a small provisional convention for
-the study, with ordinary relative links usable in GitHub or any Markdown
-reader. It is not a complete philosophical ontology.
+The Markdown files are the authoritative version. Records use relative links
+and stable identifiers. Links to headings must be updated when those headings
+change.
+These conventions describe the pilot's structure, not a complete classification
+of philosophy.
 
-## Records
+Link philosopher names to their contributor pages with ordinary Markdown,
+including names in headings. Keep existing links to works and sources, and
+do not link a contributor's name to the page the reader is already on.
+
+## Records and language
 
 | Type | Folder | Role |
 | --- | --- | --- |
-| concept | concepts | A navigational family of explicitly separate senses |
-| proposal | proposals | A compact candidate formulation with qualifications and attribution |
+| concept | concepts | Related senses of a term, kept distinct for comparison |
+| proposal | proposals | A draft interpretation with a short version, context and limits, and attribution |
 | person | people | A philosopher, textual speaker, or attributed contributor |
-| source | sources | A specified edition and inspected passage locators |
-| argument | arguments | Grouped premises, a conclusion, and an inference under examination |
-| question | questions | An open issue or objection with an explicit target |
-| case | study/cases | A reduction hypothesis, proposed probes, and observation status |
+| source | sources | A specified edition and references to inspected passages |
+| argument | arguments | Premises, a conclusion, and an inference under examination |
+| question | questions | An open question or objection with an explicit target |
+| case | study/cases | A proposed reader question, draft answer guide, and expected context need |
 
-An identifier is stable across wording revisions. Filenames can change if
-links are updated; identifiers should not be reassigned to unrelated content.
-Substantive competing interpretations should receive separate proposal IDs.
+Use **interpretation** for a reading of a source. A **reconstruction** is an
+attempt to express the source's meaning or reasoning faithfully; it remains
+an interpretation. An **adaptation** deliberately changes a source claim.
+A **generalization** extends its scope. A substantive competing interpretation
+or adaptation needs a separate proposal with its difference made explicit.
+
+Use the same term for the same meaning across a proposal, its linked sense,
+and its study case. Preserve different terms when they carry a philosophical
+distinction. **Short version** names the brief text; **Context and limits**
+names the explanation needed to read it. Neither section is a substitute for
+the source.
+
+An identifier is stable across wording revisions and must not be reassigned
+to unrelated content. Filenames can change if links are updated.
 
 ## Front matter
 
-Records start with YAML front matter. For ease of parsing without dependencies,
-each top-level value in this version is written as a JSON value on one line.
-This is a restricted subset of YAML; multiline YAML values are not supported
-by the included checker.
+Records start with YAML front matter. Each top-level value is written as a
+JSON value on one line so the checker can read it without dependencies.
+Multiline YAML values are not supported.
 
-Required fields are id, type, and status. Type-specific fields are checked by
-the validation script. Core and Qualification are Markdown sections, each
-containing the actual text once. Counts are computed from these sections.
+Every record requires `id`, `type`, and `status`. The checker also requires
+fields specific to each type. Proposals contain the sections `Short version`
+and `Context and limits`, with the text stored once. Word counts are computed
+from these sections.
 
-## Senses
+## Senses and headings
 
-Each concept declares its local sense IDs in the senses array. A heading such
-as `## sense-aristotle` creates an ordinary Markdown anchor. Proposals point to
-the relevant anchor, and the sense lists its associated proposals.
+A sense describes what a term means in the selected passage. It may be a
+meaning used, proposed, or challenged there; its presence does not imply that
+the contributor accepts it. Give each sense a descriptive heading and use
+ordinary language drawn from its linked proposal where possible.
 
-These are provisional sense distinctions and editorial glosses, not assertions
-that each philosopher supplied an explicit dictionary definition. A proposal
-may articulate, use, or challenge a sense. Placement in one concept family is
-not an assertion of equivalence or historical influence.
+End each sense heading and repeated sense label with only the philosopher's
+name in parentheses, linked to the contributor page with Markdown. Put source
+details in the linked proposals.
+
+Each concept's `senses` field maps stable local sense IDs to the link fragments
+generated from its descriptive headings. For example:
+
+```yaml
+senses: {"aristotle": "character-directed-toward-good-choice-aristotle"}
+```
+
+The body uses ordinary Markdown headings, without HTML. Proposals link to the
+heading fragment, and each sense links back to the proposals that use it.
+Heading fragments come from the visible heading text, including link labels
+but excluding link destinations.
+When a heading changes, keep its local sense ID and update the mapping, all
+Markdown links, and all relation targets that refer to it. The checker verifies
+the mapping and links in both directions.
+
+Sense distinctions are draft interpretations. They do not assert that a
+contributor supplied a dictionary definition. Grouping senses establishes
+neither equivalence nor historical influence.
 
 ## Relationships
 
-Relations contain type, target, and status. Targets are relative paths,
-optionally with a fragment. Every machine-readable relation has a visible
-Markdown link as well.
+Each relation contains `type`, `target`, and `status`. Targets are relative
+paths, optionally with a heading fragment. Every relation also has a visible Markdown
+link. The preview displays readable labels while preserving the stored types.
 
-Currently used types:
+| Stored type | Reader label | Meaning |
+| --- | --- | --- |
+| uses-sense | Uses sense | A proposal is linked to a particular sense; this can include examining or challenging that sense. |
+| questions-standard | Questions standard | An open question asks how a proposal's standard is specified or applied. |
+| challenges-inference | Questions inference | An open question concerns an inference without asserting that its conclusion is false. |
 
-- uses-sense: a proposal is mapped to a particular concept sense.
-- questions-standard: a question asks what supplies a proposal’s criterion.
-- challenges-inference: an objection concerns an inference, without asserting
-  that the conclusion is false.
-
-For an argument, the premises array groups its inputs, conclusion identifies
-its target, and joint_support makes the conjunctive interpretation explicit.
-The present argument uses internal premise anchors and an external proposal
-as its conclusion target. Argument mapping records a proposed reconstruction;
-the checker does not establish logical validity or soundness.
-
-Later types might include defines, presupposes, distinguishes, generalizes,
-contradicts-under-scope, and analogous-in-respect. Each should be added only
-with a precise use and an example. Loose similarity must never become an
-entailment through an undocumented default.
+For an argument, `premises` groups the inputs, `conclusion` identifies the
+claim under examination, and `joint_support` states that the premises work
+together. The current argument links to premise headings and a proposal
+as its conclusion. Links record the interpretation; they do not establish
+logical validity or soundness. Add a relation type only with a precise use
+and an example.
 
 ## Attribution and status
 
-All pilot proposals have attribution editorial-reconstruction and status
-draft. That does not claim the historical contributor used the modern wording,
-originated the concept, or endorses a position expressed by another speaker.
+All current proposals have `attribution: "editorial-reconstruction"` and
+`status: "draft"`. Their visible notice is: "Draft interpretation of the cited
+passage; not a quotation." Neither attribution claims that the contributor
+used the modern wording or endorsed another speaker's position. Future
+adaptations need a distinct attribution value and corresponding checker support.
 
-Source files are marked passages-inspected. This describes the source-checking
-action, not scholarly verification of the translation or work as a whole.
+Source records use `status: "passages-inspected"`. This means the cited passages
+were consulted, not that the translation or whole work received independent
+scholarly review.
 
-Cases have status editorial-only and human_responses 0. Editorial hypotheses
-must not be relabeled as measured accuracy. Verified human observations belong
-in separate records with a frozen study version and a documented procedure.
+Cases use `status: "editorial-only"` and `human_responses: 0`. The field
+`expected_context` records an expectation for the particular reader question:
+
+| Stored value | Reader label |
+| --- | --- |
+| none | None for this question |
+| context-and-limits | Context and limits |
+| argument | Argument |
+| historical | Historical context |
+| form | Form or sequence |
+
+These categories are distinct from the four **reading versions** in the
+[reader study protocol](study/PROTOCOL.md#reading-versions). They do not record
+a measured minimum. Reader results require separate records tied to the exact
+study version and a documented procedure.
+
+Cases use the headings `Expected context need`, `Reader question`,
+`Draft answer guide`, `Further question`, and `Reader results`. A comparison
+is labeled `Possible misreading`, `Adaptation for comparison`, or
+`Competing interpretation` according to its role.
 
 ## Checks
 
-Run `python3 tools/check_network.py` from the repository root. To also write
-the structural report, run `python3 tools/check_network.py --report`.
+Run `python3 tools/check_network.py` from the repository root. Add `--report`
+to update the [structural report](study/STRUCTURAL-CHECK.md).
 
-The checker verifies identifiers, metadata references, relative file links,
-anchors, sense mappings and backlinks, required sections, and argument targets.
-It reports corpus counts and word counts. It does not assess philosophical
-truth, author fidelity, live external links, or reader understanding.
+The checker verifies identifiers, references, local links and heading fragments,
+sense mappings and links in both directions, required sections, and argument
+targets. It reports record and word counts. It does not assess philosophical
+truth, source fidelity, external link availability, or reader understanding.

@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "practice"
 contributor: "person.buddha"
 source: "source.buddhist-middle-way"
-relations: [{"type": "uses-sense", "target": "../concepts/middle.md#sense-buddhist", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/middle.md#the-eightfold-path-buddha", "status": "editorial-mapping"}]
 ---
 
 # A middle path of practice
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Avoid indulgence and self-mortification through the eightfold path.
 
-## Qualification
+## Context and limits
 
-The passage identifies a specific liberating practice. A general recommendation to compromise or average two positions omits that content.
+The eightfold path is a specific practice directed toward liberation. A general recommendation to compromise or average two positions omits this practice.
 
 ## Source and attribution
 
@@ -25,12 +27,10 @@ The passage identifies a specific liberating practice. A general recommendation 
 
 Passage: SN 56.11, opening rejection of extremes and identification of the path.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Middle / mean: buddhist](../concepts/middle.md#sense-buddhist)
+- [Middle and mean: The eightfold path](../concepts/middle.md#the-eightfold-path-buddha) ([Buddha](../people/buddha.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c020-buddhist-middle.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c020-buddhist-middle.md) · [Network index](../INDEX.md)

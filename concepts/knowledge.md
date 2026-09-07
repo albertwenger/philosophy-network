@@ -2,39 +2,35 @@
 id: "concept.knowledge"
 type: "concept"
 status: "provisional"
-senses: ["practical", "meno", "inductive"]
+senses: {"practical": "knowledge-needed-for-action-aristotle", "meno": "knowledge-made-stable-by-an-account-plato", "inductive": "knowledge-gained-through-experience-hume"}
 ---
 
 # Knowledge
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how knowledge is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-practical
+## Knowledge needed for action ([Aristotle](../people/aristotle.md))
 
-Understanding relevant to action in particular cases.
+General understanding and knowledge of the particular situation, both needed for good practical judgment.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Judgment needs particulars](../proposals/p003-aristotle-practical-wisdom.md)
 
-## sense-meno
+## Knowledge made stable by an account ([Plato](../people/plato.md))
 
-Stable cognition contrasted with successful true opinion.
+True opinion made stable by an explanatory account, which Socrates connects with recollection.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [True opinion and knowledge](../proposals/p005-plato-meno.md)
 
-## sense-inductive
+## Knowledge gained through experience ([Hume](../people/hume.md))
 
-Warrant for projecting beyond observed cases.
+Knowledge of events and their effects gained through experience. The linked argument questions the basis for extending that experience to unobserved cases.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [The circular defense of induction](../proposals/p007-hume-induction.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

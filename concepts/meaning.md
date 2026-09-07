@@ -2,18 +2,18 @@
 id: "concept.meaning"
 type: "concept"
 status: "provisional"
-senses: ["use"]
+senses: {"use": "a-words-use-wittgenstein"}
 ---
 
 # Meaning
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how meaning is used in the linked passage.
 
-## sense-use
+## A word’s use ([Wittgenstein](../people/wittgenstein.md))
 
-Meaning explained through linguistic use in a qualified range.
+For many cases, a word’s meaning can be explained by its use. This is a limited claim, not a definition of all meaning.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Meaning through use](../proposals/p016-wittgenstein-meaning.md)
 

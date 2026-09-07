@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "practice"
 contributor: "person.epictetus"
 source: "source.epictetus-enchiridion"
-relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#sense-stoic", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#judgments-about-events-epictetus", "status": "editorial-mapping"}]
 ---
 
 # Judgment and disturbance
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Our judgments about events, rather than events themselves, cause our disturbance.
 
-## Qualification
+## Context and limits
 
-The passage makes a strong Stoic claim. A weaker contemporary claim that interpretation sometimes affects distress would be an adaptation, not an equivalent paraphrase.
+The passage presents judgments as the cause of disturbance. The weaker claim “Our judgments sometimes contribute to disturbance” would be an adaptation.
 
 ## Source and attribution
 
@@ -25,12 +27,10 @@ The passage makes a strong Stoic claim. A weaker contemporary claim that interpr
 
 Passage: Section 5 in full.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Judgment: stoic](../concepts/judgment.md#sense-stoic)
+- [Judgment: Judgments about events](../concepts/judgment.md#judgments-about-events-epictetus) ([Epictetus](../people/epictetus.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c019-epictetus-judgment.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c019-epictetus-judgment.md) · [Network index](../INDEX.md)

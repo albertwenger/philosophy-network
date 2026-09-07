@@ -6,7 +6,7 @@ status: "navigation-entry"
 
 # Plato
 
-The proposals reconstruct moves made by speakers in his dialogues. Speaker commitments are not automatically author commitments.
+The proposals interpret exchanges between speakers in Plato’s dialogues. A speaker’s position does not necessarily express Plato’s own view.
 
 ## Proposals
 

@@ -15,18 +15,14 @@ Edition: W. D. Ross translation, Internet Classics Archive.
 
 Contributor: [Aristotle](../people/aristotle.md).
 
-## Verification note
+## Passages consulted
 
-Relevant chapters were inspected in the preceding feasibility discussion.
+VI.7–8 consulted for the relation between general understanding, particular situations, and experience.
 
-Only the cited passages and necessary surrounding context were checked for this pass. This is not a claim of a critical edition or a full-work review.
+The check covered these passages and their immediate context. Independent source review is still needed.
 
 ## Selected passages
 
 - [Judgment needs particulars](../proposals/p003-aristotle-practical-wisdom.md): VI.7–8, universals, particulars, and experience (1141b–1142a).
-
-## Source handling
-
-Full source text is linked rather than copied. Freeze exact source extracts and record edition-specific word counts before the reader study; this pilot makes no source-to-summary compression-ratio claim.
 
 [Network index](../INDEX.md)

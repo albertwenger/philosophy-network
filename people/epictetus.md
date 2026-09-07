@@ -6,7 +6,7 @@ status: "navigation-entry"
 
 # Epictetus
 
-The Enchiridion transmits teachings associated with Epictetus. This page is a navigation entry, not a claim of direct manuscript authorship.
+The Enchiridion transmits teachings associated with Epictetus; this attribution does not claim that he wrote the text himself.
 
 ## Proposals
 

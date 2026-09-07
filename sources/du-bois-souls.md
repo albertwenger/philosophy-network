@@ -15,19 +15,15 @@ Edition: English text, Project Gutenberg 408.
 
 Contributor: [W. E. B. Du Bois](../people/du-bois.md).
 
-## Verification note
+## Passages consulted
 
 Chapter I double-consciousness passage and Chapter V education passage inspected.
 
-Only the cited passages and necessary surrounding context were checked for this pass. This is not a claim of a critical edition or a full-work review.
+The check covered these passages and their immediate context. Independent source review is still needed.
 
 ## Selected passages
 
 - [Double-consciousness](../proposals/p029-du-bois-double-consciousness.md): Chapter I, paragraph introducing double-consciousness and twoness, with its preceding racial context.
 - [Education beyond earning a living](../proposals/p030-du-bois-education.md): Chapter V, final education discussion before the closing Atalanta imagery.
-
-## Source handling
-
-Full source text is linked rather than copied. Freeze exact source extracts and record edition-specific word counts before the reader study; this pilot makes no source-to-summary compression-ratio claim.
 
 [Network index](../INDEX.md)

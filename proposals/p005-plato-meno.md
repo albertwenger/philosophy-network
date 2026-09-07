@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "distinction"
 contributor: "person.plato"
 source: "source.plato-meno"
-relations: [{"type": "uses-sense", "target": "../concepts/knowledge.md#sense-meno", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/belief.md#sense-true-opinion", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/knowledge.md#knowledge-made-stable-by-an-account-plato", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/belief.md#true-opinion-that-guides-action-plato", "status": "editorial-mapping"}]
 ---
 
 # True opinion and knowledge
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 A true opinion can guide action successfully without being knowledge.
 
-## Qualification
+## Context and limits
 
-Socrates distinguishes its practical success from knowledge’s stability, linking the latter to an explanatory account and recollection.
+Socrates distinguishes the success of true opinion in guiding action from the stability of knowledge. He links knowledge’s stability to an explanatory account and recollection.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ Socrates distinguishes its practical success from knowledge’s stability, linki
 
 Passage: 97a–98b, route guidance and the comparison with untethered statues.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Knowledge: meno](../concepts/knowledge.md#sense-meno)
-- [Belief / opinion: true-opinion](../concepts/belief.md#sense-true-opinion)
+- [Knowledge: Knowledge made stable by an account](../concepts/knowledge.md#knowledge-made-stable-by-an-account-plato) ([Plato](../people/plato.md))
+- [Belief and opinion: True opinion that guides action](../concepts/belief.md#true-opinion-that-guides-action-plato) ([Plato](../people/plato.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c005-plato-meno.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c005-plato-meno.md) · [Network index](../INDEX.md)

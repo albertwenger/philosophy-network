@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "argument"
 contributor: "person.plato"
 source: "source.plato-euthyphro"
-relations: [{"type": "uses-sense", "target": "../concepts/authority.md#sense-divine", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/goodness.md#sense-piety", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/authority.md#divine-approval-plato", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/goodness.md#piety-in-relation-to-the-gods-plato", "status": "editorial-mapping"}]
 ---
 
 # Approval and what makes something pious
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Does divine approval make something pious, or respond to its piety?
 
-## Qualification
+## Context and limits
 
-The dialogue distinguishes explanatory directions. Its immediate subject is piety and the gods; a general claim about all morality would be a further reconstruction.
+The dialogue distinguishes piety from being approved by the gods. Extending the question from piety to all morality would be a generalization.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The dialogue distinguishes explanatory directions. Its immediate subject is piet
 
 Passage: 10a–11b, Socrates and Euthyphro on the pious and the god-loved.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Authority: divine](../concepts/authority.md#sense-divine)
-- [Goodness / rightness: piety](../concepts/goodness.md#sense-piety)
+- [Authority: Divine approval](../concepts/authority.md#divine-approval-plato) ([Plato](../people/plato.md))
+- [Piety and moral rightness: Piety in relation to the gods](../concepts/goodness.md#piety-in-relation-to-the-gods-plato) ([Plato](../people/plato.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c004-plato-euthyphro.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c004-plato-euthyphro.md) · [Network index](../INDEX.md)

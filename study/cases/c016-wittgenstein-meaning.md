@@ -3,40 +3,38 @@ id: "case.wittgenstein-meaning"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.wittgenstein-meaning"
-hypothesized_package: "core"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 16: Meaning through use
 
-[Read the core, qualification, and source locator](../../proposals/p016-wittgenstein-meaning.md)
+[Read the proposal](../../proposals/p016-wittgenstein-meaning.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **core**. A scope word can protect a useful short formulation.
+Expected context: **None for this question**. The words “for many cases” limit the short version’s scope and may be enough to answer this question.
 
-## Constructed rival
+## Possible misreading
 
-Every kind of meaning has exactly one universal explanation.
+Every kind of meaning has exactly one explanation.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Does the claim require every use of the word “meaning” to fit the same account?
 
-Does the claim require every use of the word meaning to fit the same account?
+## Draft answer guide
 
-## Provisional reviewer key
+No. “For many cases” limits the claim; it does not cover every case of meaning.
 
-No; its scope is explicitly limited.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

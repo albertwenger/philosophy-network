@@ -2,48 +2,44 @@
 id: "concept.judgment"
 type: "concept"
 status: "provisional"
-senses: ["practical", "competent", "stoic", "examination"]
+senses: {"practical": "judgment-about-how-to-act-aristotle", "competent": "informed-comparison-of-pleasures-mill", "stoic": "judgments-about-events-epictetus", "examination": "considered-assessment-of-a-teaching-buddha"}
 ---
 
 # Judgment
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how judgment is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-practical
+## Judgment about how to act ([Aristotle](../people/aristotle.md))
 
-Recognizing what a situation calls for.
+Judgment about how to act toward what is good for human beings in a particular situation, drawing on general understanding and experience.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Judgment needs particulars](../proposals/p003-aristotle-practical-wisdom.md)
 
-## sense-competent
+## Informed comparison of pleasures ([Mill](../people/mill.md))
 
-Informed comparison by those acquainted with alternatives.
+The informed preference of people who know both pleasures from experience, excluding a preference based merely on felt duty.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Differences in the quality of pleasure](../proposals/p013-mill-pleasure-quality.md)
 
-## sense-stoic
+## Judgments about events ([Epictetus](../people/epictetus.md))
 
-An agent’s evaluative stance toward appearances.
+What one takes events to mean or to be worth. [Epictetus](../people/epictetus.md) places these judgments among what is up to us and attributes our disturbance to them.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [What is up to us](../proposals/p018-epictetus-control.md)
 - [Judgment and disturbance](../proposals/p019-epictetus-judgment.md)
 
-## sense-examination
+## Considered assessment of a teaching ([Buddha](../people/buddha.md))
 
-Evaluation incorporating practice and considered assessment.
+Assessment of a teaching through its consequences and considered judgment, including the judgments of the observant and wise.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Assessing a teaching](../proposals/p022-buddhist-kalama.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "argument"
 contributor: "person.hume"
 source: "source.hume-enquiry"
-relations: [{"type": "uses-sense", "target": "../concepts/knowledge.md#sense-inductive", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/inference.md#sense-inductive", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/knowledge.md#knowledge-gained-through-experience-hume", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/inference.md#reasoning-beyond-observed-cases-hume", "status": "editorial-mapping"}]
 ---
 
 # The circular defense of induction
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Past success cannot independently justify expecting the future to resemble the past.
 
-## Qualification
+## Context and limits
 
-An experiential defense of that expectation already uses it. This challenges a justification; it does not predict that future regularities will fail.
+Defending this expectation by appealing to past experience already assumes it. The argument challenges that justification; it does not predict that the future will cease to resemble the past.
 
 ## Source and attribution
 
@@ -25,15 +27,13 @@ An experiential defense of that expectation already uses it. This challenges a j
 
 Passage: Section IV, part II, especially numbered paragraphs 28–32.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Knowledge: inductive](../concepts/knowledge.md#sense-inductive)
-- [Inference: inductive](../concepts/inference.md#sense-inductive)
+- [Knowledge: Knowledge gained through experience](../concepts/knowledge.md#knowledge-gained-through-experience-hume) ([Hume](../people/hume.md))
+- [Inference: Reasoning beyond observed cases](../concepts/inference.md#reasoning-beyond-observed-cases-hume) ([Hume](../people/hume.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c007-hume-induction.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c007-hume-induction.md) · [Network index](../INDEX.md)
 
-[Grouped argument reconstruction](../arguments/a001-induction.md)
+[Argument](../arguments/a001-induction.md)

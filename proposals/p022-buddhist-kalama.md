@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.buddha"
 source: "source.buddhist-kalama"
-relations: [{"type": "uses-sense", "target": "../concepts/authority.md#sense-testimony", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/judgment.md#sense-examination", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/authority.md#the-standing-of-a-teacher-or-tradition-buddha", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/judgment.md#considered-assessment-of-a-teaching-buddha", "status": "editorial-mapping"}]
 ---
 
 # Assessing a teaching
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Assess teachings through their consequences and considered judgment.
 
-## Qualification
+## Context and limits
 
-Tradition, authority, and attractive reasoning alone are insufficient. The discourse also invokes the assessments of the observant and wise; it does not privilege unexamined personal preference.
+Tradition, authority, and appealing reasoning alone are insufficient. The discourse also draws on the judgment of the observant and wise, rather than relying on unexamined personal preference.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ Tradition, authority, and attractive reasoning alone are insufficient. The disco
 
 Passage: AN 3.66 in this edition: response to uncertainty through harmful and beneficial qualities.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Authority: testimony](../concepts/authority.md#sense-testimony)
-- [Judgment: examination](../concepts/judgment.md#sense-examination)
+- [Authority: The standing of a teacher or tradition](../concepts/authority.md#the-standing-of-a-teacher-or-tradition-buddha) ([Buddha](../people/buddha.md))
+- [Judgment: Considered assessment of a teaching](../concepts/judgment.md#considered-assessment-of-a-teaching-buddha) ([Buddha](../people/buddha.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c022-buddhist-kalama.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c022-buddhist-kalama.md) · [Network index](../INDEX.md)

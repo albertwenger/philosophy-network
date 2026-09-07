@@ -15,19 +15,15 @@ Edition: Thomas Kingsmill Abbott translation, titled Fundamental Principles of t
 
 Contributor: [Immanuel Kant](../people/kant.md).
 
-## Verification note
+## Passages consulted
 
 Section II formulations and surrounding examples inspected.
 
-Only the cited passages and necessary surrounding context were checked for this pass. This is not a claim of a critical edition or a full-work review.
+The check covered these passages and their immediate context. Independent source review is still needed.
 
 ## Selected passages
 
 - [Universalizing a principle of action](../proposals/p010-kant-universal-law.md): Section II, Academy 4:421–424, formulation and contrasting examples.
 - [Humanity as an end](../proposals/p011-kant-humanity.md): Section II, Academy 4:428–430, rational nature and humanity formulation.
-
-## Source handling
-
-Full source text is linked rather than copied. Freeze exact source extracts and record edition-specific word counts before the reader study; this pilot makes no source-to-summary compression-ratio claim.
 
 [Network index](../INDEX.md)

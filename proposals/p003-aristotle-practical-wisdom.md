@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.aristotle"
 source: "source.aristotle-ethics-vi"
-relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#sense-practical", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/knowledge.md#sense-practical", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#judgment-about-how-to-act-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/knowledge.md#knowledge-needed-for-action-aristotle", "status": "editorial-mapping"}]
 ---
 
 # Judgment needs particulars
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Good practical judgment needs both general understanding and knowledge of the particular situation.
 
-## Qualification
+## Context and limits
 
-Practical wisdom concerns action toward human goods; experience supplies attention to particulars. General rules alone do not suffice.
+Practical wisdom guides action toward what is good for human beings. Experience helps a person attend to the particular situation; general rules alone do not suffice.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ Practical wisdom concerns action toward human goods; experience supplies attenti
 
 Passage: VI.7–8, universals, particulars, and experience (1141b–1142a).
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Judgment: practical](../concepts/judgment.md#sense-practical)
-- [Knowledge: practical](../concepts/knowledge.md#sense-practical)
+- [Judgment: Judgment about how to act](../concepts/judgment.md#judgment-about-how-to-act-aristotle) ([Aristotle](../people/aristotle.md))
+- [Knowledge: Knowledge needed for action](../concepts/knowledge.md#knowledge-needed-for-action-aristotle) ([Aristotle](../people/aristotle.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c003-aristotle-practical-wisdom.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c003-aristotle-practical-wisdom.md) · [Network index](../INDEX.md)

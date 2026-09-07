@@ -2,40 +2,36 @@
 id: "concept.virtue"
 type: "concept"
 status: "provisional"
-senses: ["aristotle", "confucian", "wollstonecraft"]
+senses: {"aristotle": "character-directed-toward-good-choice-aristotle", "confucian": "moral-character-expressed-in-governing-confucius", "wollstonecraft": "moral-excellence-shared-across-sexes-wollstonecraft"}
 ---
 
 # Virtue
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how virtue is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-aristotle
+## Character directed toward good choice ([Aristotle](../people/aristotle.md))
 
-Settled character directed toward appropriate action.
+A settled disposition to choose well, developed through practice and guided by reason and practical wisdom.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Virtue and the mean](../proposals/p001-aristotle-mean.md)
 - [Character through practice](../proposals/p002-aristotle-habituation.md)
 
-## sense-confucian
+## Moral character expressed in governing ([Confucius](../people/confucius.md))
 
-Exemplary moral character in governing and formation.
+A ruler’s moral character, expressed in leading by example and joined with ritual in governing.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Cultivating character through government](../proposals/p024-confucius-governance.md)
 
-## sense-wollstonecraft
+## Moral excellence shared across sexes ([Wollstonecraft](../people/wollstonecraft.md))
 
-A shared kind of moral excellence across sexes.
+Moral excellence judged by the same standard for women and men. The selected passage still allows differences in degree between the sexes.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [One moral standard across sexes](../proposals/p027-wollstonecraft-virtue.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

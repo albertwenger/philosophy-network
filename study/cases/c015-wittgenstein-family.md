@@ -3,40 +3,38 @@ id: "case.wittgenstein-family"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.wittgenstein-family"
-hypothesized_package: "form"
+expected_context: "form"
 human_responses: 0
 ---
 
 # Case 15: Overlapping resemblance
 
-[Read the core, qualification, and source locator](../../proposals/p015-wittgenstein-family.md)
+[Read the proposal](../../proposals/p015-wittgenstein-family.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **form**. The examples perform part of the philosophical work.
+Expected context: **Form or sequence**. The sequence of examples may help readers construct their own comparison and explain both what it shows and what it leaves open.
 
-## Constructed rival
+## Possible misreading
 
-Every shared word must mark one shared essence.
+Every category must have one defining feature shared by all its members.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Describe three activities in one category that share different, overlapping features. What does the comparison show, and what does it leave open?
 
-Construct three activities with overlapping features, then ask what your comparison establishes and what it leaves open.
+## Draft answer guide
 
-## Provisional reviewer key
+The comparison can show how overlapping similarities connect the examples. It does not, by itself, rule out every possible feature they might share.
 
-The exercise tests a presupposition, not every possible definition.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

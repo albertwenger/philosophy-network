@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "principle"
 contributor: "person.confucius"
 source: "source.confucius-analects"
-relations: [{"type": "uses-sense", "target": "../concepts/reciprocity.md#sense-restraint", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/reciprocity.md#restraint-in-how-one-treats-others-confucius", "status": "editorial-mapping"}]
 ---
 
 # Reciprocal restraint
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Avoid imposing on others what you would reject for yourself.
 
-## Qualification
+## Context and limits
 
-The saying gives a restraint on conduct. Its scope and treatment of different preferences require interpretation; it is not a promise of reciprocal payment.
+The saying restrains conduct toward others. How it applies when people’s preferences differ requires interpretation; it does not promise the same treatment in return.
 
 ## Source and attribution
 
@@ -25,12 +27,10 @@ The saying gives a restraint on conduct. Its scope and treatment of different pr
 
 Passage: Book XV, chapter XXIII in Legge; commonly Analects 15.24.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Reciprocity / universal consideration: restraint](../concepts/reciprocity.md#sense-restraint)
+- [Reciprocity and universal consideration: Restraint in how one treats others](../concepts/reciprocity.md#restraint-in-how-one-treats-others-confucius) ([Confucius](../people/confucius.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c023-confucius-reciprocity.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c023-confucius-reciprocity.md) · [Network index](../INDEX.md)

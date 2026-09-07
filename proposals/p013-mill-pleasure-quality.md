@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "distinction"
 contributor: "person.mill"
 source: "source.mill-utilitarianism"
-relations: [{"type": "uses-sense", "target": "../concepts/pleasure.md#sense-mill", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/judgment.md#sense-competent", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/pleasure.md#pleasure-as-part-of-happiness-mill", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/judgment.md#informed-comparison-of-pleasures-mill", "status": "editorial-mapping"}]
 ---
 
 # Differences in the quality of pleasure
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 Pleasures can differ in quality as well as quantity.
 
-## Qualification
+## Context and limits
 
-Mill appeals to the informed preferences of people acquainted with both, excluding mere felt duty to prefer one. The competence of judges needs examination.
+[Mill](../people/mill.md) appeals to the preferences of people who know both pleasures from experience, excluding a preference based only on a felt duty to choose one. The comparison depends on who qualifies to judge.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ Mill appeals to the informed preferences of people acquainted with both, excludi
 
 Passage: Chapter II, comparison of pleasures by people acquainted with both.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Pleasure: mill](../concepts/pleasure.md#sense-mill)
-- [Judgment: competent](../concepts/judgment.md#sense-competent)
+- [Pleasure: Pleasure as part of happiness](../concepts/pleasure.md#pleasure-as-part-of-happiness-mill) ([Mill](../people/mill.md))
+- [Judgment: Informed comparison of pleasures](../concepts/judgment.md#informed-comparison-of-pleasures-mill) ([Mill](../people/mill.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c013-mill-pleasure-quality.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c013-mill-pleasure-quality.md) · [Network index](../INDEX.md)

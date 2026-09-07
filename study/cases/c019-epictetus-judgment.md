@@ -3,40 +3,38 @@ id: "case.epictetus-judgment"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.epictetus-judgment"
-hypothesized_package: "qualification"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 19: Judgment and disturbance
 
-[Read the core, qualification, and source locator](../../proposals/p019-epictetus-judgment.md)
+[Read the proposal](../../proposals/p019-epictetus-judgment.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. Making an idea more acceptable can be a loss of historical fidelity.
+Expected context: **None for this question**. The short version states the strong causal claim. Comparing it with “sometimes contribute” may be enough to identify the change in strength.
 
-## Constructed rival
+## Adaptation for comparison
 
-Interpretation occasionally contributes to distress.
+Our judgments sometimes contribute to disturbance.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Does the comparison statement make the same claim as the text you read?
 
-Is the weaker rival logically equivalent to the proposed core?
+## Draft answer guide
 
-## Provisional reviewer key
+No. “Sometimes contribute” weakens the claim that our judgments, rather than events themselves, cause our disturbance.
 
-No; it reduces the claim’s strength.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

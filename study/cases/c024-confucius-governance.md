@@ -3,40 +3,38 @@ id: "case.confucius-governance"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.confucius-governance"
-hypothesized_package: "qualification"
+expected_context: "context-and-limits"
 human_responses: 0
 ---
 
 # Case 24: Cultivating character through government
 
-[Read the core, qualification, and source locator](../../proposals/p024-confucius-governance.md)
+[Read the proposal](../../proposals/p024-confucius-governance.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. The causal claim remains open to criticism even when its structure is made clear.
+Expected context: **Context and limits**. Context and limits connect developing shame with moral character and may help readers distinguish it from avoiding punishment in this example.
 
-## Constructed rival
+## Possible misreading
 
-Every form of compliance represents the same moral development.
+Following a rule always shows the same moral development.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Could two people follow the same rule, one to avoid punishment and the other because they would feel shame in breaking it?
 
-Could identical outward conduct arise from different relationships to the governing norm?
+## Draft answer guide
 
-## Provisional reviewer key
+Yes. The passage distinguishes avoiding punishment from developing shame and moral character.
 
-Yes; avoidance and internal formation are distinguished.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

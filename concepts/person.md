@@ -2,18 +2,18 @@
 id: "concept.person"
 type: "concept"
 status: "provisional"
-senses: ["rational"]
+senses: {"rational": "humanity-as-rational-nature-kant"}
 ---
 
-# Person / humanity
+# Persons and humanity
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how persons and humanity are used in the linked passage.
 
-## sense-rational
+## Humanity as rational nature ([Kant](../people/kant.md))
 
-Rational nature considered as having the status of an end.
+The rational nature in oneself and in others that must be treated as an end, never merely as an instrument.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Humanity as an end](../proposals/p011-kant-humanity.md)
 

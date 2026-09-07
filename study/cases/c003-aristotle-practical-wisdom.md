@@ -3,40 +3,38 @@ id: "case.aristotle-practical-wisdom"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.aristotle-practical-wisdom"
-hypothesized_package: "core"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 03: Judgment needs particulars
 
-[Read the core, qualification, and source locator](../../proposals/p003-aristotle-practical-wisdom.md)
+[Read the proposal](../../proposals/p003-aristotle-practical-wisdom.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **core**. Core may suffice for the selected distinction; teaching judgment needs examples and practice.
+Expected context: **None for this question**. The short version distinguishes general understanding from knowledge of the situation and may be enough to answer this question.
 
-## Constructed rival
+## Possible misreading
 
-Memorizing a universal rule guarantees good action.
+Memorizing a general rule guarantees good action.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
-
-## Reader probe
+## Reader question
 
 Can two people know the same rule yet differ in applying it well?
 
-## Provisional reviewer key
+## Draft answer guide
 
-Yes; recognition of relevant particulars can differ.
+Yes. They may differ in recognizing which details of the situation matter.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+Independent source review is needed before scoring.
 
-## Further probe
+## Further question
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-## Observation record
+## Reader results
 
-No reader response, accuracy score, or completion time has been collected.
+No reader responses have been collected.
 
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

@@ -3,40 +3,38 @@ id: "case.du-bois-education"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.du-bois-education"
-hypothesized_package: "historical"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 30: Education beyond earning a living
 
-[Read the core, qualification, and source locator](../../proposals/p030-du-bois-education.md)
+[Read the proposal](../../proposals/p030-du-bois-education.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **historical**. The purpose is portable, but the social intervention requires historical context.
+Expected context: **None for this question**. The word “beyond” may be enough to distinguish a wider purpose for education from rejecting vocational training. The question does not ask readers to explain the historical setting.
 
-## Constructed rival
+## Possible misreading
 
-A humane education requires abandoning vocational preparation.
+Education that develops whole people requires abandoning vocational training.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Must teaching a trade conflict with the wider purpose of education stated here?
 
-Must teaching a trade conflict with the wider purpose stated here?
+## Draft answer guide
 
-## Provisional reviewer key
+No. Vocational training can contribute to the development of whole people and communities.
 
-No; training can contribute to wider human development.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

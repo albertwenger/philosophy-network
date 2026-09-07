@@ -2,31 +2,27 @@
 id: "concept.freedom"
 type: "concept"
 status: "provisional"
-senses: ["noninterference", "stoic"]
+senses: {"noninterference": "freedom-from-coercion-mill", "stoic": "freedom-in-what-is-up-to-us-epictetus"}
 ---
 
 # Freedom
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how freedom is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-noninterference
+## Freedom from coercion ([Mill](../people/mill.md))
 
-A protected domain against coercion.
+Freedom from coercion when one’s conduct does not harm others. [Mill](../people/mill.md) restricts the principle to mature people in societies he considers civilized.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [The harm principle and its historical scope](../proposals/p014-mill-harm.md)
 
-## sense-stoic
+## Freedom in what is up to us ([Epictetus](../people/epictetus.md))
 
-Agency secured in what is up to the person.
+Freedom in one’s own judgments and choices, excluding external possessions and outcomes. This is a strict division, not a scale of partial influence.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [What is up to us](../proposals/p018-epictetus-control.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

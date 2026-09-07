@@ -6,32 +6,32 @@ attribution: "editorial-reconstruction"
 form: "argument"
 contributor: "person.descartes"
 source: "source.descartes-discourse"
-relations: [{"type": "uses-sense", "target": "../concepts/self.md#sense-thinking", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/certainty.md#sense-cogito", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/self.md#the-thinking-subject-descartes", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/certainty.md#certainty-of-present-existence-descartes", "status": "editorial-mapping"}]
 ---
 
 # Existence in the act of doubting
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
+
+## Short version
 
 While I doubt, I cannot deny that I exist as the one doubting.
 
-## Qualification
+## Context and limits
 
-This isolates the certainty claimed in present thinking. Claims about an enduring or immaterial self require further argument.
+The certainty concerns existence in the present act of thinking. Claims about an enduring or immaterial self require further argument.
 
 ## Source and attribution
 
 [René Descartes](../people/descartes.md); [Discourse on the Method](../sources/descartes-discourse.md).
 
-Passage: Part IV, opening doubt experiment through the first principle; distinguish subsequent soul argument.
-
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
+Passage: Part IV, opening doubt experiment through the first principle, before the subsequent argument about the soul.
 
 ## Concept senses
 
-- [Self: thinking](../concepts/self.md#sense-thinking)
-- [Certainty: cogito](../concepts/certainty.md#sense-cogito)
+- [Self: The thinking subject](../concepts/self.md#the-thinking-subject-descartes) ([Descartes](../people/descartes.md))
+- [Certainty: Certainty of present existence](../concepts/certainty.md#certainty-of-present-existence-descartes) ([Descartes](../people/descartes.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c006-descartes-cogito.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c006-descartes-cogito.md) · [Network index](../INDEX.md)

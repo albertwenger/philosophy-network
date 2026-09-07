@@ -2,31 +2,27 @@
 id: "concept.reciprocity"
 type: "concept"
 status: "provisional"
-senses: ["universal-law", "restraint"]
+senses: {"universal-law": "a-principle-one-can-will-for-everyone-kant", "restraint": "restraint-in-how-one-treats-others-confucius"}
 ---
 
-# Reciprocity / universal consideration
+# Reciprocity and universal consideration
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how reciprocity and universal consideration are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-universal-law
+## A principle one can will for everyone ([Kant](../people/kant.md))
 
-Coherent universal willing of a principle of action.
+The requirement that a principle of action be one you can coherently will as a law for everyone.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Universalizing a principle of action](../proposals/p010-kant-universal-law.md)
 
-## sense-restraint
+## Restraint in how one treats others ([Confucius](../people/confucius.md))
 
-Applying self-directed aversion as a restraint toward others.
+Avoid imposing on others what you would reject for yourself.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Reciprocal restraint](../proposals/p023-confucius-reciprocity.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

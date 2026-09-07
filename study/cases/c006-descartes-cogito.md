@@ -3,40 +3,38 @@ id: "case.descartes-cogito"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.descartes-cogito"
-hypothesized_package: "argument"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 06: Existence in the act of doubting
 
-[Read the core, qualification, and source locator](../../proposals/p006-descartes-cogito.md)
+[Read the proposal](../../proposals/p006-descartes-cogito.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **argument**. A very short conclusion hides the scope of the argument it is supposed to carry.
+Expected context: **None for this question**. The words “while I doubt” limit the short version to the present act of doubting and may be enough to answer this question about persistence.
 
-## Constructed rival
+## Possible misreading
 
-Any certainty about thinking proves every claim about the self.
+Certainty about present thinking proves every claim about the self.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Does certainty that I exist while doubting, by itself, establish that the same self persists through dreamless sleep?
 
-Does this step alone settle what persists through dreamless sleep?
+## Draft answer guide
 
-## Provisional reviewer key
+No. The claim concerns existence while doubting. Persistence through dreamless sleep requires further argument.
 
-No; that requires additional commitments.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

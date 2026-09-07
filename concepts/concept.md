@@ -2,18 +2,18 @@
 id: "concept.concept"
 type: "concept"
 status: "provisional"
-senses: ["family"]
+senses: {"family": "a-category-held-together-by-similarities-wittgenstein"}
 ---
 
 # Concept
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how a concept is used in the linked passage.
 
-## sense-family
+## A category held together by similarities ([Wittgenstein](../people/wittgenstein.md))
 
-Classification examined through overlapping resemblances.
+A category whose members share overlapping similarities, without requiring one feature common to all of them.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Overlapping resemblance](../proposals/p015-wittgenstein-family.md)
 

@@ -2,18 +2,18 @@
 id: "concept.recognition"
 type: "concept"
 status: "provisional"
-senses: ["devaluation"]
+senses: {"devaluation": "how-others-regard-someone-du-bois"}
 ---
 
 # Recognition
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+A draft interpretation of how recognition is used in the linked passage.
 
-## sense-devaluation
+## How others regard someone ([Du Bois](../people/du-bois.md))
 
-Social appraisal that diminishes a person’s self-understanding.
+The way others see and judge a person, shaped here by racial domination and the devaluation of Black Americans.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Double-consciousness](../proposals/p029-du-bois-double-consciousness.md)
 

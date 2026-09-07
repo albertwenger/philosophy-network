@@ -3,40 +3,38 @@ id: "case.hume-necessary-connection"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.hume-necessary-connection"
-hypothesized_package: "qualification"
+expected_context: "context-and-limits"
 human_responses: 0
 ---
 
 # Case 08: Experienced regularity and felt necessity
 
-[Read the core, qualification, and source locator](../../proposals/p008-hume-necessary-connection.md)
+[Read the proposal](../../proposals/p008-hume-necessary-connection.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. Preserve the distinction between conceptual origin and metaphysical denial.
+Expected context: **Context and limits**. Context and limits may help readers distinguish explaining the origin of an idea from denying that anything corresponds to it.
 
-## Constructed rival
+## Possible misreading
 
-Explaining a concept’s origin proves its object nonexistent.
+Explaining how an idea arises proves that what it describes does not exist.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Does an account of how we come to expect one event after another, by itself, prove that no real causal powers exist?
 
-Does a psychological account of expectation alone establish a complete metaphysics of causation?
+## Draft answer guide
 
-## Provisional reviewer key
+No. Explaining the origin of the idea does not, by itself, settle whether real causal powers exist.
 
-No; the further conclusion requires argument.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

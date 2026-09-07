@@ -2,31 +2,27 @@
 id: "concept.obligation"
 type: "concept"
 status: "provisional"
-senses: ["normative", "kant"]
+senses: {"normative": "what-ought-to-be-done-hume", "kant": "a-requirement-of-universal-law-kant"}
 ---
 
 # Obligation
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how obligation is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-normative
+## What ought to be done ([Hume](../people/hume.md))
 
-What ought to be done as an argumentative conclusion.
+What someone ought to do. An argument must explain how it moves from descriptions to a claim about such a requirement.
 
-Proposals articulating or using this sense:
+Related proposals:
 
-- [Making a normative transition explicit](../proposals/p009-hume-is-ought.md)
+- [From descriptions to what ought to be done](../proposals/p009-hume-is-ought.md)
 
-## sense-kant
+## A requirement of universal law ([Kant](../people/kant.md))
 
-A requirement assessed through rational universalization.
+A moral requirement to act only on principles one can coherently will as laws for everyone.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Universalizing a principle of action](../proposals/p010-kant-universal-law.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

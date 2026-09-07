@@ -3,40 +3,38 @@ id: "case.buddhist-middle"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.buddhist-middle"
-hypothesized_package: "qualification"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 20: A middle path of practice
 
-[Read the core, qualification, and source locator](../../proposals/p020-buddhist-middle.md)
+[Read the proposal](../../proposals/p020-buddhist-middle.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. A shared label permits comparison without establishing equivalence.
+Expected context: **None for this question**. The short version names the eightfold path and may be enough to distinguish it from averaging positions. The question does not ask readers to explain the path.
 
-## Constructed rival
+## Possible misreading
 
 The best view is always a compromise between opponents.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
-
-## Reader probe
+## Reader question
 
 Would averaging two political positions identify the practice described here?
 
-## Provisional reviewer key
+## Draft answer guide
 
-No; the path has specified components and a purpose.
+No. The passage identifies the eightfold path, rather than a rule for averaging positions.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+Independent source review is needed before scoring.
 
-## Further probe
+## Further question
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-## Observation record
+## Reader results
 
-No reader response, accuracy score, or completion time has been collected.
+No reader responses have been collected.
 
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

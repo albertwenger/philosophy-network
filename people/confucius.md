@@ -6,7 +6,7 @@ status: "navigation-entry"
 
 # Confucius in the Analects
 
-A navigation entry for sayings attributed to Confucius in the transmitted collection.
+The speaker to whom the cited sayings in the Analects are attributed.
 
 ## Proposals
 

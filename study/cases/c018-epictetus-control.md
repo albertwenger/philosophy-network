@@ -3,40 +3,38 @@ id: "case.epictetus-control"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.epictetus-control"
-hypothesized_package: "qualification"
+expected_context: "context-and-limits"
 human_responses: 0
 ---
 
 # Case 18: What is up to us
 
-[Read the core, qualification, and source locator](../../proposals/p018-epictetus-control.md)
+[Read the proposal](../../proposals/p018-epictetus-control.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. The modern word control can silently change the classification.
+Expected context: **Context and limits**. Context and limits may help readers distinguish the passage’s category of what is up to us from outcomes we can partly influence.
 
-## Constructed rival
+## Possible misreading
 
-Anything we can influence is fully within our control.
+Anything we can influence is fully up to us.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+If a project depends on other people’s decisions, does your influence over it make its outcome wholly up to you?
 
-If a project depends on other people’s decisions, does influence over it make its outcome wholly yours?
+## Draft answer guide
 
-## Provisional reviewer key
+No. Influencing an outcome does not make it wholly up to us. The passage distinguishes our judgments and choices from external outcomes.
 
-No; influence and what is up to us differ.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

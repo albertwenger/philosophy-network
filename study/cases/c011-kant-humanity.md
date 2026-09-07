@@ -3,40 +3,38 @@ id: "case.kant-humanity"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.kant-humanity"
-hypothesized_package: "qualification"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 11: Humanity as an end
 
-[Read the core, qualification, and source locator](../../proposals/p011-kant-humanity.md)
+[Read the proposal](../../proposals/p011-kant-humanity.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **qualification**. Deleting a single qualifier changes the claim substantially.
+Expected context: **None for this question**. The word “merely” preserves the distinction between serving someone’s purpose and being treated only as an instrument. It may be enough for this question.
 
-## Constructed rival
+## Possible misreading
 
 It is wrong to benefit from anyone else’s work.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
-
-## Reader probe
+## Reader question
 
 Does paying a willing expert for assistance violate the principle simply because it serves your goal?
 
-## Provisional reviewer key
+## Draft answer guide
 
-No; serving a goal need not mean mere instrumentality.
+No. Someone’s work can serve your goal without your treating that person merely as an instrument.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+Independent source review is needed before scoring.
 
-## Further probe
+## Further question
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-## Observation record
+## Reader results
 
-No reader response, accuracy score, or completion time has been collected.
+No reader responses have been collected.
 
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

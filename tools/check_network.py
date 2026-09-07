@@ -10,7 +10,13 @@ import statistics
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGES = {'core', 'qualification', 'argument', 'historical', 'form'}
+CONTEXT_LABELS = {
+    'none': 'None for this question',
+    'context-and-limits': 'Context and limits',
+    'argument': 'Argument',
+    'historical': 'Historical context',
+    'form': 'Form or sequence',
+}
 TYPES = {'proposal', 'concept', 'person', 'source', 'argument', 'question', 'case'}
 RELATIONS = {'uses-sense', 'questions-standard', 'challenges-inference'}
 LINK = re.compile(r'(?<!!)\[[^\]\n]+\]\(([^\s)]+)\)')
@@ -36,17 +42,57 @@ def section(text, title):
     return m.group(1).strip() if m else ''
 
 
+def visible_text(text):
+    """Read Markdown link labels without treating destinations as prose."""
+    return LINK.sub(lambda m: m[0][1:m[0].index('](')], text)
+
+
+def heading_anchor(title, seen):
+    """Create the same ordinary heading fragment in the checker and preview."""
+    base = re.sub(r'[^\w\- ]', '', visible_text(title).lower()).replace(' ', '-')
+    anchor, suffix = base, 0
+    while anchor in seen:
+        suffix += 1
+        anchor = f'{base}-{suffix}'
+    seen.add(anchor)
+    return anchor
+
+
+def markdown_headings(text):
+    scanned = without_fenced_code(text)
+    seen = set()
+    for match in re.finditer(r'^(#{1,6})[ \t]+(.+?)[ \t]*$', scanned, re.M):
+        yield len(match[1]), match[2], heading_anchor(match[2], seen), match.start(), match.end()
+
+
+def heading_sections(text, level=2):
+    """Find sections by their actual heading positions, including repeated titles."""
+    headings = list(markdown_headings(text))
+    result = {}
+    for i, (depth, title, anchor, _, start) in enumerate(headings):
+        if depth != level:
+            continue
+        end = next((item[3] for item in headings[i + 1:] if item[0] <= level), len(text))
+        result[anchor] = (title, text[start:end].strip())
+    return result
+
+
 def words(text):
-    return len(re.findall(r"\b[^\W_]+(?:[’'-][^\W_]+)*\b", text))
+    return len(re.findall(r"\b[^\W_]+(?:[’'-][^\W_]+)*\b", visible_text(text)))
+
+
+def without_fenced_code(text):
+    """Mask fenced examples while preserving offsets into the source text."""
+    return re.sub(r'^```[^\n]*\n.*?(?:^```[^\n]*(?:\n|$)|\Z)',
+                  lambda m: re.sub(r'[^\n]', ' ', m[0]), text, flags=re.M | re.S)
+
+
+def anchor_counts(text):
+    return Counter(heading[2] for heading in markdown_headings(text))
 
 
 def anchors(text):
-    result, seen = set(), Counter()
-    for heading in re.findall(r'^#{1,6}\s+(.+?)\s*$', text, re.M):
-        base = re.sub(r'[^\w\- ]', '', heading.lower()).replace(' ', '-')
-        result.add(base + (f'-{seen[base]}' if seen[base] else ''))
-        seen[base] += 1
-    return result
+    return set(anchor_counts(text))
 
 
 def run(report=False):
@@ -94,6 +140,11 @@ def run(report=False):
 
     link_count = 0
     for p, text in files.items():
+        if re.search(r'</?[A-Za-z][^>]*>', without_fenced_code(text)):
+            error(p, 'Raw HTML is not allowed in Markdown; use ordinary headings and links')
+        for anchor, count in anchor_counts(text).items():
+            if count > 1:
+                error(p, f'Duplicate anchor: {anchor}')
         for ref in LINK.findall(text):
             if not urlsplit(ref).scheme:
                 link_count += 1
@@ -104,8 +155,8 @@ def run(report=False):
         if q is None or records[q].get('type') != expected:
             error(p, f'{key} must reference an existing {expected} ID')
 
-    counts, packages = Counter(), Counter()
-    core_counts, qualified_counts = [], []
+    counts, context_counts = Counter(), Counter()
+    short_counts, with_context_counts = [], []
     sense_count = 0
     for p, meta in records.items():
         kind = meta.get('type')
@@ -115,34 +166,49 @@ def run(report=False):
             require_id(p, meta, 'source', 'source')
             if meta.get('attribution') != 'editorial-reconstruction':
                 error(p, 'Pilot attribution must be explicit')
-            core, qual = section(files[p], 'Core'), section(files[p], 'Qualification')
-            if not core or not qual:
-                error(p, 'Missing Core or Qualification')
-            core_counts.append(words(core))
-            qualified_counts.append(words(core) + words(qual))
+            short = section(files[p], 'Short version')
+            context = section(files[p], 'Context and limits')
+            if not short or not context:
+                error(p, 'Missing Short version or Context and limits')
+            short_counts.append(words(short))
+            with_context_counts.append(words(short) + words(context))
             if not meta.get('relations'):
                 error(p, 'Proposal has no concept mappings')
         elif kind == 'case':
             require_id(p, meta, 'proposal', 'proposal')
-            package = meta.get('hypothesized_package')
-            if package not in PACKAGES:
-                error(p, 'Unknown package hypothesis')
-            packages[package] += 1
+            expected_context = meta.get('expected_context')
+            if expected_context not in CONTEXT_LABELS:
+                error(p, 'Unknown expected context')
+            else:
+                expectation = section(files[p], 'Expected context need')
+                if not expectation.startswith(f'Expected context: **{CONTEXT_LABELS[expected_context]}**.'):
+                    error(p, 'Visible context label differs from metadata')
+            context_counts[expected_context] += 1
             if meta.get('human_responses') != 0 or meta.get('status') != 'editorial-only':
                 error(p, 'Initial pilot must not claim human observations')
-            for heading in ('Editorial hypothesis', 'Constructed rival', 'Reader probe', 'Provisional reviewer key', 'Observation record'):
+            for heading in ('Expected context need', 'Reader question', 'Draft answer guide', 'Further question', 'Reader results'):
                 if not section(files[p], heading):
                     error(p, f'Missing {heading}')
+            comparisons = ('Possible misreading', 'Adaptation for comparison', 'Competing interpretation')
+            if sum(bool(section(files[p], heading)) for heading in comparisons) != 1:
+                error(p, 'Case needs exactly one labeled comparison')
         elif kind == 'concept':
-            senses = meta.get('senses', [])
-            if not senses or len(senses) != len(set(senses)):
-                error(p, 'Missing or duplicate senses')
+            senses = meta.get('senses')
+            if (not isinstance(senses, dict) or not senses
+                    or any(not isinstance(s, str) or not s or not isinstance(a, str) or not a for s, a in senses.items())):
+                error(p, 'Senses must map stable IDs to Markdown heading fragments')
+                continue
+            if len(senses.values()) != len(set(senses.values())):
+                error(p, 'Different senses must link to distinct headings')
             sense_count += len(senses)
-            for sense in senses:
-                title = 'sense-' + sense
-                if title not in anchors(files[p]):
-                    error(p, f'Missing sense heading {title}')
-                refs = LINK.findall(section(files[p], title))
+            declared_sections = heading_sections(files[p])
+            if set(declared_sections) != set(senses.values()):
+                error(p, 'Sense mappings and Markdown headings differ')
+            for sense, anchor in senses.items():
+                heading, content = declared_sections.get(anchor, ('', ''))
+                if not heading or heading.startswith('sense-'):
+                    error(p, f'Missing readable sense heading for {anchor}')
+                refs = LINK.findall(content)
                 if not any(records.get(target(p, ref), {}).get('type') == 'proposal' for ref in refs):
                     error(p, f'Sense {sense} has no proposal link')
         elif kind == 'source':
@@ -170,10 +236,12 @@ def run(report=False):
             if relation['target'] not in LINK.findall(files[p]):
                 error(p, 'Machine-readable relation lacks visible link')
             if relation['type'] == 'uses-sense' and q is not None:
-                sense = urlsplit(relation['target']).fragment.removeprefix('sense-')
-                if records.get(q, {}).get('type') != 'concept' or sense not in records.get(q, {}).get('senses', []):
+                fragment = unquote(urlsplit(relation['target']).fragment)
+                senses = records.get(q, {}).get('senses', {})
+                if (records.get(q, {}).get('type') != 'concept' or not isinstance(senses, dict)
+                        or fragment not in senses.values()):
                     error(p, 'Sense mapping has no declared target')
-                refs = LINK.findall(section(files[q], 'sense-' + sense))
+                refs = LINK.findall(heading_sections(files[q]).get(fragment, ('', ''))[1])
                 if not any(target(q, ref) == p for ref in refs):
                     error(p, 'Concept sense lacks a backlink to proposal')
 
@@ -189,7 +257,8 @@ def run(report=False):
     def stats(values):
         return {'min': min(values), 'median': statistics.median(values), 'max': max(values)}
     summary = {'records': dict(sorted(counts.items())), 'senses': sense_count, 'local_links': link_count,
-               'packages': dict(sorted(packages.items())), 'core_words': stats(core_counts), 'qualified_words': stats(qualified_counts)}
+               'expected_context': dict(sorted(context_counts.items())),
+               'short_version_words': stats(short_counts), 'with_context_words': stats(with_context_counts)}
     if report:
         out = '# Structural check\n\nStatus: passed. Generated by `python3 tools/check_network.py --report`.\n\n'
         out += 'Checks cover metadata, IDs, local links and anchors, senses and proposal backlinks, and argument targets. External URLs are not checked by this script.\n\n'
@@ -197,11 +266,11 @@ def run(report=False):
         for kind, count in sorted(counts.items()):
             out += f'| {kind} | {count} |\n'
         out += f'\nDeclared senses: {sense_count}.\n\n'
-        out += '| Text package | Minimum words | Median words | Maximum words |\n| --- | ---: | ---: | ---: |\n'
-        for title, values in [('Core', core_counts), ('Core plus qualification', qualified_counts)]:
+        out += '| Text counted | Minimum words | Median words | Maximum words |\n| --- | ---: | ---: | ---: |\n'
+        for title, values in [('Short version', short_counts), ('Short version with context and limits', with_context_counts)]:
             out += f'| {title} | {min(values)} | {statistics.median(values):g} | {max(values)} |\n'
-        out += '\nCounts cover only the named sections, excluding metadata, sources, concepts, and argument context. They do not measure semantic compression or reader performance.\n\n'
-        out += 'Structural success is not philosophical validation. No human observations are asserted by the pilot case records.\n'
+        out += '\nCounts cover only the named sections, excluding metadata, source passages, concept pages, and other linked context. They do not measure reader effort or show that meaning has been preserved.\n\n'
+        out += 'Structural checks do not assess philosophical accuracy. No reader responses have been collected.\n'
         (ROOT / 'study/STRUCTURAL-CHECK.md').write_text(out, encoding='utf-8')
     print(json.dumps(summary, indent=2))
     return 0

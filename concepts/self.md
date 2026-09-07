@@ -2,47 +2,43 @@
 id: "concept.self"
 type: "concept"
 status: "provisional"
-senses: ["thinking", "aggregates", "transformation", "double-consciousness"]
+senses: {"thinking": "the-thinking-subject-descartes", "aggregates": "what-one-takes-oneself-to-be-buddha", "transformation": "ones-identity-across-dream-and-waking-zhuangzi", "double-consciousness": "a-divided-self-understanding-du-bois"}
 ---
 
 # Self
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how self is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-thinking
+## The thinking subject ([Descartes](../people/descartes.md))
 
-The subject whose present thinking is at issue.
+The one who exists as the subject of present doubting or thinking. Claims about an enduring or immaterial self require further argument.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Existence in the act of doubting](../proposals/p006-descartes-cogito.md)
 
-## sense-aggregates
+## What one takes oneself to be ([Buddha](../people/buddha.md))
 
-Identity claims directed at changing experiential constituents.
+What one takes oneself to be when identifying with form, feeling, perception, fabrications, or consciousness. The discourse rejects these identifications because these aggregates change and cannot be controlled at will.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Questioning identification with the aggregates](../proposals/p021-buddhist-not-self.md)
 
-## sense-transformation
+## One’s identity across dream and waking ([Zhuangzi](../people/zhuangzi.md))
 
-Identity questioned through changing perspectives.
+Who one experiences oneself to be: a butterfly in the dream, [Zhuangzi](../people/zhuangzi.md) on waking. The story questions how these identities relate.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [The butterfly dream](../proposals/p026-zhuangzi-butterfly.md)
 
-## sense-double-consciousness
+## A divided self-understanding ([Du Bois](../people/du-bois.md))
 
-Self-understanding under a racialized devaluing gaze.
+One’s understanding of who one is, divided by the experience of being Black and American under racial domination.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Double-consciousness](../proposals/p029-du-bois-double-consciousness.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

@@ -2,31 +2,27 @@
 id: "concept.middle"
 type: "concept"
 status: "provisional"
-senses: ["aristotle", "buddhist"]
+senses: {"aristotle": "the-mean-relative-to-a-person-and-situation-aristotle", "buddhist": "the-eightfold-path-buddha"}
 ---
 
-# Middle / mean
+# Middle and mean
 
-This page groups related senses for navigation. It does not impose a single definition or declare the senses equivalent. Sense labels and boundaries are editorial proposals. The linked records supply their philosophical basis.
+Draft interpretations of how middle and mean are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
 
-## sense-aristotle
+## The mean relative to a person and situation ([Aristotle](../people/aristotle.md))
 
-Appropriateness between excess and deficiency.
+A response between excess and deficiency, relative to the person and circumstances and guided by reason and practical wisdom. Some actions admit no virtuous mean.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [Virtue and the mean](../proposals/p001-aristotle-mean.md)
 
-## sense-buddhist
+## The eightfold path ([Buddha](../people/buddha.md))
 
-A specified path avoiding two rejected practices.
+The eightfold path, which avoids indulgence and self-mortification. The middle here is a specific practice, not a general instruction to compromise.
 
-Proposals articulating or using this sense:
+Related proposals:
 
 - [A middle path of practice](../proposals/p020-buddhist-middle.md)
-
-## Comparison status
-
-Shared placement records a topic of comparison. It establishes no equivalence, contradiction, or historical influence. Follow the proposals to inspect the relevant scope and commitments.
 
 [Network index](../INDEX.md)

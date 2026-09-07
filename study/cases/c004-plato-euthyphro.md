@@ -3,40 +3,38 @@ id: "case.plato-euthyphro"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.plato-euthyphro"
-hypothesized_package: "argument"
+expected_context: "argument"
 human_responses: 0
 ---
 
 # Case 04: Approval and what makes something pious
 
-[Read the core, qualification, and source locator](../../proposals/p004-plato-euthyphro.md)
+[Read the proposal](../../proposals/p004-plato-euthyphro.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **argument**. The question is compact, but evaluating the challenge needs the dialogue’s commitments.
+Expected context: **Argument**. The dialogue’s reasoning may help readers distinguish descriptions that apply to the same things from an explanation of why they apply.
 
-## Constructed rival
+## Possible misreading
 
-Agreement that two descriptions coincide explains why they coincide.
+If two descriptions apply to exactly the same things, they must explain them in the same way.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+If being pious and being approved by the gods apply to the same things, does that establish whether approval makes them pious?
 
-If two descriptions apply to exactly the same cases, must they explain those cases in the same way?
+## Draft answer guide
 
-## Provisional reviewer key
+No. Knowing that the descriptions apply to the same things does not establish whether divine approval makes them pious or responds to their piety.
 
-No; extension alone does not settle explanatory direction.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

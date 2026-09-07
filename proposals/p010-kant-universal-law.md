@@ -6,18 +6,20 @@ attribution: "editorial-reconstruction"
 form: "principle"
 contributor: "person.kant"
 source: "source.kant-groundwork"
-relations: [{"type": "uses-sense", "target": "../concepts/obligation.md#sense-kant", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/reciprocity.md#sense-universal-law", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/obligation.md#a-requirement-of-universal-law-kant", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/reciprocity.md#a-principle-one-can-will-for-everyone-kant", "status": "editorial-mapping"}]
 ---
 
 # Universalizing a principle of action
 
-## Core
+Draft interpretation of the cited passage; not a quotation.
 
-Act on a principle you can coherently will as a law for everyone.
+## Short version
 
-## Qualification
+Act only on a principle you can coherently will as a law for everyone.
 
-The object of assessment is a maxim. Conceiving a universal practice and willing it involve different tests; simple popularity or predicted inconvenience is insufficient.
+## Context and limits
+
+A maxim is a principle of action. Conceiving it as a universal law asks whether it is possible without contradiction; willing that law asks whether one could rationally choose it. Popularity or predicted inconvenience alone settles neither test.
 
 ## Source and attribution
 
@@ -25,13 +27,11 @@ The object of assessment is a maxim. Conceiving a universal practice and willing
 
 Passage: Section II, Academy 4:421–424, formulation and contrasting examples.
 
-This is an editorial reconstruction for evaluation. It is not a quotation or a verified statement of the author’s complete position.
-
 ## Concept senses
 
-- [Obligation: kant](../concepts/obligation.md#sense-kant)
-- [Reciprocity / universal consideration: universal-law](../concepts/reciprocity.md#sense-universal-law)
+- [Obligation: A requirement of universal law](../concepts/obligation.md#a-requirement-of-universal-law-kant) ([Kant](../people/kant.md))
+- [Reciprocity and universal consideration: A principle one can will for everyone](../concepts/reciprocity.md#a-principle-one-can-will-for-everyone-kant) ([Kant](../people/kant.md))
 
 ## Study and navigation
 
-[Reduction case and proposed probes](../study/cases/c010-kant-universal-law.md) · [Network index](../INDEX.md)
+[Study case](../study/cases/c010-kant-universal-law.md) · [Network index](../INDEX.md)

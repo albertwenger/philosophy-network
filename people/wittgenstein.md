@@ -6,7 +6,7 @@ status: "navigation-entry"
 
 # Ludwig Wittgenstein
 
-Author of the cited work; the English core statements are editorial paraphrases of the German.
+Author of the cited work. The English short versions are draft interpretations of the German text.
 
 ## Proposals
 

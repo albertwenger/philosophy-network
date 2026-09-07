@@ -3,40 +3,38 @@ id: "case.wollstonecraft-education"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.wollstonecraft-education"
-hypothesized_package: "historical"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 28: Education and apparent nature
 
-[Read the core, qualification, and source locator](../../proposals/p028-wollstonecraft-education.md)
+[Read the proposal](../../proposals/p028-wollstonecraft-education.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **historical**. The gendered institutions matter to understanding the intervention.
+Expected context: **None for this question**. The short version identifies education as a possible cause of differences and may be enough for this causal question. The question does not ask readers to explain the historical institutions.
 
-## Constructed rival
+## Possible misreading
 
-Observed group differences establish immutable natural limits.
+Observed differences between groups establish fixed natural limits.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Would observing a difference between groups, by itself, establish whether unequal education helped produce it?
 
-Would an observed difference alone distinguish innate capacity from unequal opportunities to develop it?
+## Draft answer guide
 
-## Provisional reviewer key
+No. Unequal education and opportunities could help produce the observed difference; that explanation also needs examination.
 
-No; the alternative causal explanation requires examination.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

@@ -3,40 +3,38 @@ id: "case.du-bois-double-consciousness"
 type: "case"
 status: "editorial-only"
 proposal: "proposal.du-bois-double-consciousness"
-hypothesized_package: "historical"
+expected_context: "none"
 human_responses: 0
 ---
 
 # Case 29: Double-consciousness
 
-[Read the core, qualification, and source locator](../../proposals/p029-du-bois-double-consciousness.md)
+[Read the proposal](../../proposals/p029-du-bois-double-consciousness.md)
 
-## Editorial hypothesis
+## Expected context need
 
-Smallest package proposed for testing: **historical**. Context helps constitute the concept rather than merely illustrating it.
+Expected context: **None for this question**. The short version identifies racial domination and divided self-understanding and may be enough to distinguish this account from simply having two roles.
 
-## Constructed rival
+## Possible misreading
 
 Having two ordinary roles is all that double-consciousness means.
 
-This is an editor-created distractor, not a position attributed to a historical opponent.
+## Reader question
 
-## Reader probe
+Would alternating between a hobby and a profession, by itself, capture this account of double-consciousness?
 
-Would alternating between a hobby and a profession capture the account without further conditions?
+## Draft answer guide
 
-## Provisional reviewer key
+No. This interpretation concerns Black American experience under racial domination and seeing oneself through others’ devaluing judgments.
 
-No; domination and devaluation are essential to this reconstruction.
+Independent source review is needed before scoring.
 
-This key was prepared by the same editor as the reduction. Independent source review is required before it can be used as a scoring standard.
+## Further question
 
-## Further probe
+What assumption, limit, or choice of interpretation would you need to examine before using what you read in a new argument?
 
-Identify one premise, scope condition, or interpretive choice that would need attention before using the proposal in a new argument.
+## Reader results
 
-## Observation record
+No reader responses have been collected.
 
-No reader response, accuracy score, or completion time has been collected.
-
-[Protocol and package definitions](../PROTOCOL.md) · [Corpus](../CORPUS.md)
+[Reader study protocol](../PROTOCOL.md) · [Study passages](../CORPUS.md)

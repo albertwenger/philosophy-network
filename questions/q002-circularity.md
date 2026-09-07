@@ -7,13 +7,11 @@ relations: [{"type":"challenges-inference","target":"../arguments/a001-induction
 
 # What does circularity establish?
 
-Does the [argument’s challenge](../arguments/a001-induction.md) rule out
-independent vindication, every kind of warrant, or only a particular defense?
-Could practical reliance be assessed separately?
+Does the [argument about induction](../arguments/a001-induction.md) undermine
+one defense of induction or every possible justification? Does relying on
+induction in practice require the kind of justification challenged here?
 
-This editor-created question targets the scope of an inference. It does not
-assert that the argument’s premises are false, or that its conclusion is
-false. Keeping these targets distinct is a small demonstration of why a
-network needs explicit relation types.
+An open editorial question about the reach of the inference. It does not
+assert that the premises or conclusion are false.
 
 [Network index](../INDEX.md)

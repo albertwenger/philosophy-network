@@ -12,7 +12,7 @@ Author of the cited works.
 
 - [The circular defense of induction](../proposals/p007-hume-induction.md)
 - [Experienced regularity and felt necessity](../proposals/p008-hume-necessary-connection.md)
-- [Making a normative transition explicit](../proposals/p009-hume-is-ought.md)
+- [From descriptions to what ought to be done](../proposals/p009-hume-is-ought.md)
 
 ## Sources
 
