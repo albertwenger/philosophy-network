@@ -17,6 +17,9 @@ The English short versions are draft interpretations of the German text.
 - [Overlapping resemblance](../proposals/p015-wittgenstein-family.md)
 - [Meaning through use](../proposals/p016-wittgenstein-meaning.md)
 - [Philosophy as several methods](../proposals/p017-wittgenstein-methods.md)
+- [Philosophy through descriptions of language](../proposals/p076-wittgenstein-description.md)
+- [Learning to express pain](../proposals/p077-wittgenstein-pain.md)
+- [Understanding a rule in practice](../proposals/p078-wittgenstein-rules.md)
 
 ## Sources
 

@@ -57,8 +57,8 @@ Three starting points:
 
 ## Project status
 
-The network contains 57 proposals, 40 concept pages, 17 contributor pages,
-and 22 source records. All interpretations remain drafts and have not received
+The network contains 88 proposals, 52 concept pages, 22 contributor pages,
+and 31 source records. All interpretations remain drafts and have not received
 independent source review. Reader testing is deferred while the network grows.
 
 [Decision record](DECISIONS.md) · [Record conventions](SCHEMA.md)

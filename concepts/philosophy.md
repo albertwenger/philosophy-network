@@ -16,5 +16,6 @@ Clarifying philosophical confusions through different methods suited to differen
 Related proposals:
 
 - [Philosophy as several methods](../proposals/p017-wittgenstein-methods.md)
+- [Philosophy through descriptions of language](../proposals/p076-wittgenstein-description.md)
 
 [Network index](../INDEX.md)

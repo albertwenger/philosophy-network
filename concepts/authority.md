@@ -2,12 +2,14 @@
 id: "concept.authority"
 type: "concept"
 status: "provisional"
-senses: {"divine": "divine-approval-plato", "testimony": "the-standing-of-a-teacher-or-tradition-buddha"}
+senses: {"divine": "divine-approval-plato", "testimony": "the-standing-of-a-teacher-or-tradition-buddha", "credibility": "standing-as-a-credible-speaker-fricker"}
 ---
 
 # Authority
 
 These passages ask what weight to give divine approval, a teacher’s standing, or an established tradition.
+
+The further passage concerns credibility assigned to a speaker and the effects of prejudice.
 
 ## Divine approval ([Plato](../people/plato.md))
 
@@ -24,5 +26,13 @@ A teacher’s standing or an established tradition, offered as a reason to accep
 Related proposals:
 
 - [Assessing a teaching](../proposals/p022-buddhist-kalama.md)
+
+## Standing as a credible speaker ([Fricker](../people/fricker.md))
+
+A speaker’s credibility, which identity prejudice can unjustly diminish.
+
+Related proposals:
+
+- [Prejudice can wrong a speaker as a knower](../proposals/p088-fricker-testimony.md)
 
 [Network index](../INDEX.md)

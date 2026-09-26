@@ -25,8 +25,11 @@ The selected passage was consulted. The passage numbers identify it across editi
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: 12e–15c, on attention, service, prayer, and sacrifice, checked in the Internet Classics Archive transcription on 2026-09-26.
+
 ## Selected passages
 
 - [Approval and what makes something pious](../proposals/p004-plato-euthyphro.md): 10a–11b, Socrates and Euthyphro on the pious and the god-loved.
+- [What would service to the gods accomplish?](../proposals/p067-plato-service-piety.md): 12e–15c: attention, service, prayer, sacrifice, and the return to what the gods love.
 
 [Network index](../INDEX.md)

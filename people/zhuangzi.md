@@ -16,6 +16,7 @@ The cited text and its literary speakers are associated with Zhuangzi. Authorshi
 
 - [The usefulness of an unusable tree](../proposals/p025-zhuangzi-usefulness.md)
 - [The butterfly dream](../proposals/p026-zhuangzi-butterfly.md)
+- [Winning a dispute does not settle correctness](../proposals/p094-zhuangzi-dispute.md)
 
 ## Sources
 

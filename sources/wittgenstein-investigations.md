@@ -27,10 +27,15 @@ Sections 43, 65–71, and 133 inspected. The English short versions are draft in
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: §§107–110, 198–202, and 244–246 in the German text, checked on 2026-09-26. The English interpretations distinguish the dialogue’s questions from its responses.
+
 ## Selected passages
 
 - [Overlapping resemblance](../proposals/p015-wittgenstein-family.md): Sections 65–71, sequence of game examples.
 - [Meaning through use](../proposals/p016-wittgenstein-meaning.md): Section 43, including its opening restriction and final sentence.
 - [Philosophy as several methods](../proposals/p017-wittgenstein-methods.md): Section 133, including the different methods and examples.
+- [Philosophy through descriptions of language](../proposals/p076-wittgenstein-description.md): Part I, §109, read with §§107–110.
+- [Learning to express pain](../proposals/p077-wittgenstein-pain.md): Part I, §§244–246: learning pain words and the language of knowing pain.
+- [Understanding a rule in practice](../proposals/p078-wittgenstein-rules.md): Part I, §§198–202: interpretation, custom, and rule-following.
 
 [Network index](../INDEX.md)

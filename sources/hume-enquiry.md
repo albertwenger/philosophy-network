@@ -25,9 +25,14 @@ Sections IV and VII inspected.
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: Section II, paragraphs 11–17; Section V.I, paragraphs 35–38 (with paragraph 39 in part II); and Section XII, paragraphs 128–130, checked on 2026-09-26.
+
 ## Selected passages
 
 - [The circular defense of induction](../proposals/p007-hume-induction.md): Section IV, part II, especially numbered paragraphs 28–32.
 - [Experienced regularity and felt necessity](../proposals/p008-hume-necessary-connection.md): Section VII, part II, especially paragraphs 58–60.
+- [Ideas and their experiential materials](../proposals/p072-hume-impressions-ideas.md): Section II, numbered paragraphs 11–17, including the missing shade of blue.
+- [Habit carries expectation beyond experience](../proposals/p073-hume-custom-expectation.md): Section V, part I, numbered paragraphs 35–38.
+- [Doubt can discipline ordinary inquiry](../proposals/p095-hume-moderate-doubt.md): Section XII, part III, numbered paragraphs 129–130, read with 128.
 
 [Network index](../INDEX.md)

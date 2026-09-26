@@ -16,6 +16,7 @@ The one who exists as the subject of present doubting or thinking. Claims about 
 Related proposals:
 
 - [Existence in the act of doubting](../proposals/p006-descartes-cogito.md)
+- [What the thinking subject does](../proposals/p070-descartes-modes-thinking.md)
 
 ## What one takes oneself to be ([Buddha](../people/buddha.md))
 

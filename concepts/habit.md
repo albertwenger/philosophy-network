@@ -2,12 +2,12 @@
 id: "concept.habit"
 type: "concept"
 status: "provisional"
-senses: {"character": "character-formed-by-repeated-actions-aristotle", "capacity": "an-acquired-capacity-for-effective-action-dewey"}
+senses: {"character": "character-formed-by-repeated-actions-aristotle", "capacity": "an-acquired-capacity-for-effective-action-dewey", "expectation": "expectations-formed-through-repeated-experience-hume"}
 ---
 
 # Habit
 
-How do repeated actions shape character and a capacity to act?
+How does repetition shape character, capacities for action, and expectations about events?
 
 ## Character formed by repeated actions ([Aristotle](../people/aristotle.md))
 
@@ -25,5 +25,13 @@ A disposition acquired through experience that enables action within an environm
 Related proposals:
 
 - [Habits can keep learning alive](../proposals/p048-dewey-habit.md)
+
+## Expectations formed through repeated experience ([Hume](../people/hume.md))
+
+A propensity produced by repetition that carries the mind from one familiar event to the expectation of another, without a demonstrative inference.
+
+Related proposals:
+
+- [Habit carries expectation beyond experience](../proposals/p073-hume-custom-expectation.md)
 
 [Network index](../INDEX.md)

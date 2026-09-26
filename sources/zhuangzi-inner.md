@@ -25,9 +25,12 @@ Primary narrative at PDF pages 118 and 127 (one-based) visually inspected agains
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: Book II, paragraph 10, PDF p. 126 (one-based), on disputation and adjudication, checked through the PDF text on 2026-09-26. The quotation avoids damaged romanized names.
+
 ## Selected passages
 
 - [The usefulness of an unusable tree](../proposals/p025-zhuangzi-usefulness.md): Book I, final dialogue on the large tree; PDF page 118 (one-based).
 - [The butterfly dream](../proposals/p026-zhuangzi-butterfly.md): Book II, final butterfly narrative; PDF page 127 (one-based).
+- [Winning a dispute does not settle correctness](../proposals/p094-zhuangzi-dispute.md): Book II, paragraph 10, discussion of victory and adjudication; PDF p. 126.
 
 [Network index](../INDEX.md)

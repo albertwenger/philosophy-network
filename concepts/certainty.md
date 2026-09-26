@@ -16,6 +16,7 @@ The certainty of one’s own existence while doubting or thinking. Claims about 
 Related proposals:
 
 - [Existence in the act of doubting](../proposals/p006-descartes-cogito.md)
+- [What the thinking subject does](../proposals/p070-descartes-modes-thinking.md)
 
 ## Certainty within a perspective ([Zhuangzi](../people/zhuangzi.md))
 

@@ -30,6 +30,7 @@ candidate passages can change when close reading warrants it; preserve the
 | --- | ---: | ---: | ---: | ---: |
 | Baseline | 27 | 30 | 13 | 18 |
 | Wave 1 | 40 | 57 | 17 | 22 |
+| Wave 2 | 52 | 88 | 22 | 31 |
 
 Wave 1 adds Mencius, Dewey, Gyekye, and Tronto. All 23 concepts developed in
 that wave have at least two distinct proposals, and 19 have at least three.
@@ -37,6 +38,14 @@ New connections to Habit, Experience, and Human nature also reuse existing
 Aristotle and Wollstonecraft proposals. Baseline interpretations and excerpts
 are unchanged. Source inspection and structural validation are complete;
 the interpretations remain drafts.
+
+Wave 2 adds [Avicenna](people/avicenna.md), [Maimonides](people/maimonides.md),
+[Nāgārjuna](people/nagarjuna.md), [Dōgen](people/dogen.md), and
+[Miranda Fricker](people/fricker.md). All concepts developed in this wave have
+at least two distinct proposals. It also connects [Hume](people/hume.md)'s
+account of custom to [Habit](concepts/habit.md). Source and concept reviews found
+no blocking issues; the interpretations remain drafts. The remaining concepts
+below two proposals belong to Wave 3.
 
 ## Selection and review
 

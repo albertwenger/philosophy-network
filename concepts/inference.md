@@ -16,6 +16,7 @@ Reasoning from observed cases to unobserved cases, including expectations about 
 Related proposals:
 
 - [The circular defense of induction](../proposals/p007-hume-induction.md)
+- [Habit carries expectation beyond experience](../proposals/p073-hume-custom-expectation.md)
 
 ## Reasoning about what ought to be done ([Hume](../people/hume.md))
 

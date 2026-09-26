@@ -2,12 +2,12 @@
 id: "concept.knowledge"
 type: "concept"
 status: "provisional"
-senses: {"practical": "knowledge-needed-for-action-aristotle", "meno": "knowledge-made-stable-by-an-account-plato", "inductive": "knowledge-gained-through-experience-hume"}
+senses: {"practical": "knowledge-needed-for-action-aristotle", "meno": "knowledge-made-stable-by-an-account-plato", "inductive": "knowledge-gained-through-experience-hume", "reflection": "knowledge-through-reflection-on-experience-plato", "negative": "understanding-through-exclusions-maimonides", "testimony": "knowledge-conveyed-through-testimony-fricker"}
 ---
 
 # Knowledge
 
-These passages connect knowledge with practical judgment, an explanatory account of true opinion, and what we learn through experience.
+These passages connect knowledge with practical judgment, accounts that stabilize opinion, experience and reflection, the limits of knowing God, and what people convey through testimony.
 
 ## Knowledge needed for action ([Aristotle](../people/aristotle.md))
 
@@ -32,5 +32,29 @@ Knowledge of events and their effects gained through experience. The linked argu
 Related proposals:
 
 - [The circular defense of induction](../proposals/p007-hume-induction.md)
+
+## Knowledge through reflection on experience ([Plato](../people/plato.md))
+
+Understanding that reaches truth through reflection on sensations, rather than through sensation alone.
+
+Related proposals:
+
+- [Knowledge requires reflection on sensation](../proposals/p065-plato-sensation-reflection.md)
+
+## Understanding through exclusions ([Maimonides](../people/maimonides.md))
+
+Knowing what God is not, without thereby comprehending the divine essence.
+
+Related proposals:
+
+- [Knowing through what cannot be said of God](../proposals/p081-maimonides-negation.md)
+
+## Knowledge conveyed through testimony ([Fricker](../people/fricker.md))
+
+Understanding people can give one another by telling them what they know.
+
+Related proposals:
+
+- [Prejudice can wrong a speaker as a knower](../proposals/p088-fricker-testimony.md)
 
 [Network index](../INDEX.md)
