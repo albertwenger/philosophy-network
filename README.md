@@ -13,6 +13,7 @@ retain the context needed to understand their claims.
 
 - [Network index](INDEX.md): browse concepts, contributors, and proposals.
 - [Next work](NEXT.md): priorities for expanding and reviewing the network.
+- [Expansion review](EXPANSION-REVIEW.md): findings from the 64-concept milestone.
 
 ## How to read the network
 
@@ -57,9 +58,12 @@ Three starting points:
 
 ## Project status
 
-The network contains 88 proposals, 52 concept pages, 22 contributor pages,
-and 31 source records. All interpretations remain drafts and have not received
-independent source review. Reader testing is deferred while the network grows.
+The network contains 116 proposals, 64 concept pages, 29 contributor pages,
+and 41 source records. Every concept has at least two distinct proposals;
+52 have three or more. The [milestone review](EXPANSION-REVIEW.md) records
+coverage, editorial findings, and remaining gaps. All interpretations remain
+drafts and have not received independent scholarly review. Reader testing has
+not been conducted.
 
 [Decision record](DECISIONS.md) · [Record conventions](SCHEMA.md)
 

@@ -6,16 +6,16 @@ Checks cover record-folder requirements, metadata and IDs, local links and ancho
 
 | Record type | Count |
 | --- | ---: |
-| concept | 52 |
-| person | 22 |
-| proposal | 88 |
-| source | 31 |
+| concept | 64 |
+| person | 29 |
+| proposal | 116 |
+| source | 41 |
 
-Declared senses: 141.
+Declared senses: 180.
 
 | Text counted | Minimum words | Median words | Maximum words |
 | --- | ---: | ---: | ---: |
-| Short version | 6 | 11 | 20 |
+| Short version | 6 | 12 | 20 |
 | Short version with context and limits | 19 | 43 | 72 |
 
 Counts cover only the named sections, excluding metadata, source excerpts, reasoning, concept pages, and other linked context. They do not measure reader effort or show that meaning has been preserved.
@@ -26,7 +26,10 @@ Each proposal is counted once per concept, even when it uses several senses. Con
 
 | Concept | Distinct proposals | Contributors |
 | --- | ---: | ---: |
+| Alienation | 2 | 1 |
+| Art | 3 | 2 |
 | Authority | 3 | 3 |
+| Beauty | 3 | 2 |
 | Being | 2 | 2 |
 | Belief | 2 | 2 |
 | Care | 4 | 2 |
@@ -38,45 +41,54 @@ Each proposal is counted once per concept, even when it uses several senses. Con
 | Concept | 3 | 3 |
 | Consciousness | 3 | 3 |
 | Democracy | 3 | 2 |
+| Desire | 4 | 4 |
 | Dignity | 3 | 2 |
 | Doubt | 3 | 3 |
 | Education | 10 | 6 |
 | Embodiment | 3 | 3 |
+| Emotion | 3 | 2 |
 | End | 5 | 3 |
 | Equality | 6 | 4 |
 | Experience | 3 | 2 |
-| Freedom | 2 | 2 |
+| Freedom | 5 | 3 |
 | Habit | 4 | 3 |
-| Harm | 1 | 1 |
+| Happiness | 3 | 2 |
+| Harm | 4 | 3 |
 | Human nature | 4 | 2 |
 | Humanity | 2 | 1 |
 | Inference | 3 | 1 |
+| Interpretation | 3 | 3 |
 | Judgment | 8 | 6 |
 | Justice | 4 | 2 |
 | Knowledge | 6 | 5 |
+| Labor | 3 | 2 |
 | Meaning | 4 | 2 |
-| Middle | 2 | 2 |
-| Moral rightness | 1 | 1 |
+| Middle | 3 | 3 |
+| Moral rightness | 3 | 2 |
+| Nature | 4 | 3 |
 | Obligation | 6 | 4 |
 | Opinion | 2 | 1 |
 | Perception | 5 | 5 |
 | Personhood | 3 | 2 |
 | Philosophy | 2 | 1 |
 | Piety | 2 | 1 |
-| Pleasure | 2 | 1 |
+| Pleasure | 5 | 3 |
 | Power | 3 | 3 |
+| Progress | 2 | 2 |
 | Reality | 2 | 2 |
 | Reason | 3 | 3 |
-| Reciprocity | 2 | 1 |
+| Reciprocity | 3 | 2 |
 | Recognition | 2 | 1 |
 | Responsibility | 4 | 4 |
 | Rights | 3 | 3 |
 | Self | 5 | 4 |
 | Substance | 3 | 3 |
+| Sustainability | 3 | 1 |
+| Technology | 3 | 2 |
 | Time | 3 | 2 |
 | Truth | 3 | 3 |
 | Universalization | 3 | 1 |
-| Usefulness | 1 | 1 |
+| Usefulness | 3 | 3 |
 | Virtue | 7 | 4 |
 
 Structural checks do not assess philosophical accuracy.

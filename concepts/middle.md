@@ -2,12 +2,12 @@
 id: "concept.middle"
 type: "concept"
 status: "provisional"
-senses: {"aristotle": "the-mean-relative-to-a-person-and-situation-aristotle", "buddhist": "the-eightfold-path-buddha"}
+senses: {"aristotle": "the-mean-relative-to-a-person-and-situation-aristotle", "buddhist": "the-eightfold-path-buddha", "schiller": "an-aesthetic-state-between-sensation-and-thought-schiller"}
 ---
 
 # Middle
 
-A mean fitted to particular circumstances and an eightfold path of practice give “middle” different roles.
+A mean fitted to circumstances, an eightfold path, and an aesthetic state between sense and reason give the middle different roles.
 
 ## The mean relative to a person and situation ([Aristotle](../people/aristotle.md))
 
@@ -24,5 +24,13 @@ The eightfold path, which avoids indulgence and self-mortification. The middle h
 Related proposals:
 
 - [A middle path of practice](../proposals/p020-buddhist-middle.md)
+
+## An aesthetic state between sensation and thought ([Schiller](../people/schiller.md))
+
+An active state in which sensibility and reason work together without either exclusively determining the mind. This is an account of aesthetic freedom, not an average opinion.
+
+Related proposals:
+
+- [An active middle between sense and reason](../proposals/p102-schiller-aesthetic-middle.md)
 
 [Network index](../INDEX.md)

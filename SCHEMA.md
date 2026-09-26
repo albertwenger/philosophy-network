@@ -39,6 +39,8 @@ the source.
 
 An identifier is stable across wording revisions and must not be reassigned
 to unrelated content. Filenames can change if links are updated.
+Some identifiers retain earlier titles: Opinion uses `concept.belief`, Humanity
+uses `concept.person`, and the newer Belief page uses `concept.belief-assent`.
 
 ## Front matter
 
@@ -75,6 +77,11 @@ A sense describes what a term means in the selected passage. It may be a
 meaning used, proposed, or challenged there; its presence does not imply that
 the contributor accepts it. Give each sense a descriptive heading and use
 ordinary language drawn from its linked proposal where possible.
+
+Several proposals can share a sense when the meaning stays stable. Different
+examples, practices, or consequences do not by themselves require separate
+senses. Add a new sense when a distinction in meaning matters to reading the
+passages, and define that distinction clearly.
 
 End each sense heading and repeated sense label with only the philosopher's
 name in parentheses, linked to the contributor page with Markdown. Put source

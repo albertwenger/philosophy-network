@@ -21,6 +21,8 @@ Carter’s translation was first published in 1758; excerpts use the 1759 editio
 
 ## Passages consulted
 
+Sections XIV, XX, and XLIX consulted in Carter’s 1759 edition on 2026-09-26.
+
 Sections 1 and 5 rechecked against Carter’s 1759 edition for these excerpts. The earlier consultation used the [Internet Classics Archive transcription](https://classics.mit.edu/Epictetus/epicench.html).
 
 The check covered these passages and their immediate context. Independent source review is still needed.
@@ -29,5 +31,9 @@ The check covered these passages and their immediate context. Independent source
 
 - [What is up to us](../proposals/p018-epictetus-control.md): Section 1 in full.
 - [Judgment and disturbance](../proposals/p019-epictetus-judgment.md): Section 5 in full.
+
+- [Desire can make us dependent on others](../proposals/p121-epictetus-desire-and-dependence.md): Section XIV, concluding account of mastery and freedom.
+- [Make room before assenting to an insult](../proposals/p122-epictetus-pause-before-anger.md): Section XX in full.
+- [Interpreting philosophy should lead into practice](../proposals/p123-epictetus-interpretation-and-practice.md): Section XLIX, concluding paragraph on the interpreter and the use of instructions.
 
 [Network index](../INDEX.md)

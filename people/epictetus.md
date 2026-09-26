@@ -17,6 +17,10 @@ The Enchiridion transmits teachings associated with Epictetus; this attribution 
 - [What is up to us](../proposals/p018-epictetus-control.md)
 - [Judgment and disturbance](../proposals/p019-epictetus-judgment.md)
 
+- [Desire can make us dependent on others](../proposals/p121-epictetus-desire-and-dependence.md)
+- [Make room before assenting to an insult](../proposals/p122-epictetus-pause-before-anger.md)
+- [Interpreting philosophy should lead into practice](../proposals/p123-epictetus-interpretation-and-practice.md)
+
 ## Sources
 
 - [Enchiridion](../sources/epictetus-enchiridion.md)

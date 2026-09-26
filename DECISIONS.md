@@ -1,5 +1,24 @@
 # Decisions
 
+## 2026-09-26: complete the 64-concept milestone
+
+Three waves grew the network to 64 concepts, 116 proposals, 29 contributors,
+41 sources, and 180 senses. All concepts have at least two distinct proposals;
+52 have at least three. The [expansion review](EXPANSION-REVIEW.md) records the
+editorial findings, coverage limits, and validation.
+
+The four record types remain sufficient at this size. Several proposals may
+share a sense: Sustainability's three passages were grouped under one meaning,
+while source-grounded bridges were added between Habit and custom, and between
+Reciprocity and ecological care. Numerical targets did not require three
+proposals where two provided a stronger, more defensible selection.
+
+The original 30 interpretations and excerpts are unchanged. New source records
+identify editions and access limits; contributor pages include biographies and
+Wikipedia links. Source inspection and assistant editorial review do not replace
+independent scholarly review. The next priority is using and reviewing this
+larger network, with further breadth guided by the documented gaps.
+
 ## 2026-09-26: expand to 64 concepts with depth
 
 The next milestone grows the network from 27 to 64 concepts, each connected to
