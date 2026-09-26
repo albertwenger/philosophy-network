@@ -3,7 +3,7 @@ id: "source.plato-meno"
 type: "source"
 status: "passages-inspected"
 url: "https://classics.mit.edu/Plato/meno.html"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.plato"
 ---
 
@@ -11,9 +11,13 @@ contributor: "person.plato"
 
 Edition: Benjamin Jowett translation, Internet Classics Archive.
 
-[Read the primary text](https://classics.mit.edu/Plato/meno.html)
+[Read the full work](https://classics.mit.edu/Plato/meno.html)
 
 Contributor: [Plato](../people/plato.md).
+
+## Text and reuse
+
+Benjamin Jowett’s translation is public domain in the United States. Project Gutenberg’s [record for the 1892 third edition](https://www.gutenberg.org/ebooks/76464) identifies the translator, includes this dialogue, and confirms U.S. public-domain status. Excerpts follow the Internet Classics Archive transcription. Checked 2026-09-26.
 
 ## Passages consulted
 

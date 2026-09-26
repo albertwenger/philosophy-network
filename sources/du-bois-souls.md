@@ -3,7 +3,7 @@ id: "source.du-bois-souls"
 type: "source"
 status: "passages-inspected"
 url: "https://www.gutenberg.org/cache/epub/408/pg408-images.html"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.du-bois"
 ---
 
@@ -11,9 +11,13 @@ contributor: "person.du-bois"
 
 Edition: English text, Project Gutenberg 408.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/408/pg408-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/408)
 
 Contributor: [W. E. B. Du Bois](../people/du-bois.md).
+
+## Text and reuse
+
+The English text in this edition is public domain in the United States, as recorded in [Project Gutenberg’s catalogue](https://www.gutenberg.org/ebooks/408). The proposal excerpts use this edition. Text and status checked 2026-09-26.
 
 ## Passages consulted
 

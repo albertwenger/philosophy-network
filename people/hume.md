@@ -6,7 +6,9 @@ status: "navigation-entry"
 
 # David Hume
 
-Author of the cited works.
+David Hume (1711–1776) was a Scottish philosopher and historian. He explored how experience, habit, and feeling shape human thought, challenging assumptions about causation and the foundations of knowledge.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/David_Hume)
 
 ## Proposals
 

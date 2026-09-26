@@ -7,7 +7,7 @@ senses: {"noninterference": "freedom-from-coercion-mill", "stoic": "freedom-in-w
 
 # Freedom
 
-Draft interpretations of how freedom is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+Freedom here concerns limits on coercion and the judgments and choices that are up to us.
 
 ## Freedom from coercion ([Mill](../people/mill.md))
 

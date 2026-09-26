@@ -5,9 +5,9 @@ status: "provisional"
 senses: {"true-opinion": "true-opinion-that-guides-action-plato"}
 ---
 
-# Belief and opinion
+# Opinion
 
-A draft interpretation of how belief and opinion are used in the linked passage.
+What can a true opinion do without amounting to knowledge?
 
 ## True opinion that guides action ([Plato](../people/plato.md))
 

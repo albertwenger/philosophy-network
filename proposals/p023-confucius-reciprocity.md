@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/reciprocity.md#restrai
 
 # Reciprocal restraint
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -21,6 +21,12 @@ Avoid imposing on others what you would reject for yourself.
 
 The saying restrains conduct toward others. How it applies when people’s preferences differ requires interpretation; it does not promise the same treatment in return.
 
+## Source excerpt
+
+> Tsze-kung asked, saying, 'Is there one word which may serve as a rule of practice for all one's life?' The Master said, 'Is not RECIPROCITY such a word? What you do not want done to yourself, do not do to others.'
+
+James Legge translation, Book XV, chapter XXIII (commonly numbered 15.24).
+
 ## Source and attribution
 
 [Confucius in the Analects](../people/confucius.md); [Analects](../sources/confucius-analects.md).
@@ -29,8 +35,6 @@ Passage: Book XV, chapter XXIII in Legge; commonly Analects 15.24.
 
 ## Concept senses
 
-- [Reciprocity and universal consideration: Restraint in how one treats others](../concepts/reciprocity.md#restraint-in-how-one-treats-others-confucius) ([Confucius](../people/confucius.md))
+- [Reciprocity: Restraint in how one treats others](../concepts/reciprocity.md#restraint-in-how-one-treats-others-confucius) ([Confucius](../people/confucius.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c023-confucius-reciprocity.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

@@ -94,7 +94,19 @@ def render(body, path):
             out.append('</' + tag + '>')
             continue
         elif line.startswith('>'):
-            out.append('<blockquote>' + inline(line.lstrip('> '), path) + '</blockquote>')
+            paragraphs, paragraph = [], []
+            while i < len(lines) and lines[i].startswith('>'):
+                quoted = lines[i][1:].removeprefix(' ')
+                if quoted.strip():
+                    paragraph.append(quoted)
+                elif paragraph:
+                    paragraphs.append(' '.join(paragraph))
+                    paragraph = []
+                i += 1
+            if paragraph:
+                paragraphs.append(' '.join(paragraph))
+            out.append('<blockquote>' + ''.join('<p>' + inline(p, path) + '</p>' for p in paragraphs) + '</blockquote>')
+            continue
         else:
             paragraph = [line]
             i += 1

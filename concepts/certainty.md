@@ -7,7 +7,7 @@ senses: {"cogito": "certainty-of-present-existence-descartes", "perspective": "c
 
 # Certainty
 
-Draft interpretations of how certainty is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+These passages explore certainty about one’s existence while thinking and about who one is in dream or waking experience.
 
 ## Certainty of present existence ([Descartes](../people/descartes.md))
 

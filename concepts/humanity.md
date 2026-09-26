@@ -5,9 +5,9 @@ status: "provisional"
 senses: {"rational": "humanity-as-rational-nature-kant"}
 ---
 
-# Persons and humanity
+# Humanity
 
-A draft interpretation of how persons and humanity are used in the linked passage.
+What does respect for rational nature require in the way we treat ourselves and others?
 
 ## Humanity as rational nature ([Kant](../people/kant.md))
 

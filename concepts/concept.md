@@ -7,7 +7,7 @@ senses: {"family": "a-category-held-together-by-similarities-wittgenstein"}
 
 # Concept
 
-A draft interpretation of how a concept is used in the linked passage.
+Must everything in a category have one feature in common?
 
 ## A category held together by similarities ([Wittgenstein](../people/wittgenstein.md))
 

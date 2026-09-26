@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/middle.md#the-eightfol
 
 # A middle path of practice
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -29,8 +29,6 @@ Passage: SN 56.11, opening rejection of extremes and identification of the path.
 
 ## Concept senses
 
-- [Middle and mean: The eightfold path](../concepts/middle.md#the-eightfold-path-buddha) ([Buddha](../people/buddha.md))
+- [Middle: The eightfold path](../concepts/middle.md#the-eightfold-path-buddha) ([Buddha](../people/buddha.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c020-buddhist-middle.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

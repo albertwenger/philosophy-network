@@ -3,7 +3,7 @@ id: "source.buddhist-middle-way"
 type: "source"
 status: "passages-inspected"
 url: "https://www.dhammatalks.org/suttas/SN/SN56_11.html"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.buddha"
 ---
 
@@ -11,9 +11,18 @@ contributor: "person.buddha"
 
 Edition: Ṭhānissaro Bhikkhu translation, SN 56.11.
 
-[Read the primary text](https://www.dhammatalks.org/suttas/SN/SN56_11.html)
+[Read the full discourse](https://www.dhammatalks.org/suttas/SN/SN56_11.html)
 
 Contributor: [Discourses attributed to the Buddha](../people/buddha.md).
+
+## Text and reuse
+
+This modern translation is freely readable, but is not presented as public domain.
+The [publisher's copyright statement](https://www.dhammatalks.org/) specifies
+Creative Commons Attribution–NonCommercial 4.0, with some older texts carrying
+free-distribution terms. The proposal therefore links to the complete discourse
+without reproducing an excerpt under the project's public-domain convention.
+Edition and reuse statement checked on 2026-09-26.
 
 ## Passages consulted
 

@@ -2,8 +2,8 @@
 id: "source.kant-groundwork"
 type: "source"
 status: "passages-inspected"
-url: "https://www.gutenberg.org/cache/epub/5682/pg5682-images.html"
-accessed: "2026-09-06"
+url: "https://www.gutenberg.org/ebooks/5682"
+accessed: "2026-09-26"
 contributor: "person.kant"
 ---
 
@@ -11,9 +11,13 @@ contributor: "person.kant"
 
 Edition: Thomas Kingsmill Abbott translation, titled Fundamental Principles of the Metaphysic of Morals; Project Gutenberg 5682.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/5682/pg5682-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/5682)
 
 Contributor: [Immanuel Kant](../people/kant.md).
+
+## Text and reuse
+
+[Project Gutenberg’s record](https://www.gutenberg.org/ebooks/5682) identifies this edition as public domain in the United States. The edition and the [text used for excerpts](https://www.gutenberg.org/cache/epub/5682/pg5682-images.html) were checked on 2026-09-26.
 
 ## Passages consulted
 

@@ -6,7 +6,9 @@ status: "navigation-entry"
 
 # John Stuart Mill
 
-Author of the cited works.
+John Stuart Mill (1806–1873) was an English philosopher, economist, and politician. He defended individual liberty and women’s equality, and developed utilitarian ethics centered on promoting happiness.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/John_Stuart_Mill)
 
 ## Proposals
 

@@ -7,7 +7,7 @@ senses: {"practical": "judgment-about-how-to-act-aristotle", "competent": "infor
 
 # Judgment
 
-Draft interpretations of how judgment is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+Judgment here includes deciding how to act, comparing pleasures, assessing events, and evaluating teachings.
 
 ## Judgment about how to act ([Aristotle](../people/aristotle.md))
 

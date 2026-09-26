@@ -3,7 +3,7 @@ id: "source.wollstonecraft-vindication"
 type: "source"
 status: "passages-inspected"
 url: "https://www.gutenberg.org/cache/epub/3420/pg3420-images.html"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.wollstonecraft"
 ---
 
@@ -11,9 +11,13 @@ contributor: "person.wollstonecraft"
 
 Edition: English text, Project Gutenberg 3420.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/3420/pg3420-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/3420)
 
 Contributor: [Mary Wollstonecraft](../people/wollstonecraft.md).
+
+## Text and reuse
+
+The English text in this edition is public domain in the United States, as recorded in [Project Gutenberg’s catalogue](https://www.gutenberg.org/ebooks/3420). The proposal excerpts use this edition. Text and status checked 2026-09-26.
 
 ## Passages consulted
 

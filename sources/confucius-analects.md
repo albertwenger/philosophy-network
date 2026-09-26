@@ -3,7 +3,7 @@ id: "source.confucius-analects"
 type: "source"
 status: "passages-inspected"
 url: "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.confucius"
 ---
 
@@ -11,9 +11,13 @@ contributor: "person.confucius"
 
 Edition: James Legge translation, Project Gutenberg 3330.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/3330/pg3330-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/3330)
 
 Contributor: [Confucius in the Analects](../people/confucius.md).
+
+## Text and reuse
+
+The English text in this edition is public domain in the United States, as recorded in [Project Gutenberg’s catalogue](https://www.gutenberg.org/ebooks/3330). The proposal excerpts use this edition. Text and status checked 2026-09-26.
 
 ## Passages consulted
 

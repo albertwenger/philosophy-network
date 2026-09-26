@@ -3,17 +3,21 @@ id: "source.aristotle-ethics-ii"
 type: "source"
 status: "passages-inspected"
 url: "https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.aristotle"
 ---
 
 # Nicomachean Ethics, Book II
 
-Edition: W. D. Ross translation, Internet Classics Archive.
+Edition: W. D. Ross translation (1925), Internet Classics Archive.
 
-[Read the primary text](https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html)
+[Read the full work](https://classics.mit.edu/Aristotle/nicomachaen.html) · [Read Book II](https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html)
 
 Contributor: [Aristotle](../people/aristotle.md).
+
+## Text and reuse
+
+W. D. Ross’s 1925 translation is public domain in the United States. Cleveland State University’s [translation note](https://pressbooks.ulib.csuohio.edu/nicomacheanethics/front-matter/note-on-translation/) confirms the publication date and public-domain status of Ross’s original translation. Excerpts follow the Internet Classics Archive transcription. Checked 2026-09-26.
 
 ## Passages consulted
 

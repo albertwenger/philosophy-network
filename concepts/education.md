@@ -5,9 +5,9 @@ status: "provisional"
 senses: {"habituation": "character-shaped-through-practice-aristotle", "ritual": "character-shaped-through-example-and-ritual-confucius", "rational": "the-development-of-understanding-wollstonecraft", "human-development": "the-development-of-people-and-communities-du-bois"}
 ---
 
-# Education and formation
+# Education
 
-Draft interpretations of how education and formation are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+The passages consider how education shapes character, develops understanding, and serves people and communities.
 
 ## Character shaped through practice ([Aristotle](../people/aristotle.md))
 

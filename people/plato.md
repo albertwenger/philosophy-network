@@ -6,6 +6,10 @@ status: "navigation-entry"
 
 # Plato
 
+Plato (c. 428–c. 347 BCE) was an Athenian philosopher and founder of the Academy, where [Aristotle](aristotle.md) studied. He wrote philosophical dialogues exploring knowledge, virtue, justice, and reality, and developed the theory of Forms.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/Plato)
+
 The proposals interpret exchanges between speakers in Plato’s dialogues. A speaker’s position does not necessarily express Plato’s own view.
 
 ## Proposals

@@ -7,7 +7,7 @@ senses: {"devaluation": "how-others-regard-someone-du-bois"}
 
 # Recognition
 
-A draft interpretation of how recognition is used in the linked passage.
+How does racial devaluation shape the way Black Americans are seen and judged?
 
 ## How others regard someone ([Du Bois](../people/du-bois.md))
 

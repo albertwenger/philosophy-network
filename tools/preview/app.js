@@ -3,9 +3,9 @@ let network, current;
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const route = (path, fragment='') => '#/' + encodeURI(path) + (fragment ? '#' + encodeURIComponent(fragment) : '');
 const title = path => network.docs.find(d => d.path === path)?.title || path;
-const typeLabels = {concept:'Concept', proposal:'Proposal', person:'Contributor', source:'Source', argument:'Argument', question:'Open question', case:'Study case', guide:'Guide'};
-const statusLabels = {draft:'Draft', provisional:'Draft senses', 'passages-inspected':'Cited passages consulted', 'editorial-only':'No reader results', 'navigation-entry':'Contributor entry', 'editorial-reconstruction':'Draft interpretation', 'editorial-question':'Open editorial question', 'editorial-mapping':'Draft link', open:'Open'};
-const relationLabels = {'uses-sense':'Uses sense', 'questions-standard':'Questions standard', 'challenges-inference':'Questions inference'};
+const typeLabels = {concept:'Concept', proposal:'Proposal', person:'Contributor', source:'Source', guide:'Guide'};
+const statusLabels = {draft:'Draft', provisional:'Draft senses', 'passages-inspected':'Cited passages consulted', 'navigation-entry':'Contributor entry', 'editorial-reconstruction':'Draft interpretation', 'editorial-mapping':'Draft link'};
+const relationLabels = {'uses-sense':'Uses sense'};
 const readable = (value, labels) => labels[value] || value.replace(/[-_]/g, ' ');
 const anchorTitle = (path, fragment) => network.docs.find(d=>d.path===path)?.anchors?.[fragment] || fragment.replace(/[-_]/g, ' ');
 function selection() {

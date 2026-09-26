@@ -7,7 +7,7 @@ senses: {"moral": "a-shared-moral-standard-wollstonecraft"}
 
 # Equality
 
-A draft interpretation of how equality is used in the linked passages.
+Does moral virtue have the same standard for women and men?
 
 ## A shared moral standard ([Wollstonecraft](../people/wollstonecraft.md))
 

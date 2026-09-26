@@ -6,7 +6,9 @@ status: "navigation-entry"
 
 # Immanuel Kant
 
-Author of the cited work.
+Immanuel Kant (1724–1804) was a German philosopher who taught in Königsberg, Prussia. His work examined the limits of human knowledge and developed an ethics grounded in reason and duty.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/Immanuel_Kant)
 
 ## Proposals
 

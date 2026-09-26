@@ -7,7 +7,7 @@ senses: {"mill": "injury-to-others-mill"}
 
 # Harm
 
-A draft interpretation of how harm is used in the linked passage.
+When can preventing harm to others justify coercion?
 
 ## Injury to others ([Mill](../people/mill.md))
 

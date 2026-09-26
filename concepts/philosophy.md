@@ -7,7 +7,7 @@ senses: {"clarification": "clarification-through-different-methods-wittgenstein"
 
 # Philosophy
 
-A draft interpretation of how philosophy is used in the linked passage.
+How might different philosophical problems call for different methods of clarification?
 
 ## Clarification through different methods ([Wittgenstein](../people/wittgenstein.md))
 

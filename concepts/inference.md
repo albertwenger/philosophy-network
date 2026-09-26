@@ -7,7 +7,7 @@ senses: {"inductive": "reasoning-beyond-observed-cases-hume", "normative": "reas
 
 # Inference
 
-Draft interpretations of how inference is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+The arguments here examine two steps in reasoning: from observed to unobserved cases, and from descriptions to what ought to be done.
 
 ## Reasoning beyond observed cases ([Hume](../people/hume.md))
 

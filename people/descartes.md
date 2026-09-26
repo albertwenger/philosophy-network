@@ -6,7 +6,9 @@ status: "navigation-entry"
 
 # René Descartes
 
-Author of the cited work.
+René Descartes (1596–1650) was a French philosopher, mathematician, and scientist. His search for certainty through systematic doubt helped shape modern philosophy, alongside his work connecting algebra and geometry.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)
 
 ## Proposals
 

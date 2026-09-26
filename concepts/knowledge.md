@@ -7,7 +7,7 @@ senses: {"practical": "knowledge-needed-for-action-aristotle", "meno": "knowledg
 
 # Knowledge
 
-Draft interpretations of how knowledge is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+These passages connect knowledge with practical judgment, an explanatory account of true opinion, and what we learn through experience.
 
 ## Knowledge needed for action ([Aristotle](../people/aristotle.md))
 

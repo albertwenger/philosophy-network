@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/authority.md#the-stand
 
 # Assessing a teaching
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -32,6 +32,4 @@ Passage: AN 3.66 in this edition: response to uncertainty through harmful and be
 - [Authority: The standing of a teacher or tradition](../concepts/authority.md#the-standing-of-a-teacher-or-tradition-buddha) ([Buddha](../people/buddha.md))
 - [Judgment: Considered assessment of a teaching](../concepts/judgment.md#considered-assessment-of-a-teaching-buddha) ([Buddha](../people/buddha.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c022-buddhist-kalama.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

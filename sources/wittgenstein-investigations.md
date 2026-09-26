@@ -3,17 +3,23 @@ id: "source.wittgenstein-investigations"
 type: "source"
 status: "passages-inspected"
 url: "https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen"
-accessed: "2026-09-06"
+accessed: "2026-09-26"
 contributor: "person.wittgenstein"
 ---
 
 # Philosophische Untersuchungen
 
-Edition: German text reproduced from Suhrkamp Werkausgabe volume 1, 1999; Ludwig Wittgenstein Project.
+Edition: German text reproduced from Suhrkamp Werkausgabe volume 1, 1999, pages 231–485; Ludwig Wittgenstein Project. The online transcription contains the preface and numbered sections 1–693 (Part I).
 
-[Read the primary text](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen)
+[Read the cited text (German, Part I)](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen) · [Complete German edition (publisher)](https://www.suhrkamp.de/buch/ludwig-wittgenstein-werkausgabe-in-8-baenden-t-9783518281017)
+
+The publisher link identifies the complete work in Werkausgabe volume 1 and offers purchase options; it is not a free full-text link. It lists the current edition rather than the 1999 printing used above.
 
 Contributor: [Ludwig Wittgenstein](../people/wittgenstein.md).
+
+## Text and reuse
+
+The [online edition's notice](https://www.wittgensteinproject.org/w/index.php/Philosophische_Untersuchungen) identifies the German text as public domain in its country of origin and countries with a copyright term of life plus 70 years or less. It does not establish public-domain status in the United States. The proposals remain linked without excerpts until that status is verified for a suitable edition. No English translation is reproduced. Edition and access links checked on 2026-09-26.
 
 ## Passages consulted
 

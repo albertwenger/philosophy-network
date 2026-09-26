@@ -7,7 +7,7 @@ senses: {"use": "a-words-use-wittgenstein"}
 
 # Meaning
 
-A draft interpretation of how meaning is used in the linked passage.
+How can looking at a word’s use help explain its meaning?
 
 ## A word’s use ([Wittgenstein](../people/wittgenstein.md))
 

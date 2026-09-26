@@ -7,7 +7,7 @@ senses: {"instrumental": "usefulness-for-an-assumed-purpose-zhuangzi", "alternat
 
 # Usefulness
 
-Draft interpretations of how usefulness is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+A tree judged useless as timber prompts a wider question about the purposes used to measure its value.
 
 ## Usefulness for an assumed purpose ([Zhuangzi](../people/zhuangzi.md))
 

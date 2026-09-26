@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/virtue.md#moral-charac
 
 # Cultivating character through government
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -20,6 +20,14 @@ Punishment produces avoidance; virtue and ritual cultivate moral character.
 ## Context and limits
 
 The passage contrasts avoiding punishment with developing a sense of shame and reforming one’s conduct. It assigns a central role to the ruler’s moral example and to ritual propriety.
+
+## Source excerpt
+
+> 1. The Master said, 'If the people be led by laws, and uniformity sought to be given them by punishments, they will try to avoid the punishment, but have no sense of shame.
+>
+> 2. 'If they be led by virtue, and uniformity sought to be given them by the rules of propriety, they will have the sense of shame, and moreover will become good.'
+
+James Legge translation, Book II, chapter III.
 
 ## Source and attribution
 
@@ -30,8 +38,6 @@ Passage: Book II, chapter III, both contrasted modes of government.
 ## Concept senses
 
 - [Virtue: Moral character expressed in governing](../concepts/virtue.md#moral-character-expressed-in-governing-confucius) ([Confucius](../people/confucius.md))
-- [Education and formation: Character shaped through example and ritual](../concepts/education.md#character-shaped-through-example-and-ritual-confucius) ([Confucius](../people/confucius.md))
+- [Education: Character shaped through example and ritual](../concepts/education.md#character-shaped-through-example-and-ritual-confucius) ([Confucius](../people/confucius.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c024-confucius-governance.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

@@ -13,7 +13,9 @@ class PreviewTests(unittest.TestCase):
     def test_corpus_links_and_sense_anchors(self):
         data = preview.snapshot()
         docs = {d['path']: d for d in data['docs']}
-        self.assertGreater(len(docs), 120)
+        self.assertTrue({'INDEX.md', 'README.md'}.issubset(docs))
+        self.assertTrue({'concept', 'person', 'proposal', 'source'}.issubset({doc['type'] for doc in docs.values()}))
+        self.assertTrue(all(not doc['error'] for doc in docs.values()))
         for edge in data['edges']:
             self.assertIn(edge['target'], docs)
             if edge['fragment']:
@@ -44,6 +46,13 @@ class PreviewTests(unittest.TestCase):
             self.assertEqual(len(preview.snapshot()['docs']), 2)
             page.unlink()
             self.assertEqual(len(preview.snapshot()['docs']), 1)
+
+    def test_multiline_excerpts_preserve_paragraphs_and_escape_html(self):
+        body = '> First line\n> continues with *emphasis*.\n>\n> Second paragraph <script>bad</script>.\n\nEdition and passage.\n\n> Separate excerpt.'
+        rendered = preview.render(body, 'proposals/example.md')
+        self.assertIn('<blockquote><p>First line continues with <em>emphasis</em>.</p><p>Second paragraph &lt;script&gt;bad&lt;/script&gt;.</p></blockquote>', rendered)
+        self.assertIn('</blockquote>\n<p>Edition and passage.</p>\n<blockquote><p>Separate excerpt.</p></blockquote>', rendered)
+        self.assertEqual(rendered.count('<blockquote>'), 2)
 
     def test_tables_lists_and_duplicate_headings(self):
         result = preview.render('# Same\n\n# Same\n\n| A | B |\n| --- | --- |\n| X | Y |\n\n- item\n  continued\n', 'INDEX.md')

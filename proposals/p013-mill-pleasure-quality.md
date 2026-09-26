@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/pleasure.md#pleasure-a
 
 # Differences in the quality of pleasure
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -20,6 +20,12 @@ Pleasures can differ in quality as well as quantity.
 ## Context and limits
 
 [Mill](../people/mill.md) appeals to the preferences of people who know both pleasures from experience, excluding a preference based only on a felt duty to choose one. The comparison depends on who qualifies to judge.
+
+## Source excerpt
+
+> If I am asked, what I mean by difference of quality in pleasures, or what makes one pleasure more valuable than another, merely as a pleasure, except its being greater in amount, there is but one possible answer. Of two pleasures, if there be one to which all or almost all who have experience of both give a decided preference, irrespective of any feeling of moral obligation to prefer it, that is the more desirable pleasure. If one of the two is, by those who are competently acquainted with both, placed so far above the other that they prefer it, even though knowing it to be attended with a greater amount of discontent, and would not resign it for any quantity of the other pleasure which their nature is capable of, we are justified in ascribing to the preferred enjoyment a superiority in quality, so far outweighing quantity as to render it, in comparison, of small account.
+
+Chapter II, paragraph beginning “If I am asked”.
 
 ## Source and attribution
 
@@ -32,6 +38,4 @@ Passage: Chapter II, comparison of pleasures by people acquainted with both.
 - [Pleasure: Pleasure as part of happiness](../concepts/pleasure.md#pleasure-as-part-of-happiness-mill) ([Mill](../people/mill.md))
 - [Judgment: Informed comparison of pleasures](../concepts/judgment.md#informed-comparison-of-pleasures-mill) ([Mill](../people/mill.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c013-mill-pleasure-quality.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

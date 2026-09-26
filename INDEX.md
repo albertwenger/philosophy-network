@@ -1,25 +1,27 @@
 # Network index
 
-[Project overview](README.md) · [Construction findings](study/FINDINGS.md) · [Study passages](study/CORPUS.md)
+[Project overview](README.md) · [Next work](NEXT.md)
 
 ## Concepts
 
 - [Virtue](concepts/virtue.md) (3 senses)
-- [Middle and mean](concepts/middle.md) (2 senses)
-- [Education and formation](concepts/education.md) (4 senses)
+- [Middle](concepts/middle.md) (2 senses)
+- [Education](concepts/education.md) (4 senses)
 - [Judgment](concepts/judgment.md) (4 senses)
 - [Knowledge](concepts/knowledge.md) (3 senses)
-- [Belief and opinion](concepts/belief.md) (1 sense)
+- [Opinion](concepts/opinion.md) (1 sense)
 - [Authority](concepts/authority.md) (2 senses)
-- [Piety and moral rightness](concepts/goodness.md) (2 senses)
+- [Piety](concepts/piety.md) (1 sense)
+- [Moral rightness](concepts/moral-rightness.md) (1 sense)
 - [Self](concepts/self.md) (4 senses)
 - [Certainty](concepts/certainty.md) (2 senses)
 - [Inference](concepts/inference.md) (2 senses)
 - [Causation](concepts/causation.md) (2 senses)
 - [Obligation](concepts/obligation.md) (2 senses)
-- [Reciprocity and universal consideration](concepts/reciprocity.md) (2 senses)
-- [Persons and humanity](concepts/person.md) (1 sense)
-- [Ends and purposes](concepts/ends.md) (2 senses)
+- [Reciprocity](concepts/reciprocity.md) (1 sense)
+- [Universalization](concepts/universalization.md) (1 sense)
+- [Humanity](concepts/humanity.md) (1 sense)
+- [End](concepts/end.md) (2 senses)
 - [Pleasure](concepts/pleasure.md) (1 sense)
 - [Freedom](concepts/freedom.md) (2 senses)
 - [Harm](concepts/harm.md) (1 sense)
@@ -78,9 +80,3 @@
 - [28. Education and apparent nature](proposals/p028-wollstonecraft-education.md)
 - [29. Double-consciousness](proposals/p029-du-bois-double-consciousness.md)
 - [30. Education beyond earning a living](proposals/p030-du-bois-education.md)
-
-## Arguments and open questions
-
-- [The defense by past success](arguments/a001-induction.md)
-- [What guides appropriate choice?](questions/q001-appropriateness.md)
-- [What does circularity establish?](questions/q002-circularity.md)

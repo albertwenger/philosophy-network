@@ -9,15 +9,23 @@ words that limit scope, such as *many*, *can*, *only*, and *merely*, wherever
 they change the claim. Context and limits should explain the passage, not give
 instructions to its editor.
 
-For an interpretation of a source, use the notice: "Draft interpretation of
-the cited passage; not a quotation." An adaptation deliberately changes a
+Add an optional **Reasoning** section when the steps behind the interpretation
+need explanation. State the premises and how they work together to reach the
+conclusion. Keep important limits in **Context and limits**.
+
+Where the cited edition is verified as public domain in the United States,
+add **Source excerpt** after the commentary and before **Source and attribution**.
+Quote it in a Markdown blockquote, identify the translator and exact passage,
+and retain the context needed to understand it. Mark omissions with `[…]`;
+do not silently modernize the wording. The Source page should link to the full
+work and record the edition's reuse basis and date checked. Follow the
+[excerpt conventions](../SCHEMA.md#source-excerpts-and-editions), including
+how to handle editions that cannot be excerpted.
+
+For an interpretation of a source, use the notice: "The short version and
+commentary are draft interpretations, not quotations." An adaptation deliberately changes a
 source claim; a generalization extends its scope. Give substantive competing
 interpretations or adaptations separate proposals and make the difference
 explicit. Adaptations need [distinct attribution](../SCHEMA.md#attribution-and-status).
-
-Add a study case with an expected context need, a reader question, a draft
-answer guide, a further question, and reader results. Label its comparison
-as a possible misreading, adaptation for comparison, or competing interpretation
-according to its role. Keep actual reader responses separate from draft materials.
 
 [Record conventions](../SCHEMA.md) · [Example proposal](../proposals/p001-aristotle-mean.md)

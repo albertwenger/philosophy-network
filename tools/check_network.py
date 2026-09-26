@@ -10,15 +10,8 @@ import statistics
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTEXT_LABELS = {
-    'none': 'None for this question',
-    'context-and-limits': 'Context and limits',
-    'argument': 'Argument',
-    'historical': 'Historical context',
-    'form': 'Form or sequence',
-}
-TYPES = {'proposal', 'concept', 'person', 'source', 'argument', 'question', 'case'}
-RELATIONS = {'uses-sense', 'questions-standard', 'challenges-inference'}
+TYPES = {'proposal', 'concept', 'person', 'source'}
+RELATIONS = {'uses-sense'}
 LINK = re.compile(r'(?<!!)\[[^\]\n]+\]\(([^\s)]+)\)')
 
 
@@ -155,7 +148,7 @@ def run(report=False):
         if q is None or records[q].get('type') != expected:
             error(p, f'{key} must reference an existing {expected} ID')
 
-    counts, context_counts = Counter(), Counter()
+    counts = Counter()
     short_counts, with_context_counts = [], []
     sense_count = 0
     for p, meta in records.items():
@@ -165,7 +158,7 @@ def run(report=False):
             require_id(p, meta, 'contributor', 'person')
             require_id(p, meta, 'source', 'source')
             if meta.get('attribution') != 'editorial-reconstruction':
-                error(p, 'Pilot attribution must be explicit')
+                error(p, 'Proposal attribution must be explicit')
             short = section(files[p], 'Short version')
             context = section(files[p], 'Context and limits')
             if not short or not context:
@@ -174,24 +167,6 @@ def run(report=False):
             with_context_counts.append(words(short) + words(context))
             if not meta.get('relations'):
                 error(p, 'Proposal has no concept mappings')
-        elif kind == 'case':
-            require_id(p, meta, 'proposal', 'proposal')
-            expected_context = meta.get('expected_context')
-            if expected_context not in CONTEXT_LABELS:
-                error(p, 'Unknown expected context')
-            else:
-                expectation = section(files[p], 'Expected context need')
-                if not expectation.startswith(f'Expected context: **{CONTEXT_LABELS[expected_context]}**.'):
-                    error(p, 'Visible context label differs from metadata')
-            context_counts[expected_context] += 1
-            if meta.get('human_responses') != 0 or meta.get('status') != 'editorial-only':
-                error(p, 'Initial pilot must not claim human observations')
-            for heading in ('Expected context need', 'Reader question', 'Draft answer guide', 'Further question', 'Reader results'):
-                if not section(files[p], heading):
-                    error(p, f'Missing {heading}')
-            comparisons = ('Possible misreading', 'Adaptation for comparison', 'Competing interpretation')
-            if sum(bool(section(files[p], heading)) for heading in comparisons) != 1:
-                error(p, 'Case needs exactly one labeled comparison')
         elif kind == 'concept':
             senses = meta.get('senses')
             if (not isinstance(senses, dict) or not senses
@@ -215,17 +190,6 @@ def run(report=False):
             require_id(p, meta, 'contributor', 'person')
             if urlsplit(meta.get('url', '')).scheme != 'https':
                 error(p, 'Source needs an HTTPS URL')
-        elif kind == 'argument':
-            require_id(p, meta, 'source', 'source')
-            if meta.get('joint_support') is not True:
-                error(p, 'Joint premise support must be explicit')
-            if len(meta.get('premises', [])) < 2:
-                error(p, 'Grouped argument needs at least two premises')
-            for ref in meta.get('premises', []):
-                target(p, ref)
-            q = target(p, meta.get('conclusion', ''))
-            if records.get(q, {}).get('type') != 'proposal':
-                error(p, 'Conclusion needs a proposal target')
         for relation in meta.get('relations', []):
             if not isinstance(relation, dict) or not all(k in relation for k in ('type', 'target', 'status')):
                 error(p, 'Invalid relation')
@@ -245,11 +209,6 @@ def run(report=False):
                 if not any(target(q, ref) == p for ref in refs):
                     error(p, 'Concept sense lacks a backlink to proposal')
 
-    if counts['proposal'] != counts['case']:
-        errors.append('Every pilot proposal needs a case')
-    linked = [m.get('proposal') for m in records.values() if m.get('type') == 'case']
-    if len(linked) != len(set(linked)):
-        errors.append('Duplicate case assignment to a proposal')
     if errors:
         print('\n'.join(errors))
         return 1
@@ -257,11 +216,10 @@ def run(report=False):
     def stats(values):
         return {'min': min(values), 'median': statistics.median(values), 'max': max(values)}
     summary = {'records': dict(sorted(counts.items())), 'senses': sense_count, 'local_links': link_count,
-               'expected_context': dict(sorted(context_counts.items())),
                'short_version_words': stats(short_counts), 'with_context_words': stats(with_context_counts)}
     if report:
         out = '# Structural check\n\nStatus: passed. Generated by `python3 tools/check_network.py --report`.\n\n'
-        out += 'Checks cover metadata, IDs, local links and anchors, senses and proposal backlinks, and argument targets. External URLs are not checked by this script.\n\n'
+        out += 'Checks cover metadata, IDs, local links and anchors, senses and proposal backlinks, and relation targets. External URLs are not checked by this script.\n\n'
         out += '| Record type | Count |\n| --- | ---: |\n'
         for kind, count in sorted(counts.items()):
             out += f'| {kind} | {count} |\n'
@@ -269,9 +227,9 @@ def run(report=False):
         out += '| Text counted | Minimum words | Median words | Maximum words |\n| --- | ---: | ---: | ---: |\n'
         for title, values in [('Short version', short_counts), ('Short version with context and limits', with_context_counts)]:
             out += f'| {title} | {min(values)} | {statistics.median(values):g} | {max(values)} |\n'
-        out += '\nCounts cover only the named sections, excluding metadata, source passages, concept pages, and other linked context. They do not measure reader effort or show that meaning has been preserved.\n\n'
-        out += 'Structural checks do not assess philosophical accuracy. No reader responses have been collected.\n'
-        (ROOT / 'study/STRUCTURAL-CHECK.md').write_text(out, encoding='utf-8')
+        out += '\nCounts cover only the named sections, excluding metadata, source excerpts, reasoning, concept pages, and other linked context. They do not measure reader effort or show that meaning has been preserved.\n\n'
+        out += 'Structural checks do not assess philosophical accuracy.\n'
+        (ROOT / 'STRUCTURAL-CHECK.md').write_text(out, encoding='utf-8')
     print(json.dumps(summary, indent=2))
     return 0
 

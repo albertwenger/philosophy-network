@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/concept.md#a-category-
 
 # Overlapping resemblance
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -31,6 +31,4 @@ Passage: Sections 65–71, sequence of game examples.
 
 - [Concept: A category held together by similarities](../concepts/concept.md#a-category-held-together-by-similarities-wittgenstein) ([Wittgenstein](../people/wittgenstein.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c015-wittgenstein-family.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

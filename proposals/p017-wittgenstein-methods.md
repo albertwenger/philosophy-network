@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/philosophy.md#clarific
 
 # Philosophy as several methods
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -31,6 +31,4 @@ Passage: Section 133, including the different methods and examples.
 
 - [Philosophy: Clarification through different methods](../concepts/philosophy.md#clarification-through-different-methods-wittgenstein) ([Wittgenstein](../people/wittgenstein.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c017-wittgenstein-methods.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

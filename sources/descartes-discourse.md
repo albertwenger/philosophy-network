@@ -2,18 +2,22 @@
 id: "source.descartes-discourse"
 type: "source"
 status: "passages-inspected"
-url: "https://www.gutenberg.org/cache/epub/59/pg59-images.html"
-accessed: "2026-09-06"
+url: "https://www.gutenberg.org/ebooks/59"
+accessed: "2026-09-26"
 contributor: "person.descartes"
 ---
 
 # Discourse on the Method
 
-Edition: John Veitch translation, Project Gutenberg 59.
+Edition: John Veitch translation; Project Gutenberg 59.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/59/pg59-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/59)
 
 Contributor: [René Descartes](../people/descartes.md).
+
+## Text and reuse
+
+[Project Gutenberg’s record](https://www.gutenberg.org/ebooks/59) identifies this edition as public domain in the United States. The edition and the [text used for excerpts](https://www.gutenberg.org/cache/epub/59/pg59-images.html) were checked on 2026-09-26.
 
 ## Passages consulted
 

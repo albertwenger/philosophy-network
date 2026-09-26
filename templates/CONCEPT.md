@@ -1,6 +1,11 @@
 # Concept template
 
-Copy an existing concept record and assign a new stable ID. For each sense:
+Copy an existing concept record and assign a new stable ID. Give the page one
+concept and one title. Use a single word when accurate, or an established
+multiword name for a single concept. Separate distinct concepts into their own
+pages; keep multiple senses together when they belong to the same concept.
+
+For each sense:
 
 - Give the sense a readable Markdown heading and map its stable local ID to
   the heading fragment in `senses`.
@@ -13,9 +18,13 @@ Copy an existing concept record and assign a new stable ID. For each sense:
 - Link to the proposals that use, propose, or challenge this meaning.
 - State any important uncertainty or distinction that the description leaves unresolved.
 
-Introduce the page as draft interpretations of the term's use in the linked
-passages. Grouping invites comparison; it establishes neither equivalence nor
-historical influence. Each linked proposal must link back to the exact sense.
+Introduce the page with a short, specific orientation to the meanings or
+questions explored in its linked passages. Keep it grounded in the senses below
+and avoid implying a single definition shared by all contributors. Explain
+draft status and the limits of grouping once in the [reading guide](../README.md#how-to-read-the-network),
+rather than repeating that notice on each concept page.
+
+Each linked proposal must link back to the exact sense.
 When a heading changes, preserve the local ID and update its mapping, Markdown
 links, and relation targets. Do not add HTML anchors.
 

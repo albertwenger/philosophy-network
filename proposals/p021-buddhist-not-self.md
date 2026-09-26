@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/self.md#what-one-takes
 
 # Questioning identification with the aggregates
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -31,6 +31,4 @@ Passage: SN 22.59, argument about the aggregates and control through impermanenc
 
 - [Self: What one takes oneself to be](../concepts/self.md#what-one-takes-oneself-to-be-buddha) ([Buddha](../people/buddha.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c021-buddhist-not-self.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

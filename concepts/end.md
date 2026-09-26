@@ -5,9 +5,9 @@ status: "provisional"
 senses: {"kant": "an-end-in-itself-kant", "development": "the-purpose-of-education-du-bois"}
 ---
 
-# Ends and purposes
+# End
 
-Draft interpretations of how ends and purposes are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+What has value in itself, and what should education aim to develop?
 
 ## An end in itself ([Kant](../people/kant.md))
 

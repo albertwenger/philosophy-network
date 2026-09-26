@@ -7,7 +7,7 @@ senses: {"mill": "pleasure-as-part-of-happiness-mill"}
 
 # Pleasure
 
-A draft interpretation of how pleasure is used in the linked passages.
+How does pleasure contribute to happiness, and what makes one pleasure different in quality from another?
 
 ## Pleasure as part of happiness ([Mill](../people/mill.md))
 

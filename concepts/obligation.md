@@ -7,7 +7,7 @@ senses: {"normative": "what-ought-to-be-done-hume", "kant": "a-requirement-of-un
 
 # Obligation
 
-Draft interpretations of how obligation is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+How do we justify what ought to be done, and which principles can we coherently will as laws for everyone?
 
 ## What ought to be done ([Hume](../people/hume.md))
 

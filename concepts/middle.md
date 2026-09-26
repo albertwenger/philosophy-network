@@ -5,9 +5,9 @@ status: "provisional"
 senses: {"aristotle": "the-mean-relative-to-a-person-and-situation-aristotle", "buddhist": "the-eightfold-path-buddha"}
 ---
 
-# Middle and mean
+# Middle
 
-Draft interpretations of how middle and mean are used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+A mean fitted to particular circumstances and an eightfold path of practice give “middle” different roles.
 
 ## The mean relative to a person and situation ([Aristotle](../people/aristotle.md))
 

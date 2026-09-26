@@ -6,7 +6,11 @@ status: "navigation-entry"
 
 # Discourses attributed to the Buddha
 
-The speaker to whom the cited discourses are attributed. This attribution does not establish their date, authorship, or exact historical wording.
+Siddhartha Gautama, the Buddha (c. 480–c. 400 BCE; dates disputed), was a wandering teacher in ancient South Asia and the founder of Buddhism. His teachings address suffering and liberation through ethical conduct, meditation, and understanding.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/The_Buddha)
+
+The cited discourses are attributed to the Buddha. This attribution does not establish their date, authorship, or exact historical wording.
 
 ## Proposals
 

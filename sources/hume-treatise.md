@@ -2,18 +2,22 @@
 id: "source.hume-treatise"
 type: "source"
 status: "passages-inspected"
-url: "https://www.gutenberg.org/cache/epub/4705/pg4705-images.html"
-accessed: "2026-09-06"
+url: "https://www.gutenberg.org/ebooks/4705"
+accessed: "2026-09-26"
 contributor: "person.hume"
 ---
 
 # A Treatise of Human Nature
 
-Edition: English text, Project Gutenberg 4705.
+Edition: English text; Project Gutenberg 4705.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/4705/pg4705-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/4705)
 
 Contributor: [David Hume](../people/hume.md).
+
+## Text and reuse
+
+[Project Gutenberg’s record](https://www.gutenberg.org/ebooks/4705) identifies this edition as public domain in the United States. The edition and the [text used for excerpts](https://www.gutenberg.org/cache/epub/4705/pg4705-images.html) were checked on 2026-09-26.
 
 ## Passages consulted
 

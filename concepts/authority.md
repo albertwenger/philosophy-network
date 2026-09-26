@@ -7,7 +7,7 @@ senses: {"divine": "divine-approval-plato", "testimony": "the-standing-of-a-teac
 
 # Authority
 
-Draft interpretations of how authority is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+These passages ask what weight to give divine approval, a teacher’s standing, or an established tradition.
 
 ## Divine approval ([Plato](../people/plato.md))
 

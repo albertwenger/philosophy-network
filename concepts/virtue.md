@@ -7,7 +7,7 @@ senses: {"aristotle": "character-directed-toward-good-choice-aristotle", "confuc
 
 # Virtue
 
-Draft interpretations of how virtue is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+Virtue is considered through good choice, the character of a ruler, and a moral standard shared by women and men.
 
 ## Character directed toward good choice ([Aristotle](../people/aristotle.md))
 

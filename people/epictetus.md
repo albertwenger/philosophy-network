@@ -6,6 +6,10 @@ status: "navigation-entry"
 
 # Epictetus
 
+Epictetus (c. 50–c. 135 CE) was a Greek Stoic philosopher who was born enslaved and later taught in Rome and Nicopolis. He understood philosophy as a way of life, emphasizing the discipline of judgment and attention to what is up to us.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/Epictetus)
+
 The Enchiridion transmits teachings associated with Epictetus; this attribution does not claim that he wrote the text himself.
 
 ## Proposals

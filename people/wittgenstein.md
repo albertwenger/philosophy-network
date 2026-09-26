@@ -6,7 +6,11 @@ status: "navigation-entry"
 
 # Ludwig Wittgenstein
 
-Author of the cited work. The English short versions are draft interpretations of the German text.
+Ludwig Wittgenstein (1889–1951) was a philosopher from Austria who later became a British citizen and taught at Cambridge. His work explored logic, language, and how attention to everyday uses of words can clarify philosophical problems.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein)
+
+The English short versions are draft interpretations of the German text.
 
 ## Proposals
 

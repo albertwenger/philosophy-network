@@ -7,7 +7,7 @@ senses: {"necessity": "felt-necessity-hume", "regularity": "repeated-sequences-o
 
 # Causation
 
-Draft interpretations of how causation is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+The contrast is between events repeatedly following one another and the felt necessity of their connection.
 
 ## Felt necessity ([Hume](../people/hume.md))
 

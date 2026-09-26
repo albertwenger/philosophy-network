@@ -1,5 +1,60 @@
 # Decisions
 
+## 2026-09-26: add source excerpts to proposals
+
+Proposals now include a clearly labeled quotation where the cited edition is
+verified as public domain in the United States. The first pass adds excerpts to
+24 proposals, preserving qualifications and marking internal omissions. The
+interpretation notice now refers specifically to the short version and commentary.
+The guide explains the distinction once; no new record category is introduced.
+
+Source pages identify the edition, its reuse basis, and access to the full work.
+The three Buddhist proposals retain links to the complete discourses: the cited
+modern translations are freely available under reuse terms, rather than presented
+as public domain. The three Wittgenstein proposals also remain linked without
+excerpts because U.S. public-domain status was not established. Their Source page
+labels the online German text as Part I and links to a complete publisher edition.
+
+The Epictetus source now uses Carter's historical 1759 edition, rather than the
+modernized wording previously linked. Both interpretations were rechecked against
+it. These editorial checks do not replace independent source review.
+
+## 2026-09-26: focus on four core record types
+
+The open-question category and its two pages have been removed, along with
+their links, authoring instructions, and question-specific relation types.
+The network now has four record types: concepts, contributors, proposals,
+and sources. This keeps expansion focused on breadth and source-grounded
+interpretations. Earlier question pages remain available in Git history.
+
+## 2026-09-26: keep reasoning within proposals
+
+The separate argument record was a prototype for showing premises and their
+joint inference to a conclusion. Its content now lives in an optional
+Reasoning section of the [Hume proposal](proposals/p007-hume-induction.md#reasoning),
+with its scope limits retained and its open question linked to that section.
+
+Argument is no longer a separate record type, directory, or navigation category.
+Proposals can include reasoning when useful; their `form` may still describe
+the cited passage as an argument. Separate argument records can be reconsidered
+if comparison or reuse later makes them useful.
+
+## 2026-09-26: prioritize expanding the network
+
+The current focus is adding concepts, contributors, and cited interpretations.
+The 30 study cases were authoring worksheets for a proposed comparison of
+reader understanding and effort across short versions, added context, the
+network, and source passages. No reader responses were collected.
+
+The case worksheets and study setup have been removed from the working project,
+along with their navigation, authoring requirements, and checker rules.
+Earlier study materials remain available in Git history. Proposals, concept
+senses, contributor biographies, sources, arguments, and open questions remain
+the core of the network. Source review can proceed as it grows; reader testing
+can be designed later when it becomes useful.
+
+The entries below record earlier stages of the project.
+
 ## 2026-09-06: establish a Markdown feasibility project
 
 The user authorized proceeding with the feasibility study and creating a local
@@ -19,8 +74,8 @@ and provisional, even if internal structural checks pass.
 
 ## 2026-09-06: initial editorial implementation
 
-The initial sample contains 30 cases. The record convention uses stable IDs,
-relative Markdown links, and concept-sense anchors. It currently distinguishes
+The initial sample contained 30 cases. The record convention used stable IDs,
+relative Markdown links, and concept-sense anchors. It distinguished
 49 senses on 25 concept pages. These boundaries are editorial choices awaiting
 review, not additional user-approved philosophical commitments.
 
@@ -64,3 +119,15 @@ Future heading changes must update the mappings and incoming links together.
 The concept template and record conventions describe this format. The checker
 validates the sense mappings and links in both directions. The preview generates
 heading anchors itself and displays all source HTML as text.
+
+## 2026-09-06: give each concept its own page and title
+
+Piety and moral rightness now have separate pages, as do reciprocity and
+universalization. These pairings joined distinct concepts. The remaining
+combined titles were simplified to Opinion, Humanity, Education, End, and
+Middle, retaining related senses under one concept. The pilot now has 27
+concept pages and the same 49 senses.
+
+Concept titles use a single word when accurate. Established multiword names
+such as Moral rightness are retained when they name one concept. The record
+conventions and template now state this rule.

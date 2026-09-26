@@ -1,9 +1,9 @@
-# Record conventions, version 0.3
+# Record conventions, version 0.7
 
 The Markdown files are the authoritative version. Records use relative links
 and stable identifiers. Links to headings must be updated when those headings
 change.
-These conventions describe the pilot's structure, not a complete classification
+These conventions describe the network's structure, not a complete classification
 of philosophy.
 
 Link philosopher names to their contributor pages with ordinary Markdown,
@@ -14,13 +14,10 @@ do not link a contributor's name to the page the reader is already on.
 
 | Type | Folder | Role |
 | --- | --- | --- |
-| concept | concepts | Related senses of a term, kept distinct for comparison |
+| concept | concepts | Senses of one concept, kept distinct for comparison |
 | proposal | proposals | A draft interpretation with a short version, context and limits, and attribution |
 | person | people | A philosopher, textual speaker, or attributed contributor |
 | source | sources | A specified edition and references to inspected passages |
-| argument | arguments | Premises, a conclusion, and an inference under examination |
-| question | questions | An open question or objection with an explicit target |
-| case | study/cases | A proposed reader question, draft answer guide, and expected context need |
 
 Use **interpretation** for a reading of a source. A **reconstruction** is an
 attempt to express the source's meaning or reasoning faithfully; it remains
@@ -28,9 +25,9 @@ an interpretation. An **adaptation** deliberately changes a source claim.
 A **generalization** extends its scope. A substantive competing interpretation
 or adaptation needs a separate proposal with its difference made explicit.
 
-Use the same term for the same meaning across a proposal, its linked sense,
-and its study case. Preserve different terms when they carry a philosophical
-distinction. **Short version** names the brief text; **Context and limits**
+Use the same term for the same meaning across a proposal and its linked senses.
+Preserve different terms when they carry a philosophical distinction.
+**Short version** names the brief text; **Context and limits**
 names the explanation needed to read it. Neither section is a substitute for
 the source.
 
@@ -48,7 +45,22 @@ fields specific to each type. Proposals contain the sections `Short version`
 and `Context and limits`, with the text stored once. Word counts are computed
 from these sections.
 
+Proposals may include an optional `Reasoning` section for premises and the
+inference connecting them to a conclusion. Make clear when premises work
+together. This explanation belongs within the proposal and uses ordinary
+Markdown headings.
+
 ## Senses and headings
+
+Give each concept its own page and title. Use a single word when it names the
+concept accurately; an established multiword name such as Moral rightness is
+also valid. Separate distinct concepts instead of combining them in a title.
+Keep multiple senses together when they belong to the same concept.
+
+Open with a short orientation to the meanings or questions explored on the
+page, grounded in its senses. The [reading guide](README.md#how-to-read-the-network)
+explains draft status and the limits of grouping; do not repeat that notice
+in each concept's introduction.
 
 A sense describes what a term means in the selected passage. It may be a
 meaning used, proposed, or challenged there; its presence does not imply that
@@ -74,10 +86,6 @@ When a heading changes, keep its local sense ID and update the mapping, all
 Markdown links, and all relation targets that refer to it. The checker verifies
 the mapping and links in both directions.
 
-Sense distinctions are draft interpretations. They do not assert that a
-contributor supplied a dictionary definition. Grouping senses establishes
-neither equivalence nor historical influence.
-
 ## Relationships
 
 Each relation contains `type`, `target`, and `status`. Targets are relative
@@ -87,55 +95,61 @@ link. The preview displays readable labels while preserving the stored types.
 | Stored type | Reader label | Meaning |
 | --- | --- | --- |
 | uses-sense | Uses sense | A proposal is linked to a particular sense; this can include examining or challenging that sense. |
-| questions-standard | Questions standard | An open question asks how a proposal's standard is specified or applied. |
-| challenges-inference | Questions inference | An open question concerns an inference without asserting that its conclusion is false. |
 
-For an argument, `premises` groups the inputs, `conclusion` identifies the
-claim under examination, and `joint_support` states that the premises work
-together. The current argument links to premise headings and a proposal
-as its conclusion. Links record the interpretation; they do not establish
-logical validity or soundness. Add a relation type only with a precise use
-and an example.
+Links record the interpretation; they do not establish logical validity or
+soundness. Add a relation type only with a precise use and an example.
 
 ## Attribution and status
 
+Open each contributor page with a biographical sketch of about two sentences:
+birth and death years (where known), historical or geographical context, and
+a central contribution. Mark approximate or disputed dates explicitly. Follow
+the sketch with a link to the contributor's Wikipedia biography for further
+reading, and retain any specific note about attribution of the linked texts.
+
 All current proposals have `attribution: "editorial-reconstruction"` and
-`status: "draft"`. Their visible notice is: "Draft interpretation of the cited
-passage; not a quotation." Neither attribution claims that the contributor
-used the modern wording or endorsed another speaker's position. Future
+`status: "draft"`. Their visible notice is: "The short version and commentary
+are draft interpretations, not quotations." This applies to the interpretation;
+the separately labeled source excerpt quotes the cited edition. Attribution
+does not claim that the contributor used the modern wording or endorsed another
+speaker's position. Future
 adaptations need a distinct attribution value and corresponding checker support.
 
 Source records use `status: "passages-inspected"`. This means the cited passages
 were consulted, not that the translation or whole work received independent
 scholarly review.
 
-Cases use `status: "editorial-only"` and `human_responses: 0`. The field
-`expected_context` records an expectation for the particular reader question:
+## Source excerpts and editions
 
-| Stored value | Reader label |
-| --- | --- |
-| none | None for this question |
-| context-and-limits | Context and limits |
-| argument | Argument |
-| historical | Historical context |
-| form | Form or sequence |
+Where the cited edition is verified as public domain in the United States,
+add a `Source excerpt` section after the commentary (including any `Reasoning`)
+and before `Source and attribution`. Use Markdown blockquotes and identify the
+translator, if any, and exact passage. Preserve wording, meaningful emphasis,
+and enough context to retain qualifications, speakers, and scope. Mark internal
+omissions with `[…]` and disclose any editorial additions in square brackets.
+Do not silently modernize a quotation. Excerpts do not enter the word counts
+for the short version and context.
 
-These categories are distinct from the four **reading versions** in the
-[reader study protocol](study/PROTOCOL.md#reading-versions). They do not record
-a measured minimum. Reader results require separate records tied to the exact
-study version and a documented procedure.
+On each Source page, provide a clearly labeled link to the complete work in the
+cited edition, retaining useful links to individual books or chapters. If only
+part of the work is freely available, state that limit and link to a complete
+edition through a publisher or library where possible. A full-work link does not
+mean the whole work has been inspected.
 
-Cases use the headings `Expected context need`, `Reader question`,
-`Draft answer guide`, `Further question`, and `Reader results`. A comparison
-is labeled `Possible misreading`, `Adaptation for comparison`, or
-`Competing interpretation` according to its role.
+A `Text and reuse` section records the specific edition's public-domain basis,
+supporting link, jurisdiction, and date checked. Availability online alone does
+not establish public-domain status, and an ancient work's modern translation
+has its own terms. Leave the proposal linked without an excerpt when the edition
+is not public domain or its status is unverified, and explain this on the Source
+page. If an edition changes, recheck the interpretation, terminology, and locators
+against that edition. No new record type or required metadata field is needed.
 
 ## Checks
 
 Run `python3 tools/check_network.py` from the repository root. Add `--report`
-to update the [structural report](study/STRUCTURAL-CHECK.md).
+to update the [structural report](STRUCTURAL-CHECK.md).
 
 The checker verifies identifiers, references, local links and heading fragments,
-sense mappings and links in both directions, required sections, and argument
+sense mappings and links in both directions, required sections, and relation
 targets. It reports record and word counts. It does not assess philosophical
 truth, source fidelity, external link availability, or reader understanding.

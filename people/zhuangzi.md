@@ -6,7 +6,11 @@ status: "navigation-entry"
 
 # Zhuangzi
 
-The name associated with the cited text and its literary speakers. Authorship of the individual passages is not settled here.
+Zhuangzi, also known as Zhuang Zhou, was a Chinese philosopher of the Warring States period (born c. 369 BCE; death variously dated 301–286 BCE). The stories and arguments collected under his name became a foundational text of Daoism.
+
+[More on Wikipedia](https://en.wikipedia.org/wiki/Zhuang_Zhou)
+
+The cited text and its literary speakers are associated with Zhuangzi. Authorship of the individual passages is not settled here.
 
 ## Proposals
 

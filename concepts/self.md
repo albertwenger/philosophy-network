@@ -7,7 +7,7 @@ senses: {"thinking": "the-thinking-subject-descartes", "aggregates": "what-one-t
 
 # Self
 
-Draft interpretations of how self is used in the linked passages. Grouping them invites comparison; it does not establish equivalence or historical influence.
+What can establish one’s existence or identity, and what can unsettle one’s understanding of who one is?
 
 ## The thinking subject ([Descartes](../people/descartes.md))
 

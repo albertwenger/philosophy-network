@@ -11,7 +11,7 @@ relations: [{"type": "uses-sense", "target": "../concepts/meaning.md#a-words-use
 
 # Meaning through use
 
-Draft interpretation of the cited passage; not a quotation.
+The short version and commentary are draft interpretations, not quotations.
 
 ## Short version
 
@@ -31,6 +31,4 @@ Passage: Section 43, including its opening restriction and final sentence.
 
 - [Meaning: A word’s use](../concepts/meaning.md#a-words-use-wittgenstein) ([Wittgenstein](../people/wittgenstein.md))
 
-## Study and navigation
-
-[Study case](../study/cases/c016-wittgenstein-meaning.md) · [Network index](../INDEX.md)
+[Network index](../INDEX.md)

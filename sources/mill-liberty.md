@@ -2,18 +2,22 @@
 id: "source.mill-liberty"
 type: "source"
 status: "passages-inspected"
-url: "https://www.gutenberg.org/cache/epub/34901/pg34901-images.html"
-accessed: "2026-09-06"
+url: "https://www.gutenberg.org/ebooks/34901"
+accessed: "2026-09-26"
 contributor: "person.mill"
 ---
 
 # On Liberty
 
-Edition: English text, Project Gutenberg 34901.
+Edition: English text; Project Gutenberg 34901.
 
-[Read the primary text](https://www.gutenberg.org/cache/epub/34901/pg34901-images.html)
+[Read the full work](https://www.gutenberg.org/ebooks/34901)
 
 Contributor: [John Stuart Mill](../people/mill.md).
+
+## Text and reuse
+
+[Project Gutenberg’s record](https://www.gutenberg.org/ebooks/34901) identifies this edition as public domain in the United States. The edition and the [text used for excerpts](https://www.gutenberg.org/cache/epub/34901/pg34901-images.html) were checked on 2026-09-26.
 
 ## Passages consulted
 
