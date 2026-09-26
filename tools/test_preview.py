@@ -47,6 +47,27 @@ class PreviewTests(unittest.TestCase):
             page.unlink()
             self.assertEqual(len(preview.snapshot()['docs']), 1)
 
+    def test_incomplete_core_records_remain_visible_with_an_error(self):
+        with tempfile.TemporaryDirectory() as directory, patch.object(preview, 'ROOT', Path(directory)):
+            root = Path(directory)
+            (root / 'concepts').mkdir()
+            (root / 'sources').mkdir()
+            (root / 'proposals').mkdir()
+            (root / 'people').mkdir()
+            (root / 'concepts' / 'new.md').write_text('# New concept\n\nWork in progress.\n')
+            (root / 'sources' / 'wrong.md').write_text('---\nid: "source.wrong"\ntype: "person"\nstatus: "draft"\n---\n\n# Wrong type\n')
+            (root / 'proposals' / 'invalid.md').write_text('---\ntype: proposal\n---\n\n# Invalid metadata\n')
+            (root / 'people' / 'incomplete.md').write_text('---\ntype: "person"\nstatus: []\n---\n\n# Incomplete metadata\n')
+            (root / 'README.md').write_text('# Project notes\n')
+            docs = {doc['path']: doc for doc in preview.snapshot()['docs']}
+            for path, kind in [('concepts/new.md', 'concept'), ('sources/wrong.md', 'source'), ('proposals/invalid.md', 'proposal'), ('people/incomplete.md', 'person')]:
+                with self.subTest(path=path):
+                    self.assertEqual(docs[path]['type'], kind)
+                    self.assertTrue(docs[path]['error'])
+            self.assertEqual(docs['README.md']['type'], 'guide')
+            self.assertFalse(docs['README.md']['error'])
+            self.assertEqual(docs['people/incomplete.md']['status'], '')
+
     def test_multiline_excerpts_preserve_paragraphs_and_escape_html(self):
         body = '> First line\n> continues with *emphasis*.\n>\n> Second paragraph <script>bad</script>.\n\nEdition and passage.\n\n> Separate excerpt.'
         rendered = preview.render(body, 'proposals/example.md')

@@ -6,7 +6,7 @@ attribution: "editorial-reconstruction"
 form: "social-critique"
 contributor: "person.wollstonecraft"
 source: "source.wollstonecraft-vindication"
-relations: [{"type": "uses-sense", "target": "../concepts/education.md#the-development-of-understanding-wollstonecraft", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/equality.md#a-shared-moral-standard-wollstonecraft", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/education.md#the-development-of-understanding-wollstonecraft", "status": "editorial-mapping"}]
 ---
 
 # Education and apparent nature
@@ -36,6 +36,5 @@ Passage: Introduction, opening diagnosis of neglected education and the false sy
 ## Concept senses
 
 - [Education: The development of understanding](../concepts/education.md#the-development-of-understanding-wollstonecraft) ([Wollstonecraft](../people/wollstonecraft.md))
-- [Equality: A shared moral standard](../concepts/equality.md#a-shared-moral-standard-wollstonecraft) ([Wollstonecraft](../people/wollstonecraft.md))
 
 [Network index](../INDEX.md)

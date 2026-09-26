@@ -16,6 +16,5 @@ The same standard of moral virtue for women and men. The selected passage on vir
 Related proposals:
 
 - [One moral standard across sexes](../proposals/p027-wollstonecraft-virtue.md)
-- [Education and apparent nature](../proposals/p028-wollstonecraft-education.md)
 
 [Network index](../INDEX.md)

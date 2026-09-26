@@ -1,4 +1,4 @@
-# Record conventions, version 0.7
+# Record conventions, version 0.8
 
 The Markdown files are the authoritative version. Records use relative links
 and stable identifiers. Links to headings must be updated when those headings
@@ -17,7 +17,13 @@ do not link a contributor's name to the page the reader is already on.
 | concept | concepts | Senses of one concept, kept distinct for comparison |
 | proposal | proposals | A draft interpretation with a short version, context and limits, and attribution |
 | person | people | A philosopher, textual speaker, or attributed contributor |
-| source | sources | A specified edition and references to inspected passages |
+| source | sources | One work in a specified edition, with references to inspected passages |
+
+Reuse a Source when adding passages from the same work and edition. Keep chapter
+and section references within that Source and its proposals, rather than creating
+a Source for each chapter. Separately complete dialogues or discourses can have
+their own Sources. A different translation or edition needs a distinct Source
+when it is cited; a multi-volume edition of one work can share one Source.
 
 Use **interpretation** for a reading of a source. A **reconstruction** is an
 attempt to express the source's meaning or reasoning faithfully; it remains
@@ -40,9 +46,12 @@ Records start with YAML front matter. Each top-level value is written as a
 JSON value on one line so the checker can read it without dependencies.
 Multiline YAML values are not supported.
 
-Every record requires `id`, `type`, and `status`. The checker also requires
-fields specific to each type. Proposals contain the sections `Short version`
-and `Context and limits`, with the text stored once. Word counts are computed
+Every record requires `id`, `type`, and `status`. Files in the four record folders
+must have front matter with the type matching their folder. Project documentation
+and templates outside these folders can omit front matter and appear as Meta in
+the preview. Incomplete core records are flagged rather than classified as Meta.
+The checker also requires fields specific to each type. Proposals contain the
+sections `Short version` and `Context and limits`, with the text stored once. Word counts are computed
 from these sections.
 
 Proposals may include an optional `Reasoning` section for premises and the
@@ -99,6 +108,22 @@ link. The preview displays readable labels while preserving the stored types.
 Links record the interpretation; they do not establish logical validity or
 soundness. Add a relation type only with a precise use and an example.
 
+## Citation and navigation consistency
+
+A proposal's `Source and attribution` section must visibly link to its declared
+source and contributor. Its `Concept senses` section must link to each declared
+sense relationship, and every sense link in that section must have a matching
+`uses-sense` relation. Each concept sense's proposal links must reciprocate those
+relations to that exact sense. A broader thematic connection alone does not
+establish that a proposal uses the sense.
+
+A contributor's `Proposals` and `Sources` sections list the records that name
+that contributor in their metadata. A Source visibly links to its declared
+contributor, and its `Selected passages` section lists the proposals that cite
+it. Keep broader associations outside these assignment lists. The checker
+compares these sections with the metadata in both directions to catch missing
+entries and mistaken assignments.
+
 ## Attribution and status
 
 Open each contributor page with a biographical sketch of about two sentences:
@@ -149,7 +174,8 @@ against that edition. No new record type or required metadata field is needed.
 Run `python3 tools/check_network.py` from the repository root. Add `--report`
 to update the [structural report](STRUCTURAL-CHECK.md).
 
-The checker verifies identifiers, references, local links and heading fragments,
-sense mappings and links in both directions, required sections, and relation
+The checker verifies record-folder metadata, identifiers, references, local links
+and heading fragments, sense mappings and links in both directions, visible
+citations, contributor/source navigation lists, required sections, and relation
 targets. It reports record and word counts. It does not assess philosophical
 truth, source fidelity, external link availability, or reader understanding.

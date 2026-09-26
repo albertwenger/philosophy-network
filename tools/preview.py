@@ -10,7 +10,7 @@ import re
 from urllib.parse import quote, unquote, urlsplit
 import webbrowser
 
-from check_network import ROOT, LINK, metadata, heading_anchor, markdown_headings, visible_text
+from check_network import ROOT, LINK, metadata, heading_anchor, markdown_headings, visible_text, expected_type
 
 ASSETS = Path(__file__).with_name('preview')
 
@@ -125,14 +125,25 @@ def snapshot():
         path, source = file.relative_to(ROOT).as_posix(), file.read_text(encoding='utf-8')
         digest.update((path + '\0' + source).encode())
         error = ''
+        expected = expected_type(file, ROOT)
         try:
-            meta = metadata(source) or {}
+            parsed = metadata(source)
+            meta = parsed or {}
+            if expected and parsed is None:
+                error = f'Missing front matter for {expected} record'
+            elif expected and meta.get('type') != expected:
+                error = f'Expected record type: {expected}'
+            elif expected:
+                missing = [key for key in ('id', 'status') if not isinstance(meta.get(key), str) or not meta[key]]
+                if missing:
+                    error = 'Missing or invalid ' + ', '.join(missing)
         except ValueError as exc:
             meta, error = {}, str(exc)
         body = source.split('\n---\n', 1)[1] if source.startswith('---\n') and '\n---\n' in source else source
         title = re.search(r'^# (.+)$', body, re.M)
         labels = {anchor: visible_text(heading) for _, heading, anchor, _, _ in markdown_headings(body)}
-        docs.append(dict(path=path, title=visible_text(title[1]) if title else file.stem, type=meta.get('type', 'guide'), status=meta.get('status', ''), html=render(body, path), text=visible_text(body), anchors=labels, error=error))
+        status = meta.get('status', '')
+        docs.append(dict(path=path, title=visible_text(title[1]) if title else file.stem, type=expected or meta.get('type', 'guide'), status=status if isinstance(status, str) else '', html=render(body, path), text=visible_text(body), anchors=labels, error=error))
         typed = {}
         for rel in meta.get('relations', []):
             if isinstance(rel, dict) and isinstance(rel.get('target'), str):
@@ -182,7 +193,7 @@ def main():
     except OSError as exc:
         parser.exit(1, f'Cannot start preview: {exc}. Try --port 8001.\n')
     url = f'http://localhost:{server.server_port}'
-    print(f'Philosophy network: {url}\nPress Ctrl+C to stop.', flush=True)
+    print(f'Agora: {url}\nPress Ctrl+C to stop.', flush=True)
     if not args.no_browser:
         webbrowser.open(url)
     try:

@@ -18,7 +18,6 @@ Aristotle (384–322 BCE) was a Greek philosopher who studied with [Plato](plato
 
 ## Sources
 
-- [Nicomachean Ethics, Book II](../sources/aristotle-ethics-ii.md)
-- [Nicomachean Ethics, Book VI](../sources/aristotle-ethics-vi.md)
+- [Nicomachean Ethics](../sources/aristotle-ethics.md)
 
 [Network index](../INDEX.md)

@@ -1,5 +1,31 @@
 # Decisions
 
+## 2026-09-26: strengthen the structure before expansion
+
+A Source now normally represents one work in one cited edition. The two
+Nicomachean Ethics records have been consolidated into one Ross-edition Source,
+with the consulted books and passages listed inside. The Zhuangzi Source now
+uses the work's title and identifies Legge's two-volume edition, retaining its
+existing identifier. The network has 18 Source records.
+
+Consistency checks now require core-record metadata, reciprocal links to exact
+senses, agreement between metadata and visible citations, and matching
+contributor/source navigation lists. Incomplete core records remain visible in
+the preview with an error instead of being hidden as Meta. Regression tests
+exercise mistakes that previously passed the checker.
+
+The Equality mapping was removed from the education proposal on Wollstonecraft:
+its passage supports the education claim, while the specific shared-standard
+sense is supported by the separate virtue proposal. The education interpretation
+and quotation are unchanged.
+
+## 2026-09-26: make Meta connections optional in the preview
+
+The preview labels the index, project documentation, and templates as Meta.
+Connected pages hides these neighbors by default; Show Meta includes them in
+the graph and both link lists. The viewer saves the choice across navigation
+and reloads. Connections to core records remain visible when viewing a Meta page.
+
 ## 2026-09-26: add source excerpts to proposals
 
 Proposals now include a clearly labeled quotation where the cited edition is

@@ -1,9 +1,11 @@
 const $ = id => document.getElementById(id);
 let network, current;
+let showMeta = false;
+try { showMeta = localStorage.getItem('philosophy-network.showMetaConnections') === 'true'; } catch {}
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const route = (path, fragment='') => '#/' + encodeURI(path) + (fragment ? '#' + encodeURIComponent(fragment) : '');
 const title = path => network.docs.find(d => d.path === path)?.title || path;
-const typeLabels = {concept:'Concept', proposal:'Proposal', person:'Contributor', source:'Source', guide:'Guide'};
+const typeLabels = {concept:'Concept', proposal:'Proposal', person:'Contributor', source:'Source', guide:'Meta'};
 const statusLabels = {draft:'Draft', provisional:'Draft senses', 'passages-inspected':'Cited passages consulted', 'navigation-entry':'Contributor entry', 'editorial-reconstruction':'Draft interpretation', 'editorial-mapping':'Draft link'};
 const relationLabels = {'uses-sense':'Uses sense'};
 const readable = (value, labels) => labels[value] || value.replace(/[-_]/g, ' ');
@@ -25,11 +27,11 @@ function connections(edges, outgoing) {
     const path = outgoing ? e.target : e.source;
     const description = e.type === 'link' ? 'Navigation link' : [readable(e.type,relationLabels),readable(e.status,statusLabels)].filter(Boolean).join(' · ');
     return `<div class="connection"><a href="${escapeHTML(route(path, outgoing ? e.fragment : ''))}">${escapeHTML(title(path))}</a><small>${escapeHTML(description)}${e.fragment ? ' · ' + escapeHTML(anchorTitle(e.target,e.fragment)) : ''}</small></div>`;
-  }).join('') || '<p class="hint">None on this page.</p>';
+  }).join('') || '<p class="hint">No links shown.</p>';
 }
-function graph(edges) {
+function graph(edges, hiddenMeta=false) {
   const neighbors = [...new Set(edges.flatMap(e => [e.source,e.target]))].filter(p => p!==current);
-  if (!neighbors.length) { $('graph').textContent = 'No connected pages.'; return; }
+  if (!neighbors.length) { $('graph').textContent = hiddenMeta ? 'Meta connections are hidden. Select Show Meta to display them.' : 'No connected pages.'; return; }
   const height = Math.max(100, neighbors.length*48), center = height/2;
   let svg = `<svg viewBox="0 0 300 ${height}" role="img" aria-label="Links between this page and connected pages"><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto-start-reverse"><path d="M0 0L6 3L0 6" fill="none" stroke="#6681a1"/></marker></defs><circle cx="16" cy="${center}" r="8" fill="#1855a0"><title>${escapeHTML(title(current))}</title></circle>`;
   neighbors.forEach((path,i) => {
@@ -39,15 +41,22 @@ function graph(edges) {
   });
   $('graph').innerHTML = svg + '</svg>';
 }
+function showConnections() {
+  if (!network) return;
+  const visible = path => showMeta || network.docs.find(d=>d.path===path)?.type !== 'guide';
+  const allOutgoing = network.edges.filter(e=>e.source===current), allIncoming = network.edges.filter(e=>e.target===current);
+  const outgoing = allOutgoing.filter(e=>visible(e.target)), incoming = allIncoming.filter(e=>visible(e.source));
+  $('outgoing').innerHTML = connections(outgoing,true);
+  $('incoming').innerHTML = connections(incoming,false);
+  graph([...outgoing,...incoming], outgoing.length < allOutgoing.length || incoming.length < allIncoming.length);
+}
 function show(scroll=true) {
   const [path, fragment] = selection(); current = path;
   const doc = network.docs.find(d=>d.path===path);
   $('page').innerHTML = doc?.html || '<h1>Page not found</h1><p>Choose a page from the network browser.</p>';
   $('badges').innerHTML = doc ? [readable(doc.type,typeLabels),readable(doc.status,statusLabels),doc.error].filter(Boolean).map(v=>`<span>${escapeHTML(v)}</span>`).join('') : '';
-  document.title = `${doc?.title || 'Page not found'} · Philosophy network`;
-  const outgoing = network.edges.filter(e=>e.source===path), incoming = network.edges.filter(e=>e.target===path);
-  $('outgoing').innerHTML = connections(outgoing,true); $('incoming').innerHTML = connections(incoming,false);
-  graph([...outgoing,...incoming]); browse();
+  document.title = doc?.title === 'Agora' ? 'Agora — Philosophy in context.' : `${doc?.title || 'Page not found'} · Agora`;
+  showConnections(); browse();
   if (scroll) {
     if (fragment) document.getElementById(fragment)?.scrollIntoView();
     else window.scrollTo(0,0);
@@ -70,6 +79,38 @@ async function refresh() {
     $('sync').textContent = 'Preview unavailable · retrying';
   } finally { setTimeout(refresh, 2000); }
 }
+const mobileLayout = window.matchMedia('(max-width: 650px)');
+function setBrowseOpen(open) {
+  $('browse-panel').classList.toggle('is-open', open);
+  $('browse-toggle').setAttribute('aria-expanded', String(open));
+}
+$('browse-toggle').addEventListener('click', () => {
+  setBrowseOpen($('browse-toggle').getAttribute('aria-expanded') !== 'true');
+});
+$('results').addEventListener('click', event => {
+  if (!mobileLayout.matches || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || !event.target.closest('a')) return;
+  setBrowseOpen(false);
+  $('main').focus({preventScroll:true});
+});
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape' || !mobileLayout.matches || !$('browse-panel').classList.contains('is-open')) return;
+  event.preventDefault();
+  setBrowseOpen(false);
+  $('browse-toggle').focus();
+});
+mobileLayout.addEventListener('change', () => {
+  const focusInPanel = $('browse-panel').contains(document.activeElement);
+  const focusOnToggle = document.activeElement === $('browse-toggle');
+  setBrowseOpen(false);
+  if (mobileLayout.matches && focusInPanel) $('browse-toggle').focus();
+  else if (!mobileLayout.matches && focusOnToggle) $('search').focus({preventScroll:true});
+});
 $('search').addEventListener('input',browse); $('type').addEventListener('change',browse);
+$('show-meta').checked = showMeta;
+$('show-meta').addEventListener('change',()=> {
+  showMeta = $('show-meta').checked;
+  try { localStorage.setItem('philosophy-network.showMetaConnections', String(showMeta)); } catch {}
+  showConnections();
+});
 window.addEventListener('hashchange',()=>network && show());
 refresh();

@@ -29,7 +29,7 @@ James Legge translation, Book I, final dialogue: [Zhuangzi](../people/zhuangzi.m
 
 ## Source and attribution
 
-[Zhuangzi](../people/zhuangzi.md); [Zhuangzi, Inner Chapters I–II](../sources/zhuangzi-inner.md).
+[Zhuangzi](../people/zhuangzi.md); [Zhuangzi (Legge translation)](../sources/zhuangzi-inner.md).
 
 Passage: Book I, final dialogue on the large tree; PDF page 118 (one-based).
 

@@ -3,11 +3,19 @@
 Copy an existing proposal, assign a new ID, and preserve the required fields.
 Write a **Short version** and **Context and limits**. Give the cited passage,
 source edition, attribution, and links to the exact concept senses used.
+Reuse the Source for that work and edition when adding another passage. Make
+the **Source and attribution** links agree with the metadata, and add the
+proposal to its Source's **Selected passages** and contributor's **Proposals**.
 
 Use the same words as the linked senses when the meaning is the same. Keep
 words that limit scope, such as *many*, *can*, *only*, and *merely*, wherever
 they change the claim. Context and limits should explain the passage, not give
 instructions to its editor.
+
+Every **Concept senses** link needs a matching `uses-sense` relation and a
+backlink from that exact sense. Link a sense only when the cited passage uses,
+proposes, or challenges that meaning; a general association with the topic is
+not enough.
 
 Add an optional **Reasoning** section when the steps behind the interpretation
 need explanation. State the premises and how they work together to reach the

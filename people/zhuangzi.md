@@ -19,6 +19,6 @@ The cited text and its literary speakers are associated with Zhuangzi. Authorshi
 
 ## Sources
 
-- [Zhuangzi, Inner Chapters I–II](../sources/zhuangzi-inner.md)
+- [Zhuangzi (Legge translation)](../sources/zhuangzi-inner.md)
 
 [Network index](../INDEX.md)

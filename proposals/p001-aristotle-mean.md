@@ -5,7 +5,7 @@ status: "draft"
 attribution: "editorial-reconstruction"
 form: "definition"
 contributor: "person.aristotle"
-source: "source.aristotle-ethics-ii"
+source: "source.aristotle-ethics"
 relations: [{"type": "uses-sense", "target": "../concepts/virtue.md#character-directed-toward-good-choice-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/middle.md#the-mean-relative-to-a-person-and-situation-aristotle", "status": "editorial-mapping"}]
 ---
 
@@ -31,7 +31,7 @@ This concerns settled character. The mean depends on the person and circumstance
 
 ## Source and attribution
 
-[Aristotle](../people/aristotle.md); [Nicomachean Ethics, Book II](../sources/aristotle-ethics-ii.md).
+[Aristotle](../people/aristotle.md); [Nicomachean Ethics](../sources/aristotle-ethics.md).
 
 Passage: II.6, definition and immediate exceptions (1106b–1107a).
 

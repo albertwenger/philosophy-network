@@ -10,9 +10,21 @@ import statistics
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-TYPES = {'proposal', 'concept', 'person', 'source'}
+RECORD_FOLDERS = {'concepts': 'concept', 'proposals': 'proposal', 'people': 'person', 'sources': 'source'}
+TYPES = set(RECORD_FOLDERS.values())
 RELATIONS = {'uses-sense'}
 LINK = re.compile(r'(?<!!)\[[^\]\n]+\]\(([^\s)]+)\)')
+
+
+def expected_type(path, root=None):
+    """Return the record type required by a core folder, or None for Meta pages."""
+    root = Path(root if root is not None else ROOT).resolve()
+    path = Path(path)
+    try:
+        parts = (path if path.is_absolute() else root / path).resolve().relative_to(root).parts
+    except ValueError:
+        return None
+    return RECORD_FOLDERS.get(parts[0]) if parts else None
 
 
 def metadata(text):
@@ -97,20 +109,28 @@ def run(report=False):
         errors.append(f'{p.relative_to(ROOT)}: {msg}')
 
     for p, text in files.items():
+        expected = expected_type(p)
         try:
             meta = metadata(text)
         except ValueError as exc:
             error(p, str(exc))
             continue
         if meta is None:
+            if expected:
+                error(p, f'Missing front matter for {expected} record')
             continue
         records[p] = meta
         for key in ('id', 'type', 'status'):
             if not isinstance(meta.get(key), str) or not meta[key]:
                 error(p, f'Missing or invalid {key}')
-        if meta.get('type') not in TYPES:
+        kind = meta.get('type')
+        if not isinstance(kind, str) or kind not in TYPES:
             error(p, 'Unknown record type')
+        if expected and kind != expected:
+            error(p, f'Folder requires type {expected}')
         ident = meta.get('id')
+        if not isinstance(ident, str) or not ident:
+            continue
         if ident in by_id:
             error(p, f'Duplicate ID {ident}')
         else:
@@ -144,19 +164,82 @@ def run(report=False):
             target(p, ref)
 
     def require_id(p, meta, key, expected):
-        q = by_id.get(meta.get(key))
+        ident = meta.get(key)
+        q = by_id.get(ident) if isinstance(ident, str) else None
         if q is None or records[q].get('type') != expected:
             error(p, f'{key} must reference an existing {expected} ID')
+            return None
+        return q
+
+    def linked_targets(p, text):
+        return {(q, unquote(urlsplit(ref).fragment))
+                for ref in LINK.findall(without_fenced_code(text)) if (q := target(p, ref)) is not None}
+
+    bodies = {p: text.split('\n---\n', 1)[1] if text.startswith('---\n') and '\n---\n' in text else text
+              for p, text in files.items()}
+    visible_links = {p: LINK.findall(without_fenced_code(body)) for p, body in bodies.items()}
+    visible_targets = {p: linked_targets(p, body) for p, body in bodies.items()}
+    mapped_senses = {}
+    for p, meta in records.items():
+        mapped_senses[p] = set()
+        relations = meta.get('relations', [])
+        if not isinstance(relations, list):
+            error(p, 'Relations must be a list')
+            continue
+        for relation in relations:
+            if (not isinstance(relation, dict)
+                    or any(not isinstance(relation.get(k), str) or not relation[k]
+                           for k in ('type', 'target', 'status'))):
+                error(p, 'Invalid relation: type, target, and status must be nonempty strings')
+                continue
+            if relation['type'] not in RELATIONS:
+                error(p, 'Unknown relation type')
+                continue
+            if meta.get('type') != 'proposal':
+                error(p, 'Uses-sense relations must originate from a proposal')
+            q = target(p, relation['target'])
+            if relation['target'] not in visible_links[p]:
+                error(p, 'Machine-readable relation lacks visible link')
+            fragment = unquote(urlsplit(relation['target']).fragment)
+            senses = records.get(q, {}).get('senses', {})
+            if (records.get(q, {}).get('type') != 'concept' or not isinstance(senses, dict)
+                    or fragment not in senses.values()):
+                error(p, 'Sense mapping has no declared target')
+                continue
+            mapped_senses[p].add((q, fragment))
+            content = heading_sections(files[q]).get(fragment, ('', ''))[1]
+            if not any(back == p for back, _ in linked_targets(q, content)):
+                error(p, 'Concept sense lacks a backlink to proposal')
+
+    assignments = {}
+    for p, meta in records.items():
+        kind = meta.get('type')
+        keys = ('contributor', 'source') if kind == 'proposal' else ('contributor',) if kind == 'source' else ()
+        for key in keys:
+            q = require_id(p, meta, key, 'person' if key == 'contributor' else 'source')
+            if q is not None:
+                assignments[p, key] = q
+
+    def require_visible_attribution(p, key, content, label):
+        q = assignments.get((p, key))
+        if q is not None and not any(link == q for link, _ in linked_targets(p, content)):
+            error(p, f'{label} must link to declared {key}: {q.relative_to(ROOT)}')
+
+    def check_list(p, title, expected):
+        actual = {q for q, _ in linked_targets(p, section(bodies[p], title)) if q in records}
+        for q in sorted(expected - actual):
+            error(p, f'{title} list is missing assigned record: {q.relative_to(ROOT)}')
+        for q in sorted(actual - expected):
+            error(p, f'{title} list contains unassigned record: {q.relative_to(ROOT)}')
 
     counts = Counter()
     short_counts, with_context_counts = [], []
     sense_count = 0
     for p, meta in records.items():
         kind = meta.get('type')
-        counts[kind] += 1
+        if isinstance(kind, str):
+            counts[kind] += 1
         if kind == 'proposal':
-            require_id(p, meta, 'contributor', 'person')
-            require_id(p, meta, 'source', 'source')
             if meta.get('attribution') != 'editorial-reconstruction':
                 error(p, 'Proposal attribution must be explicit')
             short = section(files[p], 'Short version')
@@ -165,8 +248,17 @@ def run(report=False):
                 error(p, 'Missing Short version or Context and limits')
             short_counts.append(words(short))
             with_context_counts.append(words(short) + words(context))
-            if not meta.get('relations'):
+            if not mapped_senses[p]:
                 error(p, 'Proposal has no concept mappings')
+            attribution = section(bodies[p], 'Source and attribution')
+            for key in ('contributor', 'source'):
+                require_visible_attribution(p, key, attribution, 'Source and attribution')
+            sense_links = linked_targets(p, section(bodies[p], 'Concept senses'))
+            for q, fragment in sorted(mapped_senses[p] - sense_links):
+                error(p, f'Concept senses section is missing mapped sense: {q.relative_to(ROOT)}#{fragment}')
+            for q, fragment in sense_links:
+                if records.get(q, {}).get('type') == 'concept' and (q, fragment) not in mapped_senses[p]:
+                    error(p, f'Concept senses link lacks a uses-sense relation: {q.relative_to(ROOT)}#{fragment}')
         elif kind == 'concept':
             senses = meta.get('senses')
             if (not isinstance(senses, dict) or not senses
@@ -183,31 +275,25 @@ def run(report=False):
                 heading, content = declared_sections.get(anchor, ('', ''))
                 if not heading or heading.startswith('sense-'):
                     error(p, f'Missing readable sense heading for {anchor}')
-                refs = LINK.findall(content)
-                if not any(records.get(target(p, ref), {}).get('type') == 'proposal' for ref in refs):
+                proposals = {q for q, _ in linked_targets(p, content) if records.get(q, {}).get('type') == 'proposal'}
+                if not proposals:
                     error(p, f'Sense {sense} has no proposal link')
+                for q in proposals:
+                    if (p, anchor) not in mapped_senses[q]:
+                        error(p, f'Sense {sense} proposal link lacks a reciprocal uses-sense relation: {q.relative_to(ROOT)}')
+                    if (p, anchor) not in visible_targets[q]:
+                        error(p, f'Sense {sense} proposal lacks a visible link to this sense: {q.relative_to(ROOT)}')
         elif kind == 'source':
-            require_id(p, meta, 'contributor', 'person')
-            if urlsplit(meta.get('url', '')).scheme != 'https':
+            url = meta.get('url')
+            if not isinstance(url, str) or urlsplit(url).scheme != 'https':
                 error(p, 'Source needs an HTTPS URL')
-        for relation in meta.get('relations', []):
-            if not isinstance(relation, dict) or not all(k in relation for k in ('type', 'target', 'status')):
-                error(p, 'Invalid relation')
-                continue
-            if relation['type'] not in RELATIONS:
-                error(p, 'Unknown relation type')
-            q = target(p, relation['target'])
-            if relation['target'] not in LINK.findall(files[p]):
-                error(p, 'Machine-readable relation lacks visible link')
-            if relation['type'] == 'uses-sense' and q is not None:
-                fragment = unquote(urlsplit(relation['target']).fragment)
-                senses = records.get(q, {}).get('senses', {})
-                if (records.get(q, {}).get('type') != 'concept' or not isinstance(senses, dict)
-                        or fragment not in senses.values()):
-                    error(p, 'Sense mapping has no declared target')
-                refs = LINK.findall(heading_sections(files[q]).get(fragment, ('', ''))[1])
-                if not any(target(q, ref) == p for ref in refs):
-                    error(p, 'Concept sense lacks a backlink to proposal')
+            require_visible_attribution(p, 'contributor', bodies[p], 'Source')
+            check_list(p, 'Selected passages', {q for (q, key), source in assignments.items() if key == 'source' and source == p})
+        elif kind == 'person':
+            for title, expected_kind in (('Proposals', 'proposal'), ('Sources', 'source')):
+                assigned = {q for (q, key), contributor in assignments.items()
+                            if key == 'contributor' and contributor == p and records[q].get('type') == expected_kind}
+                check_list(p, title, assigned)
 
     if errors:
         print('\n'.join(errors))
@@ -219,7 +305,7 @@ def run(report=False):
                'short_version_words': stats(short_counts), 'with_context_words': stats(with_context_counts)}
     if report:
         out = '# Structural check\n\nStatus: passed. Generated by `python3 tools/check_network.py --report`.\n\n'
-        out += 'Checks cover metadata, IDs, local links and anchors, senses and proposal backlinks, and relation targets. External URLs are not checked by this script.\n\n'
+        out += 'Checks cover record-folder requirements, metadata and IDs, local links and anchors, reciprocal sense mappings, visible citations, and contributor/source lists. External URLs are not checked by this script.\n\n'
         out += '| Record type | Count |\n| --- | ---: |\n'
         for kind, count in sorted(counts.items()):
             out += f'| {kind} | {count} |\n'

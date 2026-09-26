@@ -7,9 +7,9 @@ accessed: "2026-09-26"
 contributor: "person.zhuangzi"
 ---
 
-# Zhuangzi, Inner Chapters I–II
+# Zhuangzi (Legge translation)
 
-Edition: James Legge translation, The Texts of Taoism, Part I (1891); Online Library of Liberty PDF.
+Edition: James Legge translation, The Texts of Taoism, Parts I and II (1891); Part I in the Online Library of Liberty PDF and Part II on the Internet Sacred Text Archive.
 
 Read the full work in Legge’s two volumes: [Part I, Books I–XVII (PDF)](https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2272/Muller_1345-39_EBk_v6.0.pdf) and [Part II, Books XVIII–XXXIII](https://sacred-texts.com/tao/sbe40/index.htm). Part I also includes the Tao Te Ching; Part II includes additional Taoist texts and appendices.
 

@@ -29,7 +29,7 @@ James Legge translation, Book II, final narrative (PDF page 127). “Kwang Kâu�
 
 ## Source and attribution
 
-[Zhuangzi](../people/zhuangzi.md); [Zhuangzi, Inner Chapters I–II](../sources/zhuangzi-inner.md).
+[Zhuangzi](../people/zhuangzi.md); [Zhuangzi (Legge translation)](../sources/zhuangzi-inner.md).
 
 Passage: Book II, final butterfly narrative; PDF page 127 (one-based).
 

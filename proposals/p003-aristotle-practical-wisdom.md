@@ -5,7 +5,7 @@ status: "draft"
 attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.aristotle"
-source: "source.aristotle-ethics-vi"
+source: "source.aristotle-ethics"
 relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#judgment-about-how-to-act-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/knowledge.md#knowledge-needed-for-action-aristotle", "status": "editorial-mapping"}]
 ---
 
@@ -31,7 +31,7 @@ Practical wisdom guides action toward what is good for human beings. Experience 
 
 ## Source and attribution
 
-[Aristotle](../people/aristotle.md); [Nicomachean Ethics, Book VI](../sources/aristotle-ethics-vi.md).
+[Aristotle](../people/aristotle.md); [Nicomachean Ethics](../sources/aristotle-ethics.md).
 
 Passage: VI.7–8, universals, particulars, and experience (1141b–1142a).
 

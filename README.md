@@ -1,6 +1,8 @@
-# Philosophy network
+# Agora
 
-This project connects philosophical concepts and their different meanings to
+*Philosophy in context.*
+
+Agora connects philosophical concepts and their different meanings to
 contributors, cited passages, and short interpretations.
 
 The current focus is expanding concepts and contributors while keeping each
@@ -56,7 +58,7 @@ Three starting points:
 ## Project status
 
 The network contains 30 proposals, 27 concept pages, 13 contributor pages,
-and 19 source records. All interpretations remain drafts and have not received
+and 18 source records. All interpretations remain drafts and have not received
 independent source review. Reader testing is deferred while the network grows.
 
 [Decision record](DECISIONS.md) · [Record conventions](SCHEMA.md)
@@ -71,7 +73,10 @@ python3 tools/preview.py
 
 This opens [the local viewer](http://localhost:8000). Search titles and passages,
 filter by page type, and follow links or the graph of connected pages.
-Each page lists links from and to it. Relations have readable labels and
+**Meta** includes the index, project documentation, and templates. In
+**Connected pages**, Meta pages are hidden by default; enable **Show Meta** to
+include them in the graph and both incoming and outgoing link lists. The viewer
+remembers this choice across navigation and reloads. Relations have readable labels and
 statuses; ordinary links are labeled as navigation. Sense links jump
 to their headings. Saved Markdown edits, additions, and deletions appear within
 about two seconds, preserving the current page and search.
@@ -101,10 +106,11 @@ python3 tools/check_network.py --report
 The checker establishes structural consistency. It does not validate the
 philosophy. See [its report](STRUCTURAL-CHECK.md).
 
-To check the preview's rendering, corpus links, and file-change detection:
+To test the checker’s consistency rules and the preview’s rendering, corpus
+links, and file-change detection:
 
 ```bash
-python3 -m unittest discover -s tools -p 'test_preview.py'
+python3 -m unittest discover -s tools -p 'test_*.py'
 ```
 
 ## Version control
