@@ -83,6 +83,23 @@ class NetworkChecks(unittest.TestCase):
     def test_valid_corpus_allows_a_textual_speaker_distinct_from_source_author(self):
         self.check()
 
+    def test_coverage_counts_distinct_proposals_across_senses(self):
+        output = io.StringIO()
+        with redirect_stdout(output):
+            result = check_network.run(report=True, min_proposals_per_concept=2)
+        self.assertEqual(result, 0, output.getvalue())
+        summary = json.loads(output.getvalue())
+        self.assertEqual(summary['proposals_per_concept'],
+                         {'min': 2, 'median': 2, 'max': 2, 'at_least_two': 1, 'at_least_three': 0})
+        self.assertIn('| Example | 2 | 2 |', (self.root / 'STRUCTURAL-CHECK.md').read_text())
+
+    def test_multiple_sense_links_cannot_satisfy_a_higher_coverage_target(self):
+        output = io.StringIO()
+        with redirect_stdout(output):
+            result = check_network.run(min_proposals_per_concept=3)
+        self.assertEqual(result, 1)
+        self.assertIn('Needs at least 3 distinct proposals; found 2', output.getvalue())
+
     def test_sense_backlink_requires_reciprocal_relation_to_that_exact_sense(self):
         self.remove_first_relation()
         self.check('Sense first proposal link lacks a reciprocal uses-sense relation')

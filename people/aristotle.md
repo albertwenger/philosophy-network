@@ -15,6 +15,11 @@ Aristotle (384–322 BCE) was a Greek philosopher who studied with [Plato](plato
 - [Virtue and the mean](../proposals/p001-aristotle-mean.md)
 - [Character through practice](../proposals/p002-aristotle-habituation.md)
 - [Judgment needs particulars](../proposals/p003-aristotle-practical-wisdom.md)
+- [Responsibility for becoming a certain person](../proposals/p031-aristotle-character-responsibility.md)
+- [Justice in distributing shared goods](../proposals/p032-aristotle-distribution.md)
+- [Correcting injury between equals](../proposals/p033-aristotle-correction.md)
+- [Equity corrects an overgeneral rule](../proposals/p034-aristotle-equity.md)
+
 
 ## Sources
 

@@ -57,8 +57,8 @@ Three starting points:
 
 ## Project status
 
-The network contains 30 proposals, 27 concept pages, 13 contributor pages,
-and 18 source records. All interpretations remain drafts and have not received
+The network contains 57 proposals, 40 concept pages, 17 contributor pages,
+and 22 source records. All interpretations remain drafts and have not received
 independent source review. Reader testing is deferred while the network grows.
 
 [Decision record](DECISIONS.md) · [Record conventions](SCHEMA.md)
@@ -73,6 +73,8 @@ python3 tools/preview.py
 
 This opens [the local viewer](http://localhost:8000). Search titles and passages,
 filter by page type, and follow links or the graph of connected pages.
+On mobile, **Browse pages** opens the collapsed sidebar. Selecting a page closes
+it, and reopening it preserves the current search and page-type filter.
 **Meta** includes the index, project documentation, and templates. In
 **Connected pages**, Meta pages are hidden by default; enable **Show Meta** to
 include them in the graph and both incoming and outgoing link lists. The viewer
@@ -105,6 +107,10 @@ python3 tools/check_network.py --report
 
 The checker establishes structural consistency. It does not validate the
 philosophy. See [its report](STRUCTURAL-CHECK.md).
+
+The report also counts distinct proposals and contributors for each concept.
+Use `--min-proposals-per-concept 2` to enforce the two-proposal coverage target
+for the completed [64-concept expansion](NEXT.md).
 
 To test the checker’s consistency rules and the preview’s rendering, corpus
 links, and file-change detection:

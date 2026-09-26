@@ -16,5 +16,6 @@ The rational nature in oneself and in others that must be treated as an end, nev
 Related proposals:
 
 - [Humanity as an end](../proposals/p011-kant-humanity.md)
+- [Dignity admits no equivalent](../proposals/p039-kant-dignity.md)
 
 [Network index](../INDEX.md)

@@ -25,9 +25,14 @@ Book II chapter III and Book XV chapter XXIII inspected. The latter is often num
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: Book II chapter XV (2.15) and Book VI chapter XXVIII (commonly 6.30), including the question about benefiting everyone and the reply on helping others develop. Checked 2026-09-26.
+
 ## Selected passages
 
 - [Reciprocal restraint](../proposals/p023-confucius-reciprocity.md): Book XV, chapter XXIII in Legge; commonly Analects 15.24.
 - [Cultivating character through government](../proposals/p024-confucius-governance.md): Book II, chapter III, both contrasted modes of government.
+- [Helping others to develop](../proposals/p035-confucius-helping-others.md): Book VI, chapter XXVIII.1–3 in Legge; commonly Analects 6.30.
+- [Learning and thought need each other](../proposals/p036-confucius-learning-thought.md): Book II, chapter XV (Analects 2.15).
+
 
 [Network index](../INDEX.md)

@@ -174,6 +174,13 @@ against that edition. No new record type or required metadata field is needed.
 Run `python3 tools/check_network.py` from the repository root. Add `--report`
 to update the [structural report](STRUCTURAL-CHECK.md).
 
+Use `--min-proposals-per-concept 2` when checking the completed 64-concept
+milestone. Coverage counts distinct proposals across all senses of a concept;
+several mappings from one proposal count once. The default minimum remains one
+so a new concept can be developed incrementally. The report also counts the
+contributors behind those proposals. Counts do not establish independent
+perspectives or justify a relationship that the cited passage does not support.
+
 The checker verifies record-folder metadata, identifiers, references, local links
 and heading fragments, sense mappings and links in both directions, visible
 citations, contributor/source navigation lists, required sections, and relation

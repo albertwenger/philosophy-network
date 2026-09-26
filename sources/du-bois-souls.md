@@ -25,9 +25,13 @@ Chapter I double-consciousness passage and Chapter V education passage inspected
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: Chapter III’s critique of surrendering political rights, its demands for the vote, civic equality, and education, and the qualification concerning equally applied suffrage restrictions. Checked 2026-09-26.
+
 ## Selected passages
 
 - [Double-consciousness](../proposals/p029-du-bois-double-consciousness.md): Chapter I, paragraph introducing double-consciousness and twoness, with its preceding racial context.
 - [Education beyond earning a living](../proposals/p030-du-bois-education.md): Chapter V, final education discussion before the closing Atalanta imagery.
+- [Civic rights and the demand for respect](../proposals/p043-du-bois-civic-standing.md): Chapter III, discussion following the demands for the vote, civic equality, and education; paragraph beginning “They do not expect”.
+
 
 [Network index](../INDEX.md)

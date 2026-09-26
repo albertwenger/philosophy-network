@@ -14,6 +14,8 @@ W. E. B. Du Bois (1868–1963) was an American scholar and civil rights activist
 
 - [Double-consciousness](../proposals/p029-du-bois-double-consciousness.md)
 - [Education beyond earning a living](../proposals/p030-du-bois-education.md)
+- [Civic rights and the demand for respect](../proposals/p043-du-bois-civic-standing.md)
+
 
 ## Sources
 

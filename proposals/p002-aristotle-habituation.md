@@ -6,7 +6,7 @@ attribution: "editorial-reconstruction"
 form: "practice"
 contributor: "person.aristotle"
 source: "source.aristotle-ethics"
-relations: [{"type": "uses-sense", "target": "../concepts/virtue.md#character-directed-toward-good-choice-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/education.md#character-shaped-through-practice-aristotle", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/virtue.md#character-directed-toward-good-choice-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/education.md#character-shaped-through-practice-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/habit.md#character-formed-by-repeated-actions-aristotle", "status": "editorial-mapping"}]
 ---
 
 # Character through practice
@@ -37,5 +37,7 @@ Passage: II.1, especially the analogy with learning crafts (1103a–1103b).
 
 - [Virtue: Character directed toward good choice](../concepts/virtue.md#character-directed-toward-good-choice-aristotle) ([Aristotle](../people/aristotle.md))
 - [Education: Character shaped through practice](../concepts/education.md#character-shaped-through-practice-aristotle) ([Aristotle](../people/aristotle.md))
+- [Habit: Character formed by repeated actions](../concepts/habit.md#character-formed-by-repeated-actions-aristotle) ([Aristotle](../people/aristotle.md))
+
 
 [Network index](../INDEX.md)

@@ -6,7 +6,7 @@ attribution: "editorial-reconstruction"
 form: "method"
 contributor: "person.aristotle"
 source: "source.aristotle-ethics"
-relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#judgment-about-how-to-act-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/knowledge.md#knowledge-needed-for-action-aristotle", "status": "editorial-mapping"}]
+relations: [{"type": "uses-sense", "target": "../concepts/judgment.md#judgment-about-how-to-act-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/knowledge.md#knowledge-needed-for-action-aristotle", "status": "editorial-mapping"}, {"type": "uses-sense", "target": "../concepts/experience.md#familiarity-with-particulars-gained-over-time-aristotle", "status": "editorial-mapping"}]
 ---
 
 # Judgment needs particulars
@@ -39,5 +39,7 @@ Passage: VI.7–8, universals, particulars, and experience (1141b–1142a).
 
 - [Judgment: Judgment about how to act](../concepts/judgment.md#judgment-about-how-to-act-aristotle) ([Aristotle](../people/aristotle.md))
 - [Knowledge: Knowledge needed for action](../concepts/knowledge.md#knowledge-needed-for-action-aristotle) ([Aristotle](../people/aristotle.md))
+- [Experience: Familiarity with particulars gained over time](../concepts/experience.md#familiarity-with-particulars-gained-over-time-aristotle) ([Aristotle](../people/aristotle.md))
+
 
 [Network index](../INDEX.md)

@@ -1,5 +1,19 @@
 # Decisions
 
+## 2026-09-26: expand to 64 concepts with depth
+
+The next milestone grows the network from 27 to 64 concepts, each connected to
+at least two distinct proposals and preferably three. New contributors and
+sources broaden historical, contemporary, and geographic coverage. The work is
+organized into three waves, reaching 40, 52, and 64 concepts, with structural and
+editorial review before each commit and a full review at the milestone.
+
+Concept coverage counts distinct proposals across senses; several links from
+one proposal count once. The checker reports this coverage and can enforce a
+minimum with `--min-proposals-per-concept`. Numerical coverage does not establish
+philosophical agreement, independence, or representativeness. The four core
+record types and draft status remain in place.
+
 ## 2026-09-26: strengthen the structure before expansion
 
 A Source now normally represents one work in one cited edition. The two

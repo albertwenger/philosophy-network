@@ -16,6 +16,9 @@ The cited sayings in the Analects are attributed to Confucius.
 
 - [Reciprocal restraint](../proposals/p023-confucius-reciprocity.md)
 - [Cultivating character through government](../proposals/p024-confucius-governance.md)
+- [Helping others to develop](../proposals/p035-confucius-helping-others.md)
+- [Learning and thought need each other](../proposals/p036-confucius-learning-thought.md)
+
 
 ## Sources
 

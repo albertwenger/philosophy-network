@@ -16,5 +16,7 @@ The requirement that a principle of action be one you can coherently will as a l
 Related proposals:
 
 - [Universalizing a principle of action](../proposals/p010-kant-universal-law.md)
+- [The self-defeat of false promising](../proposals/p037-kant-false-promises.md)
+- [Why universal indifference cannot be willed](../proposals/p038-kant-mutual-aid.md)
 
 [Network index](../INDEX.md)

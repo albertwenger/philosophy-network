@@ -6,18 +6,65 @@ Checks cover record-folder requirements, metadata and IDs, local links and ancho
 
 | Record type | Count |
 | --- | ---: |
-| concept | 27 |
-| person | 13 |
-| proposal | 30 |
-| source | 18 |
+| concept | 40 |
+| person | 17 |
+| proposal | 57 |
+| source | 22 |
 
-Declared senses: 49.
+Declared senses: 97.
 
 | Text counted | Minimum words | Median words | Maximum words |
 | --- | ---: | ---: | ---: |
-| Short version | 8 | 10.5 | 20 |
-| Short version with context and limits | 27 | 38 | 52 |
+| Short version | 7 | 12 | 20 |
+| Short version with context and limits | 19 | 43 | 72 |
 
 Counts cover only the named sections, excluding metadata, source excerpts, reasoning, concept pages, and other linked context. They do not measure reader effort or show that meaning has been preserved.
+
+## Concept coverage
+
+Each proposal is counted once per concept, even when it uses several senses. Contributor counts use the declared contributor of each proposal. These counts measure coverage, not the quality or independence of perspectives.
+
+| Concept | Distinct proposals | Contributors |
+| --- | ---: | ---: |
+| Authority | 2 | 2 |
+| Care | 4 | 2 |
+| Causation | 1 | 1 |
+| Certainty | 2 | 2 |
+| Community | 4 | 3 |
+| Compassion | 2 | 1 |
+| Concept | 1 | 1 |
+| Democracy | 3 | 2 |
+| Dignity | 3 | 2 |
+| Education | 10 | 6 |
+| End | 5 | 3 |
+| Equality | 6 | 4 |
+| Experience | 3 | 2 |
+| Freedom | 2 | 2 |
+| Habit | 3 | 2 |
+| Harm | 1 | 1 |
+| Human nature | 4 | 2 |
+| Humanity | 2 | 1 |
+| Inference | 2 | 1 |
+| Judgment | 8 | 6 |
+| Justice | 4 | 2 |
+| Knowledge | 3 | 3 |
+| Meaning | 1 | 1 |
+| Middle | 2 | 2 |
+| Moral rightness | 1 | 1 |
+| Obligation | 6 | 4 |
+| Opinion | 1 | 1 |
+| Personhood | 3 | 2 |
+| Philosophy | 1 | 1 |
+| Piety | 1 | 1 |
+| Pleasure | 2 | 1 |
+| Power | 3 | 3 |
+| Reciprocity | 2 | 1 |
+| Recognition | 2 | 1 |
+| Responsibility | 4 | 4 |
+| Rights | 3 | 3 |
+| Self | 4 | 4 |
+| Universalization | 3 | 1 |
+| Usefulness | 1 | 1 |
+| Virtue | 7 | 4 |
 
 Structural checks do not assess philosophical accuracy.

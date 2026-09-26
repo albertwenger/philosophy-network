@@ -27,10 +27,17 @@ VI.7–8 consulted for the relation between general understanding, particular si
 
 The check covered these passages and their immediate context. Independent source review is still needed.
 
+Additional inspection: III.5 on responsibility for character; V.3 on distribution, V.4 on rectification, and V.10 on equity. The [Book III text](https://classics.mit.edu/Aristotle/nicomachaen.3.iii.html) and [Book V text](https://classics.mit.edu/Aristotle/nicomachaen.5.v.html) were checked on 2026-09-26.
+
 ## Selected passages
 
 - [Virtue and the mean](../proposals/p001-aristotle-mean.md): II.6, definition and immediate exceptions (1106b–1107a).
 - [Character through practice](../proposals/p002-aristotle-habituation.md): II.1, especially the analogy with learning crafts (1103a–1103b).
 - [Judgment needs particulars](../proposals/p003-aristotle-practical-wisdom.md): VI.7–8, universals, particulars, and experience (1141b–1142a).
+- [Responsibility for becoming a certain person](../proposals/p031-aristotle-character-responsibility.md): III.5, especially 1114a3–21 and 1114b30–1115a3.
+- [Justice in distributing shared goods](../proposals/p032-aristotle-distribution.md): V.3, 1131a10–1131b24.
+- [Correcting injury between equals](../proposals/p033-aristotle-correction.md): V.4, 1131b25–1132b20.
+- [Equity corrects an overgeneral rule](../proposals/p034-aristotle-equity.md): V.10, 1137a31–1138a3.
+
 
 [Network index](../INDEX.md)
