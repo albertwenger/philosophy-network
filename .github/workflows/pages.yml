@@ -3,7 +3,7 @@ name: Deploy static viewer to GitHub Pages
 # Select GitHub Actions in Settings > Pages before running this workflow.
 on:
   push:
-    branches: [main, static-github-pages]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
