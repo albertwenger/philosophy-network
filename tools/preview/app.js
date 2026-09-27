@@ -1,5 +1,7 @@
 const $ = id => document.getElementById(id);
 let network, current;
+const {network: networkURL, live} = document.documentElement.dataset;
+const livePreview = live === 'true';
 let showMeta = false;
 try { showMeta = localStorage.getItem('philosophy-network.showMetaConnections') === 'true'; } catch {}
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -64,7 +66,7 @@ function show(scroll=true) {
 }
 async function refresh() {
   try {
-    const response = await fetch('/api/network');
+    const response = await fetch(networkURL);
     if (!response.ok) throw new Error('Network could not be read');
     const next = await response.json();
     if (next.version !== network?.version) {
@@ -74,10 +76,10 @@ async function refresh() {
       $('type').value = previousType;
       show(first);
     }
-    $('sync').textContent = 'Local preview · watching for edits';
+    $('sync').textContent = livePreview ? 'Local preview · watching for edits' : '';
   } catch {
-    $('sync').textContent = 'Preview unavailable · retrying';
-  } finally { setTimeout(refresh, 2000); }
+    $('sync').textContent = livePreview ? 'Preview unavailable · retrying' : 'Content unavailable · reload to try again';
+  } finally { if (livePreview) setTimeout(refresh, 2000); }
 }
 const mobileLayout = window.matchMedia('(max-width: 650px)');
 function setBrowseOpen(open) {
